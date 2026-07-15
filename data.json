@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T09:00:00+02:00",
+  "lastUpdated": "2026-07-15T20:35:00+02:00",
   "active": [],
   "archive": [
     { "bedrijf": "ACM", "titel": "Senior Strateeg, Directie Toezicht Energie", "reden": "Niet meer live (was een goede match qua inhoud)", "datum": "2026-07-15" },
@@ -23,10 +23,10 @@
     { "bedrijf": "ACM", "titel": "Manager Finance & Control", "reden": "Handmatig afgekeurd: geen energie-inhoud, interne kandidaat al beschikbaar", "datum": "2026-07-15" },
     { "bedrijf": "ACM", "titel": "Senior Jurist Digitale Consumentenbescherming", "reden": "Handmatig afgekeurd: juridisch, digitale economie, geen energie/strategie", "datum": "2026-07-15" },
     { "bedrijf": "ACM", "titel": "Toezichthouder Handhaving Digitale Economie", "reden": "Handmatig afgekeurd: telecom/platformregulering, geen energie", "datum": "2026-07-15" },
-    { "bedrijf": "TotalEnergies", "titel": "(geen specifieke vacature)", "reden": "Uitgesloten op waarden-criterium: olieleveranties aan Israël + langdurig aangehouden Russische belangen", "datum": "2026-07-15" }
+    { "bedrijf": "TotalEnergies", "titel": "(geen specifieke vacature)", "reden": "Uitgesloten op waarden-criterium: olieleveranties aan Israël + langdurig aangehouden Russische belangen", "datum": "2026-07-15" },
+    { "bedrijf": "Stedin", "titel": "Strategisch Projectleider Investeringsplan", "reden": "Handmatig afgekeurd: projectleiderschap binnen Asset Management, geen strategie-adviesrol op directie-/beleidsniveau", "datum": "2026-07-15" },
+    { "bedrijf": "RWE", "titel": "(geen specifieke vacature)", "reden": "Alle 11 huidige NL-vacatures zijn technisch/operationeel (monteurs, engineers, security); geen strategie/advies op senior niveau", "datum": "2026-07-15" },
+    { "bedrijf": "Ørsted", "titel": "(geen specifieke vacature)", "reden": "2 huidige NL-vacatures, geen daarvan in Strategy & Business Development", "datum": "2026-07-15" }
   ],
-  "notControlled": [
-    { "bedrijf": "Stedin", "titel": "Trefwoordfilter (o.a. 'strategie') op vacaturepagina", "reden": "Zoekfunctie op werkenbij.stedin.net filtert niet (ook niet via browser-automatisering); 98 vacatures niet individueel doorzocht", "link": "https://werkenbij.stedin.net/vacatures-zoeken" },
-    { "bedrijf": "RWE / Ørsted", "titel": "NL-vacatures algemeen", "reden": "Career-pagina's nog niet doorzocht", "link": "" }
-  ]
+  "notControlled": []
 }
