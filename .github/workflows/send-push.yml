@@ -1,0 +1,39 @@
+name: Send vacature-tracker push reminder
+
+on:
+  schedule:
+    # 07:00 UTC = 09:00 Amsterdam (CEST, no DST change relevant in this window)
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+    inputs:
+      test_send:
+        description: "Send a one-off test notification to every current subscriber, without checking data.json's timestamp."
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  send-push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        working-directory: .github/scripts
+        run: npm install web-push
+
+      - name: Send push notification
+        working-directory: .github/scripts
+        env:
+          VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          TEST_SEND: ${{ inputs.test_send }}
+          SITE_URL: "https://arjen-rave.github.io/vacature-tracker/"
+        run: node send-push.js
