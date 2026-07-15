@@ -1,0 +1,32 @@
+{
+  "lastUpdated": "2026-07-15T09:00:00+02:00",
+  "active": [],
+  "archive": [
+    { "bedrijf": "ACM", "titel": "Senior Strateeg, Directie Toezicht Energie", "reden": "Niet meer live (was een goede match qua inhoud)", "datum": "2026-07-15" },
+    { "bedrijf": "Stedin", "titel": "Senior Adviseur Corporate Strategie/Strategieontwikkeling", "reden": "Niet meer live", "datum": "2026-07-15" },
+    { "bedrijf": "Alliander", "titel": "Strategie Consultant Operatie (ODS)", "reden": "Niet meer live", "datum": "2026-07-15" },
+    { "bedrijf": "Alliander", "titel": "Senior Strategie Consultant", "reden": "Niet meer live (\"positie vervuld\")", "datum": "2026-07-15" },
+    { "bedrijf": "Enexis", "titel": "Adviseur Sectorstrategie", "reden": "Niet meer live (verlopen)", "datum": "2026-07-15" },
+    { "bedrijf": "Enexis", "titel": "Strategisch Adviseur Energietransitie", "reden": "Niet meer live (verlopen)", "datum": "2026-07-15" },
+    { "bedrijf": "Gasunie", "titel": "Strateeg in de energietransitie", "reden": "Niet meer live (404, opnieuw geverifieerd)", "datum": "2026-07-15" },
+    { "bedrijf": "Eneco", "titel": "Senior Strategy Advisor", "reden": "Niet meer live (pagina niet meer beschikbaar, opnieuw geverifieerd)", "datum": "2026-07-15" },
+    { "bedrijf": "Vattenfall", "titel": "Senior Strategy Advisor (Offshore Wind, Amsterdam)", "reden": "Niet meer live (verlopen)", "datum": "2026-07-15" },
+    { "bedrijf": "Vattenfall", "titel": "Strategy Advisor in Offshore Wind (Hamburg-variant)", "reden": "Niet meer live (verlopen, ook niet NL)", "datum": "2026-07-15" },
+    { "bedrijf": "Vattenfall", "titel": "Senior Strategy Advisor (BU Wind, REF11967J)", "reden": "Niet meer live: pagina toont expliciet \"verlopen\" (sluitingsdatum 24-05-2026)", "datum": "2026-07-15" },
+    { "bedrijf": "Enexis", "titel": "Strategisch Adviseur Organisatieontwikkeling", "reden": "Sluitingsdatum verstreken vóór check (deadline 8 juli) + zwakkere fit (HR/organisatieontwerp i.p.v. energiemarkt-strategie)", "datum": "2026-07-15" },
+    { "bedrijf": "EBN", "titel": "Public Affairs Advisor", "reden": "Niet meer live: pagina toont \"bestaat niet of is verwijderd\"", "datum": "2026-07-15" },
+    { "bedrijf": "TenneT", "titel": "Strategy Advisor (Arnhem/Bayreuth/Lehrte)", "reden": "Niet meer live: careers.tennet.eu toont errorpagina", "datum": "2026-07-15" },
+    { "bedrijf": "TenneT", "titel": "Strategisch Adviseur Ruimtelijke Ordening & Milieu", "reden": "Niet meer live: careers.tennet.eu toont errorpagina", "datum": "2026-07-15" },
+    { "bedrijf": "EBN", "titel": "Senior Strateeg", "reden": "Handmatig afgekeurd: vereist 15+ jaar ervaring in de energiemarkt, gas/CCS/warmte-georiënteerd", "datum": "2026-07-15" },
+    { "bedrijf": "ACM", "titel": "Senior Technisch Expert Energie", "reden": "Handmatig afgekeurd: puur technisch (warmtenetten), geen strategie", "datum": "2026-07-15" },
+    { "bedrijf": "ACM", "titel": "Toezichthouder Energiemarkt", "reden": "Handmatig afgekeurd: handhaving/inspecteursniveau, te junior", "datum": "2026-07-15" },
+    { "bedrijf": "ACM", "titel": "Manager Finance & Control", "reden": "Handmatig afgekeurd: geen energie-inhoud, interne kandidaat al beschikbaar", "datum": "2026-07-15" },
+    { "bedrijf": "ACM", "titel": "Senior Jurist Digitale Consumentenbescherming", "reden": "Handmatig afgekeurd: juridisch, digitale economie, geen energie/strategie", "datum": "2026-07-15" },
+    { "bedrijf": "ACM", "titel": "Toezichthouder Handhaving Digitale Economie", "reden": "Handmatig afgekeurd: telecom/platformregulering, geen energie", "datum": "2026-07-15" },
+    { "bedrijf": "TotalEnergies", "titel": "(geen specifieke vacature)", "reden": "Uitgesloten op waarden-criterium: olieleveranties aan Israël + langdurig aangehouden Russische belangen", "datum": "2026-07-15" }
+  ],
+  "notControlled": [
+    { "bedrijf": "Stedin", "titel": "Trefwoordfilter (o.a. 'strategie') op vacaturepagina", "reden": "Zoekfunctie op werkenbij.stedin.net filtert niet (ook niet via browser-automatisering); 98 vacatures niet individueel doorzocht", "link": "https://werkenbij.stedin.net/vacatures-zoeken" },
+    { "bedrijf": "RWE / Ørsted", "titel": "NL-vacatures algemeen", "reden": "Career-pagina's nog niet doorzocht", "link": "" }
+  ]
+}
