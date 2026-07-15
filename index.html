@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Vacature-tracker — Arjen</title>
 <link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
 <style>
   :root { color-scheme: dark light; }
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 900px; margin: 0 auto; padding: 24px 16px 64px; line-height: 1.5; }
@@ -27,6 +29,7 @@
   <h1>Vacature-tracker</h1>
   <p class="meta">Laatst bijgewerkt: <span id="lastUpdated">–</span></p>
 
+  <button id="installBtn" style="display:none;">App installeren</button>
   <button id="subscribeBtn">Meldingen aanzetten (elke ochtend 09:00)</button>
   <div id="subStatus"></div>
 
@@ -165,6 +168,25 @@ async function setupSubscribe() {
     }
   });
 }
+
+// Custom "Install app" button — without a real manifest+icons the browser
+// never fires beforeinstallprompt, so this stays hidden until Chrome decides
+// the site is installable. Installing first makes the later notification
+// permission request far more likely to show the real native prompt instead
+// of Chrome's silent "quiet UI" for low-trust/uninstalled sites.
+let deferredInstallPrompt = null;
+window.addEventListener("beforeinstallprompt", (event) => {
+  event.preventDefault();
+  deferredInstallPrompt = event;
+  document.getElementById("installBtn").style.display = "inline-block";
+});
+document.getElementById("installBtn").addEventListener("click", async () => {
+  if (!deferredInstallPrompt) return;
+  deferredInstallPrompt.prompt();
+  await deferredInstallPrompt.userChoice;
+  deferredInstallPrompt = null;
+  document.getElementById("installBtn").style.display = "none";
+});
 
 loadData();
 setupSubscribe();
