@@ -1,13 +1,14 @@
 {
-  "lastUpdated": "2026-07-16T08:30:00+02:00",
+  "lastUpdated": "2026-07-16T10:30:00+02:00",
   "active": [
     { "bedrijf": "TenneT", "titel": "Program Manager Capacity Remuneration Mechanism (CRM)", "link": "https://www.werkenbijtennet.nl/nl/vacatures/113970", "beschrijving": "Leidt het programma dat het toekomstige capaciteitsmechanisme voor Nederland ontwerpt en invoert (marktprikkels voor investeringen in flexibiliteit, opslag, vraagsturing, productiecapaciteit). Team Market Design binnen de divisie Design, schaal 18, Arnhem.", "fit": "Senior strategisch/beleidsmatige rol met directe raakvlakken met elektriciteitsmarktontwerp en energiebeleid; stakeholdermanagement met EZK, ACM en Europese Commissie.", "gesolliciteerd": "Ja" },
-    { "bedrijf": "Alliander", "titel": "Programmamanager Strategie en Innovatie", "link": "https://werkenbij.alliander.com/vacatures/programmamanager-strategie-en-innovatie/JR10898", "beschrijving": "Bepaalt visie en strategie voor thema's als betere netbenutting en datadelen binnen de afdeling Strategie en Innovatie (bedrijfsonderdeel Marktdiensten). Verkent nieuwe mogelijkheden en vertaalt deze naar visie, beleid, kansen en risico's; sparringpartner op directie-/RvB-niveau in een complex stakeholderveld. WO-niveau, Arnhem.", "fit": "Senior strategisch-adviserende rol met directe raakvlakken met energiebeleid en marktontwikkeling bij een Nederlandse netbeheerder; vereist 10 jaar ervaring waarvan 5 jaar als programmamanager en complex stakeholdermanagement inclusief directie, sluit goed aan bij Arjens profiel.", "gesolliciteerd": "Nee" }
+    { "bedrijf": "Alliander", "titel": "Strategie Consultant Operatie (ODS, JR19034)", "link": "https://werkenbij.alliander.com/vacatures/strategie-consultant-operatie/jr19034", "beschrijving": "Strategie-consultant binnen Operations Decision Support (valt direct onder de COO): van probleemdiagnose en business cases tot implementatie en waarderealisatie in de operatie. Schaal 9/10, €5.416-€7.738 bruto/mnd, Arnhem, sluit 22 juli.", "fit": "Vraagt 4-10 jaar ervaring als consultant/analist (geen harde programmamanager-eis zoals een eerder bekeken Alliander-rol); combinatie van strategie en uitvoering, hoge zichtbaarheid richting COO.", "gesolliciteerd": "Nee" }
   ],
   "archive": [
     { "bedrijf": "ACM", "titel": "Senior Strateeg, Directie Toezicht Energie", "reden": "Niet meer live (was een goede match qua inhoud)", "datum": "2026-07-15" },
     { "bedrijf": "Stedin", "titel": "Senior Adviseur Corporate Strategie/Strategieontwikkeling", "reden": "Niet meer live", "datum": "2026-07-15" },
-    { "bedrijf": "Alliander", "titel": "Strategie Consultant Operatie (ODS)", "reden": "Niet meer live", "datum": "2026-07-15" },
+    { "bedrijf": "Alliander", "titel": "Strategie Consultant Operatie (ODS)", "reden": "Niet meer live op moment van eerste check — later opnieuw geplaatst onder JR19034, zie 'active'", "datum": "2026-07-15" },
+    { "bedrijf": "Alliander", "titel": "Programmamanager Strategie en Innovatie (JR10898)", "reden": "Handmatig afgekeurd door Arjen: eist 10 jaar ervaring waarvan 5 jaar aantoonbaar als programmamanager of epic owner — die ervaring is (nog) niet hard te maken", "datum": "2026-07-16" },
     { "bedrijf": "Alliander", "titel": "Senior Strategie Consultant", "reden": "Niet meer live (\"positie vervuld\")", "datum": "2026-07-15" },
     { "bedrijf": "Enexis", "titel": "Adviseur Sectorstrategie", "reden": "Niet meer live (verlopen)", "datum": "2026-07-15" },
     { "bedrijf": "Enexis", "titel": "Strategisch Adviseur Energietransitie", "reden": "Niet meer live (verlopen)", "datum": "2026-07-15" },
@@ -34,18 +35,7 @@
     { "bedrijf": "TenneT", "titel": "Power System Insulation Coordination Strategist", "reden": "Handmatig afgekeurd: \"strategist\" in titel is misleidend — vereist Master/PhD Elektrotechniek en ervaring met PSCAD/DIgSILENT, is een diep-technische engineeringrol", "datum": "2026-07-15" },
     { "bedrijf": "NEa", "titel": "Senior Strategisch Adviseur Toezicht en Marktontwikkelingen", "reden": "Niet meer live (verlopen) — gevonden via wekelijkse marktscan, NEa is nieuw toegevoegd aan de vaste lijst", "datum": "2026-07-15" },
     { "bedrijf": "NEa", "titel": "Strateeg Toezicht en Handhaving voor Duurzame Nalevingsstrategieën", "reden": "Niet meer live (verlopen) — gevonden via wekelijkse marktscan", "datum": "2026-07-15" },
-    { "bedrijf": "NEa", "titel": "Afdelingshoofd Emissiehandel", "reden": "Niet meer live (verlopen) — gevonden via wekelijkse marktscan", "datum": "2026-07-15" },
-    { "bedrijf": "TenneT", "titel": "Manager Strategy & Innovation", "reden": "Niet meer live (404)", "datum": "2026-07-16" },
-    { "bedrijf": "Alliander", "titel": "Consultant Cluster Strategie en Innovatie (JR05597)", "reden": "Niet meer live (pagina niet gevonden)", "datum": "2026-07-16" },
-    { "bedrijf": "Alliander", "titel": "Implementatie Consultant Strategie en Innovatie (JR14791)", "reden": "Handmatig afgekeurd: implementatie-/uitvoeringsgericht (businesscases, sectorportfolio coördineren), hbo+-niveau; geen strategisch adviesniveau op directie-/RvB-niveau zoals de Programmamanager-rol", "datum": "2026-07-16" },
-    { "bedrijf": "Gasunie", "titel": "(geen specifieke vacature)", "reden": "Alle 7 huidige vacatures zijn technisch, juridisch (omgevingsrecht) of instapniveau (afstudeerstage); geen match met strategisch/beleidsprofiel", "datum": "2026-07-16" },
-    { "bedrijf": "Eneco", "titel": "Strategy Advisor", "reden": "Niet meer live (pagina niet gevonden); was bovendien medior-niveau in Business Development, geen senior strategische rol", "datum": "2026-07-16" },
-    { "bedrijf": "Vattenfall", "titel": "Climate Strategy Analyst (Amsterdam, REF9678J)", "reden": "Niet meer live (verlopen); betrof bovendien een tijdelijke functie (zwangerschapsvervanging) gericht op klimaatrapportage (CSRD/ESRS), geen markt-/energiebeleid-strategie", "datum": "2026-07-16" },
-    { "bedrijf": "NEa", "titel": "Strategisch Adviseur Hernieuwbare Energie", "reden": "Niet meer live (verlopen)", "datum": "2026-07-16" },
-    { "bedrijf": "NEa", "titel": "Senior Adviseur Hernieuwbare Energie", "reden": "Niet meer live (verlopen)", "datum": "2026-07-16" }
+    { "bedrijf": "NEa", "titel": "Afdelingshoofd Emissiehandel", "reden": "Niet meer live (verlopen) — gevonden via wekelijkse marktscan", "datum": "2026-07-15" }
   ],
-  "notControlled": [
-    { "bedrijf": "Stedin", "titel": "Volledige vacaturelijst", "reden": "Site niet bereikbaar: privacy/SSL-fout op zowel werkenbijstedin.net als www.werkenbijstedin.net (getest in twee losse browsertabs, beide gaven een foutpagina)", "link": "https://werkenbijstedin.net/vacatures-zoeken" },
-    { "bedrijf": "Enexis", "titel": "Vacature-detailpagina's", "reden": "Site technisch defect: alle geopende vacature-detailpagina's tonen de foutmelding \"Momenteel kunnen we geen vacature details tonen\" en klik-navigatie vanaf het overzicht naar een vacature werkt niet; het overzicht zelf (197 vacatures) is wel leesbaar maar kon niet op individuele vacatures worden geverifieerd", "link": "https://werkenbij.enexis.nl/vacatures" }
-  ]
+  "notControlled": []
 }
