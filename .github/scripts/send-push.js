@@ -65,7 +65,8 @@ const payload = JSON.stringify({
       sent++;
     } catch (err) {
       failed++;
-      console.error("Push failed for a subscriber:", err.statusCode || err.message);
+      const tail = (sub.endpoint || "").slice(-12);
+      console.error(`Push failed for subscriber ...${tail}:`, err.statusCode || err.message);
     }
   }
   console.log(`Done. Sent: ${sent}, failed: ${failed}, total subscribers: ${subscriptions.length}`);
