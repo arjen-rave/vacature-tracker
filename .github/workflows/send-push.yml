@@ -1,13 +1,11 @@
 name: Send vacature-tracker push reminder
 
 on:
-  schedule:
-    # 06:47 UTC = 08:47 Amsterdam (CEST). Deliberately NOT on the hour: GitHub's
-    # own docs warn that schedule events are most likely to be delayed or skipped
-    # at the top of every hour (highest load on their scheduler). The original
-    # "0 7 * * *" never fired on 2026-07-16 — shifting off the hour reduces the
-    # odds of a missed/delayed run, while still landing safely before 09:00.
-    - cron: "47 6 * * *"
+  # No schedule/cron trigger: GitHub's own scheduler proved unreliable for this
+  # repo (two consecutive missed mornings with no error, even after moving the
+  # cron off the top of the hour). Triggered instead via workflow_dispatch —
+  # by the Cowork "vacature-tracker-daily-check" scheduled task, only on days
+  # the active vacancy list actually changed, or manually by Arjen.
   workflow_dispatch:
     inputs:
       test_send:
