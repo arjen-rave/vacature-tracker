@@ -1,11 +1,13 @@
 // Sends a push reminder to everyone in subscriptions.json.
 // Triggered manually via workflow_dispatch — either by Arjen (GitHub web/app),
 // or automatically by the Cowork "vacature-tracker-daily-check" scheduled task,
-// which only clicks "Run workflow" on days where the active vacancy list actually
-// changed (addition, removal, or a repost). GitHub's own `schedule:` cron trigger
-// was tried first but proved unreliable (two consecutive missed mornings with no
-// visible error) and was dropped in favor of this event-driven trigger — which
-// also avoids sending a pointless "nothing changed" notification every day.
+// which clicks "Run workflow" after every successful run, whether or not the
+// active vacancy list changed. This is intentional: the notification is Arjen's
+// signal that today's check actually ran and the site reflects fresh data, not
+// just an "something's new" alert — without it he can't tell a stale page from
+// a current one. GitHub's own `schedule:` cron trigger was tried first but
+// proved unreliable (two consecutive missed mornings with no visible error) and
+// was dropped in favor of this event-driven trigger.
 // Reads subscriptions written by the Cloudflare Worker (cloudflare-worker/worker.js);
 // does not modify subscriptions.json itself (unlike eclipse2026's reminder script,
 // there's no per-user "already sent" state to track here — it's a single blast per trigger).
