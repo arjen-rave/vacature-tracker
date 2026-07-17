@@ -11,12 +11,12 @@ opdracht via een Cowork scheduled task.
 - `subscriptions.json` — pushsubscripties, wordt geschreven door de Cloudflare Worker.
 - `.github/workflows/send-push.yml` — verstuurt een pushmelding naar iedereen in
   `subscriptions.json`. Wordt getriggerd via `workflow_dispatch` door de dagelijkse
-  Cowork-taak, maar alléén op dagen dat de actieve vacaturelijst daadwerkelijk is
-  gewijzigd (toevoeging, verwijdering, of herplaatsing) — geen melding op een dag
-  zonder nieuws. Draait niet meer op een `schedule:`-cron: die bleek voor dit repo
-  onbetrouwbaar (meerdere ochtenden zonder enige automatische run, ondanks correcte
-  configuratie). Kan ook altijd handmatig getriggerd worden, ook vanaf de telefoon
-  via de GitHub-app/mobiele site.
+  Cowork-taak, bij élke succesvolle run — dus ook op dagen zonder nieuwe vacatures.
+  Dat is bewust: de melding is Arjens signaal dat de data van vandaag vers is, niet
+  alleen een "er is iets nieuws"-alarm. Draait niet meer op een `schedule:`-cron:
+  die bleek voor dit repo onbetrouwbaar (meerdere ochtenden zonder enige automatische
+  run, ondanks correcte configuratie). Kan ook altijd handmatig getriggerd worden,
+  ook vanaf de telefoon via de GitHub-app/mobiele site.
 - `cloudflare-worker/worker.js` — ontvangt subscribe/unsubscribe-verzoeken vanaf de site en
   schrijft `subscriptions.json` terug naar dit repo via de GitHub API.
 
@@ -24,7 +24,8 @@ opdracht via een Cowork scheduled task.
 
 `data.json` wordt dagelijks bijgewerkt door een Cowork scheduled task (Claude), die de
 vacaturesites checkt (inclusief JS-gerenderde sites via Claude in Chrome), het resultaat
-commit, en — alleen als er iets echt is veranderd — de pushmelding triggert.
+commit, en daarna altijd de pushmelding triggert — als bevestiging dat de check die dag
+daadwerkelijk heeft gedraaid en de site actueel is.
 
 ## Eenmalige setup (door Arjen)
 
