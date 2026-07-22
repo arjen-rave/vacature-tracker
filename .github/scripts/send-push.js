@@ -63,7 +63,12 @@ const payload = JSON.stringify({
   let failed = 0;
   for (const sub of subscriptions) {
     try {
-      await webpush.sendNotification(sub, payload);
+      // urgency: "high" asks the push service (FCM for Chrome/Android) to
+      // prioritize delivery even while the device is idle/Doze — without
+      // this, low-usage apps can have their notifications deferred to the
+      // next maintenance window, which can be hours. TTL caps how long the
+      // push service should keep retrying if the device is briefly offline.
+      await webpush.sendNotification(sub, payload, { urgency: "high", TTL: 3600 });
       sent++;
     } catch (err) {
       failed++;
