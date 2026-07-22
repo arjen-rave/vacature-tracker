@@ -173,14 +173,21 @@ async function setupSubscribe() {
       try {
         const endpoint = existing.endpoint;
         await existing.unsubscribe();
-        await fetch(WORKER_URL + "/unsubscribe", {
+        const res = await fetch(WORKER_URL + "/unsubscribe", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ endpoint })
         });
+        if (!res.ok) throw new Error("Worker gaf status " + res.status);
         status.textContent = "Meldingen zijn uitgezet.";
       } catch (err) {
-        status.textContent = "Uitzetten mislukt: " + err.message;
+        // Deliberately do NOT call refreshUi() here — it would immediately
+        // overwrite this error with a generic "you're subscribed" message
+        // based only on local state, hiding a real server-sync failure from
+        // view (this masked the exact bug that caused missed pushes earlier).
+        status.textContent = "Uitzetten mislukt: " + err.message + " — probeer het opnieuw.";
+        btn.disabled = false;
+        return;
       }
       await refreshUi();
       return;
@@ -191,7 +198,7 @@ async function setupSubscribe() {
       const permission = await Notification.requestPermission();
       if (permission !== "granted") {
         status.textContent = "Toestemming voor meldingen geweigerd.";
-        await refreshUi();
+        btn.disabled = false;
         return;
       }
       const sub = await reg.pushManager.subscribe({
@@ -206,7 +213,11 @@ async function setupSubscribe() {
       if (!res.ok) throw new Error("Worker gaf status " + res.status);
       status.textContent = "Gelukt — je ontvangt elke ochtend om 09:00 een melding.";
     } catch (err) {
-      status.textContent = "Aanmelden mislukt: " + err.message;
+      // Same reasoning as above: keep the real error visible instead of
+      // letting refreshUi() silently replace it.
+      status.textContent = "Aanmelden mislukt: " + err.message + " — probeer het opnieuw.";
+      btn.disabled = false;
+      return;
     }
     await refreshUi();
   });
