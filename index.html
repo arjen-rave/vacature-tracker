@@ -23,6 +23,16 @@
   .toggle-switch input:checked + .toggle-slider::before { transform: translateX(20px); }
   .toggle-switch input:disabled + .toggle-slider { opacity: 0.6; cursor: default; }
   .toggle-label { font-size: 0.95rem; font-weight: 600; }
+
+  /* Archief zit standaard ingeklapt achter deze section-toggle — met tientallen
+     items is de volledige lijst anders altijd een lange scroll bij het laden
+     van de pagina. Zelfde caret-stijl als de losse kaarten, voor consistentie. */
+  .section-details { margin-top: 2.2rem; }
+  .section-details summary { cursor: pointer; list-style: none; border-bottom: 1px solid #8883; padding-bottom: 6px; }
+  .section-details summary::-webkit-details-marker { display: none; }
+  .section-details summary::before { content: "▸"; display: inline-block; margin-right: 8px; color: #888; transition: transform 0.15s ease; }
+  .section-details[open] summary::before { transform: rotate(90deg); }
+  .section-summary-heading { display: inline; font-size: 1.05rem; margin: 0; }
   #subStatus { margin-top: 8px; font-size: 0.85rem; color: #888; }
 
   /* Collapsible cards — replace the old wide tables. Each vacancy/archive/
@@ -40,7 +50,7 @@
   a.job-link { font-weight: 600; text-decoration: none; color: #2563eb; }
   a.job-link:hover { text-decoration: underline; }
   .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
-  .tag { display: inline-block; background: #2563eb22; color: #2563eb; border-radius: 999px; padding: 2px 10px; font-size: 0.75rem; font-weight: 600; }
+  .tag { display: inline-block; background: #2563eb; color: #fff; border-radius: 999px; padding: 2px 10px; font-size: 0.75rem; font-weight: 600; }
   .card-body { padding: 0 14px 14px; border-top: 1px solid #8883; }
   .card-body p { margin: 10px 0; font-size: 0.92rem; }
   .card-body .field-label { font-weight: 600; display: block; margin-bottom: 2px; }
@@ -76,10 +86,12 @@
   <h2>Niet controleerbaar</h2>
   <div id="notControlledCards"></div>
 
-  <h2>Archief</h2>
-  <div id="archiveCards"></div>
+  <details class="section-details">
+    <summary><h2 class="section-summary-heading">Archief</h2></summary>
+    <div id="archiveCards"></div>
+  </details>
 
-  <p class="version">v1.2</p>
+  <p class="version">v1.3</p>
 
 <script>
 const VAPID_PUBLIC_KEY = "BJaeAvCGohpg7Q2DHrdqWZnvp3nCWE0T5jWispamQAkVsRPJlJel1GxRcUTu3EmGcLrS1EbZBB9Du5BBo86sw0c";
