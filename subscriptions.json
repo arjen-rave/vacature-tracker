@@ -6,5 +6,13 @@
       "p256dh": "BGk0tTo_K5QARAOS-oSD4WNbOnlcgtuVR2PbjsFvsxcj0ZwW_4vWs9hPqcv0IgqWE5mPyMRuRpm2tPVTWZvJMYw",
       "auth": "1OAyL6cWVBhjoAmAAtXpKA"
     }
+  },
+  {
+    "endpoint": "https://fcm.googleapis.com/fcm/send/dSl9JDFgaSo:APA91bH8d-rcFI9ymoOKprdSN8d_3zZbUvhPMjgI-kecjzsTpmm_jv4Lj8WBhheTiQvnL7TAMMO2QMmZotZ7aW2hhHaYlKvarS84ScJCMdUeuggjSph1YOmEdPyex_mI-9gXzskMOTcs",
+    "expirationTime": null,
+    "keys": {
+      "p256dh": "BLo0qlDVL4p0w-qE2m-8ci3ANpM6jemTk6KRATUn96CaXgghQO7-9xJLeTAezL3SYjVznpjEgtQkidKv7ouIxdk",
+      "auth": "Ad5XCO6j-q9FA-Ya7bsITg"
+    }
   }
 ]
