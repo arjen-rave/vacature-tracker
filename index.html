@@ -42,6 +42,7 @@
   .status-row select { width: 100%; padding: 8px 10px; border-radius: 6px; border: 1px solid #8886; font-size: 0.92rem; background: transparent; color: inherit; }
   .status-msg { font-size: 0.8rem; margin-top: 6px; min-height: 1em; color: #888; }
   .archive-date { color: #888; font-size: 0.8rem; margin-left: auto; white-space: nowrap; }
+  .version { text-align: center; color: #888; font-size: 0.78rem; margin-top: 3rem; }
 </style>
 </head>
 <body>
@@ -49,7 +50,7 @@
   <p class="meta">Laatst bijgewerkt: <span id="lastUpdated">–</span></p>
 
   <button id="installBtn" style="display:none;">App installeren</button>
-  <button id="subscribeBtn">Meldingen aanzetten (elke ochtend 09:00)</button>
+  <button id="subscribeBtn">Meldingen aanzetten</button>
   <div id="subStatus"></div>
   <div id="subHint" style="display:none; margin-top: 6px; font-size: 0.85rem; color: #f59e0b;">
     Toestemming voor meldingen staat op "geweigerd" in je browser/toestel — dat kan deze knop niet zelf herstellen.
@@ -64,6 +65,8 @@
 
   <h2>Archief</h2>
   <div id="archiveCards"></div>
+
+  <p class="version">v1.1</p>
 
 <script>
 const VAPID_PUBLIC_KEY = "BJaeAvCGohpg7Q2DHrdqWZnvp3nCWE0T5jWispamQAkVsRPJlJel1GxRcUTu3EmGcLrS1EbZBB9Du5BBo86sw0c";
@@ -89,7 +92,9 @@ async function loadData() {
   const res = await fetch("data.json", { cache: "no-store" });
   const data = await res.json();
 
-  document.getElementById("lastUpdated").textContent = new Date(data.lastUpdated).toLocaleString("nl-NL");
+  document.getElementById("lastUpdated").textContent = new Date(data.lastUpdated).toLocaleString("nl-NL", {
+    year: "numeric", month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit"
+  });
 
   renderActive(data.active);
   renderNotControlled(data.notControlled);
@@ -232,9 +237,9 @@ async function setupSubscribe() {
     if (existing) {
       btn.textContent = "Meldingen uitzetten";
       btn.disabled = false;
-      status.textContent = "Je ontvangt elke ochtend om 09:00 een melding als er een update is.";
+      status.textContent = "Je ontvangt een melding als het overzicht is geupdate.";
     } else {
-      btn.textContent = "Meldingen aanzetten (elke ochtend 09:00)";
+      btn.textContent = "Meldingen aanzetten";
       btn.disabled = false;
       if (typeof Notification !== "undefined" && Notification.permission === "denied") {
         hint.style.display = "block";
@@ -294,7 +299,7 @@ async function setupSubscribe() {
         body: JSON.stringify(sub)
       });
       if (!res.ok) throw new Error("Worker gaf status " + res.status);
-      status.textContent = "Gelukt — je ontvangt elke ochtend om 09:00 een melding.";
+      status.textContent = "Gelukt — je ontvangt een melding als het overzicht is geupdate.";
     } catch (err) {
       // Same reasoning as above: keep the real error visible instead of
       // letting refreshUi() silently replace it.
