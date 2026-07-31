@@ -91,7 +91,7 @@
     <div id="archiveCards"></div>
   </details>
 
-  <p class="version">v1.3</p>
+  <p class="version">v1.4</p>
 
 <script>
 const VAPID_PUBLIC_KEY = "BJaeAvCGohpg7Q2DHrdqWZnvp3nCWE0T5jWispamQAkVsRPJlJel1GxRcUTu3EmGcLrS1EbZBB9Du5BBo86sw0c";
@@ -250,6 +250,21 @@ async function setupSubscribe() {
     status.textContent = "Pushmeldingen worden niet ondersteund in deze browser.";
     return;
   }
+
+  // A versioned CACHE name in sw.js (see APP_VERSION there) makes a new
+  // deploy install and activate correctly in the background, but that alone
+  // does NOT repaint a page/PWA that's already open — clients.claim() hands
+  // control of future requests to the new worker, it doesn't reload existing
+  // DOM. Without this listener, an already-open tab or installed PWA can keep
+  // showing the old HTML indefinitely, which is exactly what made v1.2/v1.3
+  // look "stuck" at v1.1. This reloads once, the first time a new worker
+  // actually takes control.
+  let swRefreshing = false;
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (swRefreshing) return;
+    swRefreshing = true;
+    window.location.reload();
+  });
 
   const reg = await navigator.serviceWorker.register("sw.js");
 
