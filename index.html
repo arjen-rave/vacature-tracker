@@ -9,20 +9,39 @@
 <link rel="apple-touch-icon" href="icon-192.png">
 <style>
   :root { color-scheme: dark light; }
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 900px; margin: 0 auto; padding: 24px 16px 64px; line-height: 1.5; }
-  h1 { font-size: 1.5rem; }
-  h2 { font-size: 1.1rem; margin-top: 2.5rem; border-bottom: 1px solid #8883; padding-bottom: 6px; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 700px; margin: 0 auto; padding: 20px 14px 64px; line-height: 1.5; }
+  h1 { font-size: 1.4rem; }
+  h2 { font-size: 1.05rem; margin-top: 2.2rem; border-bottom: 1px solid #8883; padding-bottom: 6px; }
   .meta { color: #888; font-size: 0.9rem; }
-  table { width: 100%; border-collapse: collapse; margin-top: 12px; font-size: 0.92rem; }
-  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #8883; vertical-align: top; }
-  th { font-weight: 600; }
-  tr:hover { background: #8881; }
-  a.job-link { font-weight: 600; }
   .empty { color: #888; font-style: italic; padding: 16px 0; }
   #subscribeBtn { background: #2563eb; color: white; border: none; padding: 10px 18px; border-radius: 6px; font-size: 0.95rem; cursor: pointer; margin-top: 12px; }
   #subscribeBtn:disabled { background: #6b7280; cursor: default; }
   #subStatus { margin-top: 8px; font-size: 0.85rem; color: #888; }
-  details summary { cursor: pointer; }
+
+  /* Collapsible cards — replace the old wide tables. Each vacancy/archive/
+     notControlled row is a native <details> element: collapsed shows a compact
+     top line, tapping it expands the rest. No JS needed for the toggle itself,
+     which keeps this fast and reliable on mobile. */
+  .card-list { margin-top: 10px; display: flex; flex-direction: column; gap: 8px; }
+  .card { border: 1px solid #8883; border-radius: 10px; padding: 0; overflow: hidden; background: #8880 0a; }
+  .card summary { list-style: none; cursor: pointer; padding: 12px 14px; }
+  .card summary::-webkit-details-marker { display: none; }
+  .card summary::before { content: "▸"; display: inline-block; margin-right: 8px; color: #888; transition: transform 0.15s ease; }
+  .card[open] summary::before { transform: rotate(90deg); }
+  .card-top { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; }
+  .bedrijf { font-weight: 700; font-size: 0.85rem; color: #888; text-transform: uppercase; letter-spacing: 0.02em; }
+  a.job-link { font-weight: 600; text-decoration: none; color: #2563eb; }
+  a.job-link:hover { text-decoration: underline; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .tag { display: inline-block; background: #2563eb22; color: #2563eb; border-radius: 999px; padding: 2px 10px; font-size: 0.75rem; font-weight: 600; }
+  .card-body { padding: 0 14px 14px; border-top: 1px solid #8883; }
+  .card-body p { margin: 10px 0; font-size: 0.92rem; }
+  .card-body .field-label { font-weight: 600; display: block; margin-bottom: 2px; }
+  .status-row { margin-top: 12px; }
+  .status-row label { font-weight: 600; font-size: 0.88rem; display: block; margin-bottom: 4px; }
+  .status-row select { width: 100%; padding: 8px 10px; border-radius: 6px; border: 1px solid #8886; font-size: 0.92rem; background: transparent; color: inherit; }
+  .status-msg { font-size: 0.8rem; margin-top: 6px; min-height: 1em; color: #888; }
+  .archive-date { color: #888; font-size: 0.8rem; margin-left: auto; white-space: nowrap; }
 </style>
 </head>
 <body>
@@ -38,19 +57,26 @@
   </div>
 
   <h2>Actief</h2>
-  <div id="activeTable"></div>
+  <div id="activeCards"></div>
 
   <h2>Niet controleerbaar</h2>
-  <div id="notControlledTable"></div>
+  <div id="notControlledCards"></div>
 
-  <details>
-    <summary><h2 style="display:inline;">Archief</h2></summary>
-    <div id="archiveTable"></div>
-  </details>
+  <h2>Archief</h2>
+  <div id="archiveCards"></div>
 
 <script>
 const VAPID_PUBLIC_KEY = "BJaeAvCGohpg7Q2DHrdqWZnvp3nCWE0T5jWispamQAkVsRPJlJel1GxRcUTu3EmGcLrS1EbZBB9Du5BBo86sw0c";
 const WORKER_URL = "https://vacature-tracker-subscribe.arjen-ravestein.workers.dev";
+
+const STATUS_OPTIONS = [
+  "Niet gesolliciteerd",
+  "Gesolliciteerd",
+  "Sollicitatie begonnen",
+  "Afgewezen",
+  "Aanbod",
+  "Niet interessant"
+];
 
 function urlBase64ToUint8Array(base64String) {
   const padding = "=".repeat((4 - base64String.length % 4) % 4);
@@ -71,54 +97,111 @@ async function loadData() {
 }
 
 function renderActive(rows) {
-  const el = document.getElementById("activeTable");
+  const el = document.getElementById("activeCards");
   if (!rows || rows.length === 0) {
     el.innerHTML = '<p class="empty">Momenteel geen actieve matches.</p>';
     return;
   }
-  el.innerHTML = `<table>
-    <tr><th>Bedrijf</th><th>Vacature</th><th>Beschrijving</th><th>Waarom fit</th><th>Gesolliciteerd</th></tr>
-    ${rows.map(r => `<tr>
-      <td>${escapeHtml(r.bedrijf)}</td>
-      <td><a class="job-link" href="${escapeHtml(r.link)}" target="_blank" rel="noopener">${escapeHtml(r.titel)}</a></td>
-      <td>${escapeHtml(r.beschrijving || "")}</td>
-      <td>${escapeHtml(r.fit || "")}</td>
-      <td>${escapeHtml(r.gesolliciteerd || "Nee")}</td>
-    </tr>`).join("")}
-  </table>`;
+  el.innerHTML = `<div class="card-list">
+    ${rows.map(r => `<details class="card">
+      <summary>
+        <div class="card-top">
+          <span class="bedrijf">${escapeHtml(r.bedrijf)}</span>
+          <a class="job-link" href="${escapeHtml(r.link)}" target="_blank" rel="noopener">${escapeHtml(r.titel)}</a>
+        </div>
+        ${(r.tags && r.tags.length) ? `<div class="tags">${r.tags.map(t => `<span class="tag">${escapeHtml(t)}</span>`).join("")}</div>` : ""}
+      </summary>
+      <div class="card-body">
+        <p><span class="field-label">Beschrijving</span>${escapeHtml(r.beschrijving || "")}</p>
+        <p><span class="field-label">Waarom fit</span>${escapeHtml(r.fit || "")}</p>
+        <div class="status-row">
+          <label>Sollicitatie status</label>
+          <select data-link="${escapeHtml(r.link)}">
+            ${STATUS_OPTIONS.map(s => `<option value="${escapeHtml(s)}" ${s === (r.status || "Niet gesolliciteerd") ? "selected" : ""}>${escapeHtml(s)}</option>`).join("")}
+          </select>
+          <div class="status-msg"></div>
+        </div>
+      </div>
+    </details>`).join("")}
+  </div>`;
+
+  el.querySelectorAll("select[data-link]").forEach(select => {
+    select.addEventListener("change", () => updateStatus(select));
+  });
+}
+
+async function updateStatus(select) {
+  const link = select.dataset.link;
+  const newStatus = select.value;
+  const msg = select.parentElement.querySelector(".status-msg");
+  const previousValue = select.dataset.lastValue || newStatus;
+  select.disabled = true;
+  msg.textContent = "Bezig met opslaan...";
+  try {
+    const res = await fetch(WORKER_URL + "/update-status", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ link, status: newStatus })
+    });
+    if (!res.ok) throw new Error("Worker gaf status " + res.status);
+    select.dataset.lastValue = newStatus;
+    msg.textContent = "Opgeslagen.";
+    if (newStatus === "Afgewezen" || newStatus === "Niet interessant") {
+      msg.textContent = "Opgeslagen — wordt bij de volgende dagelijkse check naar het archief verplaatst.";
+    }
+  } catch (err) {
+    // Keep the real error visible instead of silently reverting without
+    // explanation — same lesson learned from the subscribe/unsubscribe flow.
+    select.value = previousValue;
+    msg.textContent = "Opslaan mislukt: " + err.message + " — probeer het opnieuw.";
+  } finally {
+    select.disabled = false;
+  }
 }
 
 function renderNotControlled(rows) {
-  const el = document.getElementById("notControlledTable");
+  const el = document.getElementById("notControlledCards");
   if (!rows || rows.length === 0) {
     el.innerHTML = '<p class="empty">Alles kon deze check gecontroleerd worden.</p>';
     return;
   }
-  el.innerHTML = `<table>
-    <tr><th>Bedrijf</th><th>Vacature/onderwerp</th><th>Reden</th></tr>
-    ${rows.map(r => `<tr>
-      <td>${escapeHtml(r.bedrijf)}</td>
-      <td>${r.link ? `<a href="${escapeHtml(r.link)}" target="_blank" rel="noopener">${escapeHtml(r.titel)}</a>` : escapeHtml(r.titel)}</td>
-      <td>${escapeHtml(r.reden)}</td>
-    </tr>`).join("")}
-  </table>`;
+  el.innerHTML = `<div class="card-list">
+    ${rows.map(r => `<details class="card">
+      <summary>
+        <div class="card-top">
+          <span class="bedrijf">${escapeHtml(r.bedrijf)}</span>
+          ${r.link
+            ? `<a class="job-link" href="${escapeHtml(r.link)}" target="_blank" rel="noopener">${escapeHtml(r.titel)}</a>`
+            : `<span>${escapeHtml(r.titel)}</span>`}
+        </div>
+      </summary>
+      <div class="card-body">
+        <p><span class="field-label">Reden</span>${escapeHtml(r.reden)}</p>
+      </div>
+    </details>`).join("")}
+  </div>`;
 }
 
 function renderArchive(rows) {
-  const el = document.getElementById("archiveTable");
+  const el = document.getElementById("archiveCards");
   if (!rows || rows.length === 0) {
     el.innerHTML = '<p class="empty">Archief is leeg.</p>';
     return;
   }
-  el.innerHTML = `<table>
-    <tr><th>Bedrijf</th><th>Vacature</th><th>Reden</th><th>Datum</th></tr>
-    ${rows.map(r => `<tr>
-      <td>${escapeHtml(r.bedrijf)}</td>
-      <td>${escapeHtml(r.titel)}</td>
-      <td>${escapeHtml(r.reden)}</td>
-      <td>${escapeHtml(r.datum)}</td>
-    </tr>`).join("")}
-  </table>`;
+  el.innerHTML = `<div class="card-list">
+    ${rows.map(r => `<details class="card">
+      <summary>
+        <div class="card-top">
+          <span class="bedrijf">${escapeHtml(r.bedrijf)}</span>
+          <span>${escapeHtml(r.titel)}</span>
+          <span class="archive-date">${escapeHtml(r.datum)}</span>
+        </div>
+      </summary>
+      <div class="card-body">
+        <p><span class="field-label">Reden</span>${escapeHtml(r.reden)}</p>
+      </div>
+    </details>`).join("")}
+  </div>`;
 }
 
 function escapeHtml(str) {
