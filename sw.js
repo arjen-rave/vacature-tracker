@@ -7,8 +7,8 @@ const WORKER_URL = "https://vacature-tracker-subscribe.arjen-ravestein.workers.d
 
 // APP_VERSION must be bumped every time index.html/manifest.json/icons change,
 // so the cache name below changes too — that's what forces old, stale assets
-// out and a fresh copy in. Keep this in sync with the "v1.1" footer in index.html.
-const APP_VERSION = "1.1";
+// out and a fresh copy in. Keep this in sync with the "v1.2" footer in index.html.
+const APP_VERSION = "1.2";
 const CACHE = `vacature-tracker-v${APP_VERSION}`;
 const ASSETS = [
   "./",

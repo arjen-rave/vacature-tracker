@@ -14,8 +14,15 @@
   h2 { font-size: 1.05rem; margin-top: 2.2rem; border-bottom: 1px solid #8883; padding-bottom: 6px; }
   .meta { color: #888; font-size: 0.9rem; }
   .empty { color: #888; font-style: italic; padding: 16px 0; }
-  #subscribeBtn { background: #2563eb; color: white; border: none; padding: 10px 18px; border-radius: 6px; font-size: 0.95rem; cursor: pointer; margin-top: 12px; }
-  #subscribeBtn:disabled { background: #6b7280; cursor: default; }
+  .toggle-row { display: flex; align-items: center; gap: 10px; margin-top: 14px; }
+  .toggle-switch { position: relative; display: inline-block; width: 46px; height: 26px; flex-shrink: 0; }
+  .toggle-switch input { opacity: 0; width: 0; height: 0; }
+  .toggle-slider { position: absolute; inset: 0; background: #6b7280; border-radius: 999px; cursor: pointer; transition: background 0.15s ease; }
+  .toggle-slider::before { content: ""; position: absolute; width: 20px; height: 20px; left: 3px; top: 3px; background: white; border-radius: 50%; transition: transform 0.15s ease; }
+  .toggle-switch input:checked + .toggle-slider { background: #2563eb; }
+  .toggle-switch input:checked + .toggle-slider::before { transform: translateX(20px); }
+  .toggle-switch input:disabled + .toggle-slider { opacity: 0.6; cursor: default; }
+  .toggle-label { font-size: 0.95rem; font-weight: 600; }
   #subStatus { margin-top: 8px; font-size: 0.85rem; color: #888; }
 
   /* Collapsible cards — replace the old wide tables. Each vacancy/archive/
@@ -50,11 +57,17 @@
   <p class="meta">Laatst bijgewerkt: <span id="lastUpdated">–</span></p>
 
   <button id="installBtn" style="display:none;">App installeren</button>
-  <button id="subscribeBtn">Meldingen aanzetten</button>
-  <div id="subStatus"></div>
+  <div class="toggle-row">
+    <label class="toggle-switch">
+      <input type="checkbox" id="subscribeToggle">
+      <span class="toggle-slider"></span>
+    </label>
+    <span class="toggle-label">Meldingen</span>
+  </div>
+  <div id="subStatus">Als meldingen aan staan ontvang je een melding als het overzicht is geupdate.</div>
   <div id="subHint" style="display:none; margin-top: 6px; font-size: 0.85rem; color: #f59e0b;">
-    Toestemming voor meldingen staat op "geweigerd" in je browser/toestel — dat kan deze knop niet zelf herstellen.
-    Zet meldingen voor deze site aan via je browser-/systeeminstellingen en klik daarna nogmaals.
+    Toestemming voor meldingen staat op "geweigerd" in je browser/toestel — dat kan deze schakelaar niet zelf herstellen.
+    Zet meldingen voor deze site aan via je browser-/systeeminstellingen en zet de schakelaar daarna nogmaals aan.
   </div>
 
   <h2>Actief</h2>
@@ -66,7 +79,7 @@
   <h2>Archief</h2>
   <div id="archiveCards"></div>
 
-  <p class="version">v1.1</p>
+  <p class="version">v1.2</p>
 
 <script>
 const VAPID_PUBLIC_KEY = "BJaeAvCGohpg7Q2DHrdqWZnvp3nCWE0T5jWispamQAkVsRPJlJel1GxRcUTu3EmGcLrS1EbZBB9Du5BBo86sw0c";
@@ -213,80 +226,80 @@ function escapeHtml(str) {
   return String(str ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 
+const SUB_STEADY_TEXT = "Als meldingen aan staan ontvang je een melding als het overzicht is geupdate.";
+
 async function setupSubscribe() {
-  const btn = document.getElementById("subscribeBtn");
+  const toggle = document.getElementById("subscribeToggle");
   const status = document.getElementById("subStatus");
   const hint = document.getElementById("subHint");
 
   if (!("serviceWorker" in navigator) || !("PushManager" in window)) {
-    btn.disabled = true;
+    toggle.disabled = true;
     status.textContent = "Pushmeldingen worden niet ondersteund in deze browser.";
     return;
   }
 
   const reg = await navigator.serviceWorker.register("sw.js");
 
-  // Toggle button: "Meldingen aanzetten" <-> "Meldingen uitzetten". Uitzetten
-  // ruimt de subscription zowel lokaal (unsubscribe) als server-side
-  // (subscriptions.json via de Cloudflare Worker) op, zodat een dood/verlopen
-  // abonnement niet blijft hangen en je gewoon opnieuw kunt aanmelden zonder
-  // eerst met OS-instellingen te hoeven vechten.
+  // Toggle switch: aan = subscribed, uit = unsubscribed. Uitzetten ruimt de
+  // subscription zowel lokaal (unsubscribe) als server-side (subscriptions.json
+  // via de Cloudflare Worker) op, zodat een dood/verlopen abonnement niet blijft
+  // hangen en je gewoon opnieuw kunt aanmelden zonder eerst met OS-instellingen
+  // te hoeven vechten. De grijze tekst eronder blijft altijd dezelfde vaste zin
+  // — alleen tijdens het aan/uit zetten of bij een fout wijkt die tijdelijk af.
   async function refreshUi() {
     const existing = await reg.pushManager.getSubscription();
     hint.style.display = "none";
-    if (existing) {
-      btn.textContent = "Meldingen uitzetten";
-      btn.disabled = false;
-      status.textContent = "Je ontvangt een melding als het overzicht is geupdate.";
-    } else {
-      btn.textContent = "Meldingen aanzetten";
-      btn.disabled = false;
-      if (typeof Notification !== "undefined" && Notification.permission === "denied") {
-        hint.style.display = "block";
-        status.textContent = "";
-      } else {
-        status.textContent = "";
-      }
+    toggle.disabled = false;
+    toggle.checked = !!existing;
+    if (!existing && typeof Notification !== "undefined" && Notification.permission === "denied") {
+      hint.style.display = "block";
     }
+    status.textContent = SUB_STEADY_TEXT;
   }
 
   await refreshUi();
 
-  btn.addEventListener("click", async () => {
-    btn.disabled = true;
-    const existing = await reg.pushManager.getSubscription();
+  toggle.addEventListener("change", async () => {
+    toggle.disabled = true;
 
-    if (existing) {
+    if (!toggle.checked) {
+      // User switched notifications off.
       status.textContent = "Bezig met uitzetten...";
       try {
-        const endpoint = existing.endpoint;
-        await existing.unsubscribe();
-        const res = await fetch(WORKER_URL + "/unsubscribe", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ endpoint })
-        });
-        if (!res.ok) throw new Error("Worker gaf status " + res.status);
-        status.textContent = "Meldingen zijn uitgezet.";
+        const existing = await reg.pushManager.getSubscription();
+        if (existing) {
+          const endpoint = existing.endpoint;
+          await existing.unsubscribe();
+          const res = await fetch(WORKER_URL + "/unsubscribe", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ endpoint })
+          });
+          if (!res.ok) throw new Error("Worker gaf status " + res.status);
+        }
       } catch (err) {
         // Deliberately do NOT call refreshUi() here — it would immediately
-        // overwrite this error with a generic "you're subscribed" message
-        // based only on local state, hiding a real server-sync failure from
-        // view (this masked the exact bug that caused missed pushes earlier).
+        // overwrite this error with the steady-state text based only on local
+        // state, hiding a real server-sync failure from view (this masked the
+        // exact bug that caused missed pushes earlier).
+        toggle.checked = true;
         status.textContent = "Uitzetten mislukt: " + err.message + " — probeer het opnieuw.";
-        btn.disabled = false;
+        toggle.disabled = false;
         return;
       }
       await refreshUi();
       return;
     }
 
+    // User switched notifications on.
     status.textContent = "Bezig met aanmelden...";
     try {
       const permission = await Notification.requestPermission();
       if (permission !== "granted") {
+        toggle.checked = false;
         status.textContent = "Toestemming voor meldingen geweigerd.";
-        btn.disabled = false;
+        toggle.disabled = false;
         return;
       }
       const sub = await reg.pushManager.subscribe({
@@ -299,12 +312,12 @@ async function setupSubscribe() {
         body: JSON.stringify(sub)
       });
       if (!res.ok) throw new Error("Worker gaf status " + res.status);
-      status.textContent = "Gelukt — je ontvangt een melding als het overzicht is geupdate.";
     } catch (err) {
       // Same reasoning as above: keep the real error visible instead of
       // letting refreshUi() silently replace it.
+      toggle.checked = false;
       status.textContent = "Aanmelden mislukt: " + err.message + " — probeer het opnieuw.";
-      btn.disabled = false;
+      toggle.disabled = false;
       return;
     }
     await refreshUi();
