@@ -1,11 +1,1 @@
-[
-  {
-    "endpoint": "https://fcm.googleapis.com/fcm/send/enO25YUMwRs:APA91bGslv7PpowrqwLFkAs80zIfrJ79ohEjgvHvdDL2n9ON0sXqMujscS82_FPoQ99kw9UuQp4AcMCeJQyZAASkCmZYY2CLbORQN--nVkCHo1BJ_fNx-UYFZUfoAs8m_iuUZFI6WATC",
-    "expirationTime": null,
-    "keys": {
-      "p256dh": "BCRbvBZCY1MRiWYg26ykI8AFE03Y4qzeCTw13orglN1YYYJdEADSIjOdkO8sjoTeqmUT7lmw9ywO1dgoN7iMqPA",
-      "auth": "cUrfmonmOUdxTK0NxdoT0Q"
-    },
-        "label": "Telefoon (PWA), aangemeld 08-08-2026"
-  }
-]
+[]
