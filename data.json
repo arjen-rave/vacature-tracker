@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-14T11:20:00+02:00",
-  "lastCheckNote": "16 bronnen gecheckt, geen nieuwe matches toegevoegd (2 nieuw gevonden kandidaat-vacatures beoordeeld en gearchiveerd: geen live fit of geen inhoudelijke match).",
+  "lastUpdated": "2026-08-15T08:45:00+02:00",
+  "lastCheckNote": "16 bronnen gecheckt (Stedin gedeeltelijk: pagina's 1-2 van 8 vers gecontroleerd, paginering technisch niet werkend deze run - volledige 8-pagina lijst laatst op 04-08 en 13-08 doorgenomen), 0 nieuwe matches toegevoegd aan active (6 nieuw gevonden kandidaat-vacatures beoordeeld en gearchiveerd: geen live fit of geen inhoudelijke match).",
   "active": [
     {
       "bedrijf": "Netbeheer Nederland",
@@ -18,6 +18,48 @@
     }
   ],
   "archive": [
+    {
+      "bedrijf": "Alliander",
+      "titel": "Strategy Deployment Consultant (JR09900)",
+      "reden": "Nieuw gevonden via WebSearch (site:werkenbij.alliander.com), maar bij bezoek 404 (\"Helaas kunnen we de pagina die je zocht niet vinden\") op werkenbij.alliander.com — niet live.",
+      "datum": "2026-08-15"
+    },
+    {
+      "bedrijf": "Enexis",
+      "titel": "Strategisch Adviseur Energietransitie (12778)",
+      "reden": "Nieuw gevonden via WebSearch onder nieuw vacature-ID (t.o.v. eerder gearchiveerde 12180/13363), maar bij bezoek \"Momenteel kunnen we geen vacature details tonen\" — niet live.",
+      "datum": "2026-08-15"
+    },
+    {
+      "bedrijf": "Enexis",
+      "titel": "Adviseur Sectorstrategie (8433)",
+      "reden": "Nieuw gevonden via WebSearch onder nieuw vacature-ID (t.o.v. eerder gearchiveerde ID zonder nummer), maar bij bezoek \"Momenteel kunnen we geen vacature details tonen\" — niet live.",
+      "datum": "2026-08-15"
+    },
+    {
+      "bedrijf": "Gasunie",
+      "titel": "Adviseur Business Development (130)",
+      "reden": "Nieuw gevonden via WebSearch, maar bij bezoek 404 op werkenbijgasunie.nl — niet live.",
+      "datum": "2026-08-15"
+    },
+    {
+      "bedrijf": "Nederlandse Emissieautoriteit (NEa)",
+      "titel": "Strategisch adviseur inkoop (NEA-2026-2968)",
+      "reden": "Nieuw gevonden via WebSearch, maar bij bezoek \"vacature niet beschikbaar\" (reactietermijn verstreken) — niet live. Sowieso een zwakkere fit: inkoopstrategie, geen energiemarkt- of klimaatbeleid.",
+      "datum": "2026-08-15"
+    },
+    {
+      "bedrijf": "Ministerie van Economische Zaken en Klimaat",
+      "titel": "Beleidsmedewerker netcongestie (beter benutten) (EZK-2026-4797)",
+      "reden": "Nieuw gevonden via WebSearch naast de reeds gearchiveerde senior-variant (EZK-2026-5296), maar bij bezoek \"vacature niet beschikbaar\" (reactietermijn verstreken) — niet live.",
+      "datum": "2026-08-15"
+    },
+    {
+      "bedrijf": "Uniper",
+      "titel": "(geen specifieke vacature)",
+      "reden": "careers.uniper.energy toont 0 vacatures met het Netherlands-locatiefilter (rechtstreeks gecontroleerd via Chrome, JS-gerenderde pagina). Aanvullende WebSearch (site:careers.uniper.energy strategy/policy/government affairs/senior advisor) leverde alleen niet-NL-resultaten op (Düsseldorf, Parijs, Nottingham). Geen live NL-vacature van welke aard dan ook op dit moment.",
+      "datum": "2026-08-15"
+    },
     {
       "bedrijf": "Enexis",
       "titel": "Senior business consultant end-to-end onderhoud en storingen (15142)",
