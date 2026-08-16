@@ -1,707 +1,713 @@
 {
-  "lastUpdated": "2026-08-15T08:45:00+02:00",
-  "lastCheckNote": "16 bronnen gecheckt (Stedin gedeeltelijk: pagina's 1-2 van 8 vers gecontroleerd, paginering technisch niet werkend deze run - volledige 8-pagina lijst laatst op 04-08 en 13-08 doorgenomen), 0 nieuwe matches toegevoegd aan active (6 nieuw gevonden kandidaat-vacatures beoordeeld en gearchiveerd: geen live fit of geen inhoudelijke match).",
-  "active": [
-    {
-      "bedrijf": "Netbeheer Nederland",
-      "titel": "Adviseur Economie en Regelgeving Energietransitie",
-      "link": "https://netbeheernederland.recruitee.com/o/adviseur-economie-en-regelgeving-energie-transitie",
-      "beschrijving": "Adviseur die op het snijvlak van energiebeleid, economie en techniek werkt aan de vormgeving van economische regulering van netbeheerders (o.a. het ACM-methodebesluit en de elektriciteitstariefherziening), met stakeholdermanagement richting ministeries, toezichthouders (ACM) en marktpartijen. Den Haag, hybride, 32-40 uur, €5.090-€7.891 bruto/mnd. Vacature staat doorlopend open. 13-08-2026 opnieuw rechtstreeks gecontroleerd: nog steeds live, ongewijzigd.",
-      "fit": "Netbeheer Nederland is een kleine brancheorganisatie (~70 medewerkers) waar een 'adviseur'-rol functioneel al senior van aard is; deze rol combineert markt-/regelgevingsadvies over economische regulering van de energienetten met stakeholdermanagement richting ACM, ministeries en marktpartijen — sterke match met Arjens profiel van marktontwerp/beleidsadvies in de energiesector. Vraagt officieel 'slechts' 3 jaar ervaring, dus instapniveau qua formele eis is lager dan gebruikelijk, maar de inhoud (methodebesluiten, tariefdifferentiatie, projectmanager/regisseur-rollen combineren) is inhoudelijk senior.",
-      "status": "Niet gesolliciteerd",
-      "tags": [
-        "energy",
-        "policy",
-        "regulation",
-        "internal consultant"
-      ]
-    }
-  ],
-  "archive": [
-    {
-      "bedrijf": "Alliander",
-      "titel": "Strategy Deployment Consultant (JR09900)",
-      "reden": "Nieuw gevonden via WebSearch (site:werkenbij.alliander.com), maar bij bezoek 404 (\"Helaas kunnen we de pagina die je zocht niet vinden\") op werkenbij.alliander.com — niet live.",
-      "datum": "2026-08-15"
-    },
-    {
-      "bedrijf": "Enexis",
-      "titel": "Strategisch Adviseur Energietransitie (12778)",
-      "reden": "Nieuw gevonden via WebSearch onder nieuw vacature-ID (t.o.v. eerder gearchiveerde 12180/13363), maar bij bezoek \"Momenteel kunnen we geen vacature details tonen\" — niet live.",
-      "datum": "2026-08-15"
-    },
-    {
-      "bedrijf": "Enexis",
-      "titel": "Adviseur Sectorstrategie (8433)",
-      "reden": "Nieuw gevonden via WebSearch onder nieuw vacature-ID (t.o.v. eerder gearchiveerde ID zonder nummer), maar bij bezoek \"Momenteel kunnen we geen vacature details tonen\" — niet live.",
-      "datum": "2026-08-15"
-    },
-    {
-      "bedrijf": "Gasunie",
-      "titel": "Adviseur Business Development (130)",
-      "reden": "Nieuw gevonden via WebSearch, maar bij bezoek 404 op werkenbijgasunie.nl — niet live.",
-      "datum": "2026-08-15"
-    },
-    {
-      "bedrijf": "Nederlandse Emissieautoriteit (NEa)",
-      "titel": "Strategisch adviseur inkoop (NEA-2026-2968)",
-      "reden": "Nieuw gevonden via WebSearch, maar bij bezoek \"vacature niet beschikbaar\" (reactietermijn verstreken) — niet live. Sowieso een zwakkere fit: inkoopstrategie, geen energiemarkt- of klimaatbeleid.",
-      "datum": "2026-08-15"
-    },
-    {
-      "bedrijf": "Ministerie van Economische Zaken en Klimaat",
-      "titel": "Beleidsmedewerker netcongestie (beter benutten) (EZK-2026-4797)",
-      "reden": "Nieuw gevonden via WebSearch naast de reeds gearchiveerde senior-variant (EZK-2026-5296), maar bij bezoek \"vacature niet beschikbaar\" (reactietermijn verstreken) — niet live.",
-      "datum": "2026-08-15"
-    },
-    {
-      "bedrijf": "Uniper",
-      "titel": "(geen specifieke vacature)",
-      "reden": "careers.uniper.energy toont 0 vacatures met het Netherlands-locatiefilter (rechtstreeks gecontroleerd via Chrome, JS-gerenderde pagina). Aanvullende WebSearch (site:careers.uniper.energy strategy/policy/government affairs/senior advisor) leverde alleen niet-NL-resultaten op (Düsseldorf, Parijs, Nottingham). Geen live NL-vacature van welke aard dan ook op dit moment.",
-      "datum": "2026-08-15"
-    },
-    {
-      "bedrijf": "Enexis",
-      "titel": "Senior business consultant end-to-end onderhoud en storingen (15142)",
-      "reden": "Nieuw gevonden via WebSearch en live geverifieerd (Den Bosch, €4.953-€7.076/9.107 bruto, WO). Inhoudelijk overzicht houden op prestaties van de onderhoud- en storingenketen, procesverbetering en management adviseren over prioriteiten — operationeel proces-/ketenmanagement binnen Onderhoud & Storingen, geen markt- of energiebeleidsstrategie op directieniveau. Vergelijkbaar met eerder afgekeurde operationele business consultant-rollen.",
-      "datum": "2026-08-14"
-    },
-    {
-      "bedrijf": "Eneco",
-      "titel": "Chief of Staff (CDO-organisatie, ID 1207164)",
-      "reden": "Nieuw gevonden via WebSearch — inhoudelijk een sterke fit qua rolprofiel (Chief of Staff-rollen tellen expliciet mee), rechterhand van de CDO en diens organisatie van ~200 medewerkers, leidt strategische planning. Bij bezoek echter 'pagina niet meer beschikbaar' — niet live, geen herplaatsing gevonden bij herzoeken. Blijft de moeite waard te volgen op een mogelijke herplaatsing.",
-      "datum": "2026-08-14"
-    },
-    {
-      "bedrijf": "TenneT",
-      "titel": "Beleidsadviseur / Policy Advisor (Arnhem, ID 93682)",
-      "reden": "Nieuw gevonden via WebSearch (site:werkenbijtennet.nl), maar bij bezoek 404 (\"Oops! The power's out... pagina bestaat niet meer\") op werkenbijtennet.nl — niet live.",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Consultant Congestiemanagement (JR13731)",
-      "reden": "Nieuw gevonden via WebSearch, maar bij bezoek 404 (\"Helaas kunnen we de pagina die je zocht niet vinden\") op werkenbij.alliander.com — niet live.",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Beleidsadviseur Omgevingsmanagement (JR06414)",
-      "reden": "Nieuw gevonden via WebSearch, maar bij bezoek 404 op werkenbij.alliander.com — niet live.",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "Gasunie",
-      "titel": "Public & Regulatory Affairs Adviseur (vacature 208)",
-      "reden": "Nieuw gevonden via WebSearch (werkenbijgasunie.nl/vacature/208), maar bij bezoek 404 — niet live.",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "Netbeheer Nederland",
-      "titel": "Adviseur Strategie & Beleid",
-      "reden": "Nieuw gevonden via WebSearch (netbeheernederland.nl/vacatures/adviseur-strategie-beleid-0), maar bij bezoek \"Page not found\" — verouderde geïndexeerde pagina, niet live. Actuele overzichtspagina (13-08) toont geen vergelijkbare titel, nog steeds dezelfde 5 vacatures als voorheen.",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "NEa",
-      "titel": "Adviseur registers en processen (hernieuwbare energie) (NEA-2026-1333)",
-      "reden": "Nieuw gevonden via WebSearch, maar bij bezoek \"vacature niet beschikbaar\" (reactietermijn verstreken) — niet live.",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "NEa",
-      "titel": "Adviseur Hernieuwbare Energie (NEA-2026-5635)",
-      "reden": "Nieuw gevonden via WebSearch, maar bij bezoek \"vacature niet beschikbaar\" (reactietermijn verstreken) — niet live.",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "Ministerie van Economische Zaken en Klimaat",
-      "titel": "Beleidsmedewerker energiesysteemanalyse (EZK-2026-1591)",
-      "reden": "Nieuw gevonden en live geverifieerd (Directie Strategie Energiesysteem, DG Klimaat en Energie, Den Haag, sluit 24 augustus 2026), maar schaal 11 (€4.132-€6.275) — junior/medior analytische ondersteuningsrol (beoordelen externe systeemstudies, modelanalyses, data-validatie), geen zelfstandige senior strategie- of beleidsadviesrol op directieniveau.",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "Ministerie van Economische Zaken en Klimaat",
-      "titel": "Senior beleidsmedewerker analyse duurzame energie-infrastructuur (EZ-2023-0094)",
-      "reden": "Gevonden via WebSearch, maar bij bezoek \"vacature niet beschikbaar\" — verouderde, uit 2023 daterende vacature-ID, reactietermijn allang verstreken.",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "Eneco",
-      "titel": "Strategy Analyst (Rotterdam, ID 2184)",
-      "reden": "Gevonden via WebSearch, maar bij bezoek \"Waarschijnlijk is de pagina die je zocht niet meer beschikbaar\" — niet live. Enige actueel getagde 'Strategy'-vacature in de huidige lijst (54 vacatures, alle 6 pagina's doorgenomen) is de reeds gearchiveerde Specialist Duurzame Warmte.",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "Eneco",
-      "titel": "Manager Strategy (Assets & Operations) (ID 1009148)",
-      "reden": "Gevonden via WebSearch, maar bij bezoek \"Waarschijnlijk is de pagina die je zocht niet meer beschikbaar\" — niet live.",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "Enexis",
-      "titel": "Adviseur Omgevingsparticipatie Warmtenetten (13911)",
-      "reden": "Nieuw gevonden via zoekopdracht, maar vacaturepagina toont \"Momenteel kunnen we geen vacature details tonen\" — niet live.",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "Enexis",
-      "titel": "Senior adviseur energietransitie (Venlo)",
-      "reden": "Nieuw gevonden op werkenbij.enexis.nl (Staf & ondersteuning / Consultancy-categorie), live geverifieerd, maar HBO-niveau en een regionale stakeholderrol (verbindt Enexis met provincie/gemeenten/partners in Limburg, vertaalt plannen naar kansen voor het energiesysteem) — vergelijkbaar met eerder afgekeurde regionale gebiedsadviseursrollen (Partner Energietransitie e.d.), geen senior WO-niveau markt- of beleidsstrategie op directieniveau.",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Strategie Consultant Operatie (ODS, JR19034)",
-      "reden": "Niet meer live: 08-08 rechtstreeks gecontroleerd, echte 404 (\"Helaas kunnen we de pagina die je zocht niet vinden\") op werkenbij.alliander.com — verdwenen ondanks de eerder gemelde deadline van 14 augustus. Arjen zat in de eerste sollicitatieronde na een informeel gesprek (status stond op 'Sollicitatie begonnen') — sollicitatiegeschiedenis blijft hiermee zichtbaar in het archief. Blijft de moeite waard te volgen op een mogelijke herplaatsing of op communicatie vanuit Alliander over het lopende sollicitatieproces.",
-      "datum": "2026-08-08"
-    },
-    {
-      "bedrijf": "Ministerie van Economische Zaken en Klimaat",
-      "titel": "Coördinerend adviseur bij de Raad voor Energie (EZK-2026-6071)",
-      "reden": "Handmatig door Arjen op de site gemarkeerd als 'Niet interessant'.",
-      "datum": "2026-08-08"
-    },
-    {
-      "bedrijf": "Netbeheer Nederland",
-      "titel": "Project Coördinator EU Regelgeving en Public Affairs",
-      "reden": "Nieuw gevonden (07-08-2026 geplaatst) op netbeheernederland.nl/werken-bij, live geverifieerd, maar is een ondersteunende coördinatorrol voor programmamanagers en beleidsadviseurs binnen team PACER (agendabeheer, actiepuntenbewaking, ondersteuning bij begroting/inkoop, notulen) — €3.902-€5.795 bruto/mnd (medior-niveau), geen zelfstandige senior strategie-/beleidsadviesrol.",
-      "datum": "2026-08-08"
-    },
-    {
-      "bedrijf": "Essent",
-      "titel": "Senior Performance Coach",
-      "reden": "Nieuw gevonden en live geverifieerd (Performance & Transformation Office, 's-Hertogenbosch, €5.807-€8.253, categorie 'Strategy & Development'), maar inhoudelijk een interne coachingsrol gericht op Agile/Lean/SAFe-verandermanagement en performancemanagement binnen IT- en Data-teams (coachen van Leadership Teams, verandertrajecten begeleiden) — organisatieontwikkeling/coaching, geen markt- of energiebeleidsstrategie. 13-08 opnieuw rechtstreeks gecontroleerd (volledige vacaturelijst, 19 vacatures): nog steeds live, ongewijzigd, blijft afgekeurd op inhoud.",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "Eneco",
-      "titel": "Specialist Duurzame Warmte",
-      "reden": "Nieuw gevonden en live geverifieerd (afdeling Heat Strategy & Control, Rotterdam, €83.000-€117.000 bruto/jaar, getagd als 'Strategy'), maar is een technisch-inhoudelijke duurzaamheidsexpert binnen de warmteketen (NTA 8800-normen, CO2-emissierapportages, warmte-etiketten, kwaliteitsverklaringen) — vereist WO energie-/techniek-/sustainability-achtergrond en 8+ jaar sectorervaring, geen generalistische markt- of beleidsstrategierol. 13-08 herbevestigd: dit is nog steeds de enige actieve vacature getagd 'Strategy' bij Eneco (van 54 vacatures, alle 6 pagina's doorgenomen).",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "Vattenfall",
-      "titel": "Senior Business Excellence Advisor (Amsterdam, jid-50449)",
-      "reden": "Nieuw gevonden via herzoeken op careers.vattenfall.com (Portfolio Strategy & Business Excellence-team), maar betreft document management en business-excellence/procesverbetering-projectmanagement binnen Solar & Batteries — geen markt- of energiebeleidsstrategie.",
-      "datum": "2026-08-08"
-    },
-    {
-      "bedrijf": "Gasunie",
-      "titel": "Strategisch Communicatieadviseur",
-      "reden": "Gevonden via WebSearch (werkenbijgasunie.nl/vacature/77/strategisch-communicatieadviseur), maar bij bezoek 404 — niet live. Vacaturelijst telt nog steeds slechts 2 resultaten, geen strategie-/beleidsrol op senior niveau.",
-      "datum": "2026-08-08"
-    },
-    {
-      "bedrijf": "Ministerie van Economische Zaken en Klimaat",
-      "titel": "(Senior) Beleidsmedewerker netcongestie (beter benutten) (EZK-2026-5296)",
-      "reden": "Gevonden via WebSearch, inhoudelijk een sterke fit qua onderwerp (netcongestie-oplossing, één van de grote energietransitie-vraagstukken), maar bij bezoek 'vacature niet beschikbaar' — reactietermijn al verstreken, niet live.",
-      "datum": "2026-08-08"
-    },
-    {
-      "bedrijf": "Ministerie van Economische Zaken en Klimaat",
-      "titel": "Senior beleidsmedewerker/strateeg, DG Bedrijfsleven en Innovatie (EZ-2021-0186)",
-      "reden": "Verouderde, nog geïndexeerde vacature uit 2021 (herkenbaar aan het vacature-ID); bij bezoek 'vacature niet beschikbaar' — niet live.",
-      "datum": "2026-08-08"
-    },
-    {
-      "bedrijf": "Stedin",
-      "titel": "Beleidsadviseur Bedrijfsvoering",
-      "reden": "Gevonden via WebSearch, maar bij bezoek 'Algemene vacature fout' — niet live (verouderde geïndexeerde link).",
-      "datum": "2026-08-08"
-    },
-    {
-      "bedrijf": "Stedin",
-      "titel": "Adviseur Innovatie",
-      "reden": "Gevonden via WebSearch, maar bij bezoek 'Algemene vacature fout' — niet live (verouderde geïndexeerde link).",
-      "datum": "2026-08-08"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Business Consultant, System Operations (JR17380)",
-      "reden": "Niet meer live: 07-08 rechtstreeks gecontroleerd, echte 404 (\"Helaas kunnen we de pagina die je zocht niet vinden\") op werkenbij.alliander.com. Was tot en met 05-08 nog live en was een sterke inhoudelijke match (sparringpartner directeur System Operations) — blijft de moeite waard om te blijven volgen op een mogelijke herplaatsing.",
-      "datum": "2026-08-07"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Management Consultant, Strategisch Resource Management (JR15925)",
-      "reden": "Niet meer live: 07-08 rechtstreeks gecontroleerd, echte 404 op werkenbij.alliander.com. Was tot en met 05-08 nog live en een sterke inhoudelijke match (rechterhand directeur SRM) — blijft de moeite waard om te blijven volgen op een mogelijke herplaatsing.",
-      "datum": "2026-08-07"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Senior Consultant Strategische Verkenningen (JR14752)",
-      "reden": "Niet meer live: 07-08 rechtstreeks gecontroleerd, echte 404 op werkenbij.alliander.com. Was tot en met 05-08 nog live en een sterke inhoudelijke match (senior klantstrateeg, sparringpartner Liander-directie) — blijft de moeite waard om te blijven volgen op een mogelijke herplaatsing.",
-      "datum": "2026-08-07"
-    },
-    {
-      "bedrijf": "Ministerie van Economische Zaken en Klimaat",
-      "titel": "Adviseur bij de Raad voor Energie (EZK-2026-3108)",
-      "reden": "Nieuw gevonden op 07-08 naast de gearchiveerde 'Coördinerend adviseur'-variant (zie active), maar dit is de instapvariant binnen hetzelfde team: schaal 11 (vs. schaal 13 voor coördinerend), geen projectleiderschap of coördinatie van teams vereist, gerichtop het voorbereiden van analyses en schrijven van teksten in plaats van het zelfstandig leiden van adviestrajecten — te weinig senior voor Arjens profiel. Reageren voor 10 augustus 2026.",
-      "datum": "2026-08-07"
-    },
-    {
-      "bedrijf": "TenneT",
-      "titel": "Senior adviseur grondzaken Area West (ID 95105)",
-      "reden": "Nieuw gevonden via WebSearch (site:werkenbijtennet.nl), live geverifieerd, maar betreft grondzaken/privaatrechtelijke advisering (onderhandelen met grondeigenaren, opstellen van zakelijke rechtovereenkomsten en schadevergoedingen voor netinfrastructuur) — operationeel/juridisch van aard, geen markt- of energiebeleidsstrategie.",
-      "datum": "2026-08-07"
-    },
-    {
-      "bedrijf": "TenneT",
-      "titel": "Adviseur grondzaken Gelderland, Noord-Brabant, Limburg (ID 91003)",
-      "reden": "Nieuw gevonden via WebSearch (site:werkenbijtennet.nl), zelfde categorie als de Area West-variant: grondzaken/privaatrechtelijke advisering, geen markt- of energiebeleidsstrategie.",
-      "datum": "2026-08-07"
-    },
-    {
-      "bedrijf": "RWE",
-      "titel": "Hydrogen Strategy Manager (Geertruidenberg, 4931-NC)",
-      "reden": "Nieuw gevonden via WebSearch, maar bij bezoek \"De vacature is offline\" — niet live. Zou anders een interessante fit zijn geweest (strategierol i.p.v. de gebruikelijke operationele/technische RWE-vacatures) — blijft de moeite waard om te blijven volgen op een herplaatsing.",
-      "datum": "2026-08-07"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Veranderconsultant, Strategisch Resource Management (JR14701)",
-      "reden": "Handmatig door Arjen op de site gemarkeerd als 'Niet interessant'.",
-      "datum": "2026-08-04"
-    },
-    {
-      "bedrijf": "TenneT",
-      "titel": "Offshore Development Specialist (32-40 uur, ID 114708)",
-      "reden": "Handmatig door Arjen op de site gemarkeerd als 'Afgewezen'.",
-      "datum": "2026-08-04"
-    },
-    {
-      "bedrijf": "ACM",
-      "titel": "Senior (Missiegedreven) Toezichthouder Energiemarkt",
-      "reden": "Wederom niet meer live (404 op acm.nl, jobId 74958-link). Actuele ACM-vacaturelijst (13-08) toont nog steeds dezelfde 5 vacatures als voorheen: Lead Business Intelligence, Enterprise Architect, Senior Jurist Digitale Consumentenbescherming, Customer Experience Specialist - Service designer en Toezichthouder Energiemarkt (te junior, al eerder afgekeurd) — de senior-variant is dus zeer kort (±4 dagen) live geweest en alweer verdwenen. Blijft de moeite waard te blijven volgen op een volgende herplaatsing.",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "Vattenfall",
-      "titel": "(Senior) Project Manager - Strategic Projects (Offshore Wind, REF12440H)",
-      "reden": "Arjen heeft hierop gesolliciteerd en is afgewezen. Ook niet meer live (verlopen); sluitingsdatum was 29 juli 2026, 30-07 rechtstreeks herverifieerd op careers.vattenfall.com: 'Deze vacature is inmiddels verlopen'. 04-08 opnieuw rechtstreeks gecontroleerd (jid-52212): nog steeds 'verlopen', ongewijzigd. Sollicitatiegeschiedenis blijft hiermee zichtbaar in het archief.",
-      "datum": "2026-08-04"
-    },
-    {
-      "bedrijf": "Vattenfall",
-      "titel": "Climate Strategy Analyst (REF9678J)",
-      "reden": "Nieuw gevonden via herzoeken op careers.vattenfall.com (jid-48760), maar niet live ('this vacancy has now expired', reactietermijn was 17 juni 2025) en sowieso een zwakke fit: tijdelijke functie (1 jaar, vervanging zwangerschapsverlof) gericht op klimaatdata/CSRD-rapportage binnen Strategic Development, geen markt- of beleidsstrategie op senior niveau.",
-      "datum": "2026-08-04"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Adviseur Arbeidsverhoudingen (JR15191)",
-      "reden": "Nieuw gevonden via WebSearch, maar betreft HR/arbeidsverhoudingen (medezeggenschap, coaching van HR-collega's en business stakeholders), geen energiemarkt- of beleidsstrategie",
-      "datum": "2026-07-30"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Adviseur Regulering (JR17482)",
-      "reden": "Handmatig afgekeurd door Arjen: mist de vereiste juridische achtergrond voor deze rol (juridische/beleidsmatige vertaling van de Energiewet naar netbeheer)",
-      "datum": "2026-07-21"
-    },
-    {
-      "bedrijf": "ACM",
-      "titel": "Senior Strateeg, Directie Toezicht Energie",
-      "reden": "Niet meer live (was een goede match qua inhoud); herverifieerd op zowel acm.nl (404) als op werkenvoornederland.nl onder een nieuwe vacature-ID (ACM-2026-5869) — ook daar reactietermijn verstreken. De opvolger 'Senior (Missiegedreven) Toezichthouder Energiemarkt' is inmiddels zelf ook twee keer verschenen en weer verdwenen (zie apart archiefitem) — deze specifieke titel/ID zelf niet teruggevonden.",
-      "datum": "2026-07-31"
-    },
-    {
-      "bedrijf": "Stedin",
-      "titel": "Senior Adviseur Corporate Strategie/Strategieontwikkeling",
-      "reden": "Niet meer live; herverifieerd via handmatige doorbladering van alle 8 pagina's op werkenbij.stedin.net/vacatures-zoeken — geen vergelijkbare titel teruggevonden. 13-08 opnieuw rechtstreeks gecontroleerd via nieuwe URL (sr-adviseur-corporate-strategie, ID 36205503232): \"Algemene vacature fout\", nog steeds niet live, geen herplaatsing.",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Strategie Consultant Operatie (ODS)",
-      "reden": "Niet meer live op moment van eerste check — later opnieuw geplaatst onder JR19034, zie 'active'",
-      "datum": "2026-07-15"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Programmamanager Strategie en Innovatie (JR10898)",
-      "reden": "Handmatig afgekeurd door Arjen: eist 10 jaar ervaring waarvan 5 jaar aantoonbaar als programmamanager of epic owner — die ervaring is (nog) niet hard te maken",
-      "datum": "2026-07-16"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Senior Strategie Consultant",
-      "reden": "Niet meer live (\"positie vervuld\"); herverifieerd via zoekopdracht=strategie op werkenbij.alliander.com — niet teruggevonden onder deze of andere titel. Ook onder oudere ID's JR15035, JR14576 en JR03974 herverifieerd: alle drie tonen 404/\"pagina niet gevonden\". Wel een nieuwe, andere 'Senior Strategie Consultant' gevonden onder JR11914 — zie apart archiefitem, inhoudelijk afgekeurd.",
-      "datum": "2026-07-31"
-    },
-    {
-      "bedrijf": "Enexis",
-      "titel": "Adviseur Sectorstrategie",
-      "reden": "Niet meer live (verlopen); herverifieerd, vacaturepagina toont nu foutmelding \"kunnen we geen vacature details tonen\" en titel komt niet meer voor in de actuele Enexis-vacaturelijst. 04-08 opnieuw via WebSearch gecontroleerd: niet teruggevonden, geen herplaatsing.",
-      "datum": "2026-08-04"
-    },
-    {
-      "bedrijf": "Enexis",
-      "titel": "Strategisch Adviseur Energietransitie",
-      "reden": "Niet meer live (verlopen); herverifieerd via directe link (ID 12180) — zelfde foutmelding \"kunnen we geen vacature details tonen\". Ook ID 13363 (identieke titel) opnieuw gecontroleerd: nog steeds \"Momenteel kunnen we geen vacature details tonen\". 05-08 opnieuw rechtstreeks gecontroleerd (ID 13363): ongewijzigd, geen herplaatsing.",
-      "datum": "2026-08-04"
-    },
-    {
-      "bedrijf": "Gasunie",
-      "titel": "Strateeg in de energietransitie",
-      "reden": "Niet meer live (404, herverifieerd op werkenbijgasunie.nl/vacature/57/... — echte 404-pagina); huidige Gasunie-vacaturelijst bevat nog steeds slechts 2 vacatures, geen strategie-/beleidsrol op senior niveau. 05-08 opnieuw rechtstreeks bezocht (/vacature/57/): nog steeds 404, geen herplaatsing.",
-      "datum": "2026-08-04"
-    },
-    {
-      "bedrijf": "Eneco",
-      "titel": "Senior Strategy Advisor",
-      "reden": "Niet meer live (pagina niet meer beschikbaar, herverifieerd); ook geen \"Strategy\"-vakgebied meer aanwezig in de huidige Eneco-vacaturelijst. Nieuwe titel \"Strategy Advisor\" (ID 1131674) en \"Senior Strategy Advisor\" (Rotterdam, ID 2183) via WebSearch gevonden — beide tonen bij bezoek \"pagina niet meer beschikbaar\", niet live. Ook \"Head of Strategy & Control\" (ID 2338) en \"Strategic (Regional) Partner Manager\" (ID 574) gecontroleerd: niet live. 05-08 opnieuw rechtstreeks gecontroleerd (ID 1131674): \"Waarschijnlijk is de pagina die je zocht niet meer beschikbaar\", ongewijzigd, geen herplaatsing.",
-      "datum": "2026-08-04"
-    },
-    {
-      "bedrijf": "Vattenfall",
-      "titel": "Senior Strategy Advisor (Offshore Wind, Amsterdam)",
-      "reden": "Niet meer live (verlopen); herverifieerd via careers.vattenfall.com zoekopdracht \"strategy\" (24 NL-resultaten, beide pagina's doorgenomen) — niet teruggevonden",
-      "datum": "2026-07-25"
-    },
-    {
-      "bedrijf": "Vattenfall",
-      "titel": "Strategy Advisor in Offshore Wind (Hamburg-variant)",
-      "reden": "Niet meer live (verlopen, ook niet NL). 30-07 herzoeken (careers.vattenfall.com, \"strategy\", 27 resultaten over 3 pagina's): geen NL-herplaatsing gevonden.",
-      "datum": "2026-07-15"
-    },
-    {
-      "bedrijf": "Vattenfall",
-      "titel": "Senior Strategy Advisor (BU Wind, REF11967J)",
-      "reden": "Niet meer live: pagina toont expliciet \"deze vacature is inmiddels verlopen\" (herverifieerd, jid-51761). 05-08 opnieuw rechtstreeks gecontroleerd (jid-51761): nog steeds 'verlopen', ongewijzigd, geen herplaatsing.",
-      "datum": "2026-08-04"
-    },
-    {
-      "bedrijf": "Enexis",
-      "titel": "Strategisch Adviseur Organisatieontwikkeling",
-      "reden": "Sluitingsdatum verstreken vóór check (deadline 8 juli) + zwakkere fit (HR/organisatieontwerp i.p.v. energiemarkt-strategie); herverifieerd via directe link (ID 15517) — zelfde foutmelding als voorheen. 05-08 opnieuw rechtstreeks gecontroleerd (ID 15517): ongewijzigd, blijft afgekeurd op inhoud, sluitingsdatum reeds verstreken.",
-      "datum": "2026-08-04"
-    },
-    {
-      "bedrijf": "EBN",
-      "titel": "Public Affairs Advisor",
-      "reden": "Niet meer live: pagina toont \"we konden deze vacature niet vinden\"; herverifieerd, ook herplaatsing op werkenbijebn.recruitee.com niet gevonden. 13-08 opnieuw rechtstreeks gecontroleerd (werkenbijebn.recruitee.com/o/public-affairs-advisor): ongewijzigd, \"we konden deze vacature niet vinden\", geen herplaatsing. Huidige EBN-vacaturelijst toont alleen nog 'Open Sollicitatie' als optie.",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "TenneT",
-      "titel": "Strategy Advisor (Arnhem/Bayreuth/Lehrte)",
-      "reden": "Arjen heeft hierop gesolliciteerd en is afgewezen. Ook niet meer live (opnieuw geverifieerd op het juiste domein werkenbijtennet.nl, echte 404; eerdere check gebruikte per abuis careers.tennet.eu). 04-08 opnieuw via WebSearch (site:werkenbijtennet.nl) gecontroleerd: geen herplaatsing.",
-      "datum": "2026-08-04"
-    },
-    {
-      "bedrijf": "TenneT",
-      "titel": "Strategisch Adviseur Ruimtelijke Ordening & Milieu",
-      "reden": "Niet meer live (opnieuw geverifieerd op werkenbijtennet.nl, echte 404, o.a. ID's 93199, 93206, 95173); huidige RO&M-adviseursvacatures bij TenneT zijn regionale, operationeel/juridisch gerichte functies binnen een team van ~28 adviseurs, geen senior strategische functie. 05-08 opnieuw via WebSearch gecontroleerd (ID's 93199 en 93206 komen nog voor als regionale RO&M-adviseursrollen, inhoudelijk ongewijzigd): geen herplaatsing.",
-      "datum": "2026-08-04"
-    },
-    {
-      "bedrijf": "EBN",
-      "titel": "Senior Strateeg",
-      "reden": "Handmatig afgekeurd: vereist 15+ jaar ervaring in de energiemarkt, gas/CCS/warmte-georiënteerd",
-      "datum": "2026-07-15"
-    },
-    {
-      "bedrijf": "ACM",
-      "titel": "Senior Technisch Expert Energie",
-      "reden": "Handmatig afgekeurd: puur technisch (warmtenetten), geen strategie",
-      "datum": "2026-07-15"
-    },
-    {
-      "bedrijf": "ACM",
-      "titel": "Toezichthouder Energiemarkt",
-      "reden": "Handmatig afgekeurd: handhaving/inspecteursniveau, te junior. 13-08: nog steeds live op acm.nl, ongewijzigd, blijft afgekeurd op inhoud.",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "ACM",
-      "titel": "Manager Finance & Control",
-      "reden": "Handmatig afgekeurd: geen energie-inhoud, interne kandidaat al beschikbaar",
-      "datum": "2026-07-15"
-    },
-    {
-      "bedrijf": "ACM",
-      "titel": "Senior Jurist Digitale Consumentenbescherming",
-      "reden": "Handmatig afgekeurd: juridisch, digitale economie, geen energie/strategie",
-      "datum": "2026-07-15"
-    },
-    {
-      "bedrijf": "ACM",
-      "titel": "Toezichthouder Handhaving Digitale Economie",
-      "reden": "Handmatig afgekeurd: telecom/platformregulering, geen energie",
-      "datum": "2026-07-15"
-    },
-    {
-      "bedrijf": "ACM",
-      "titel": "Strategisch Directiesecretaris - Taskforce Data en Algoritmen",
-      "reden": "Nieuw gevonden op acm.nl (jobId 75039), maar inhoudelijk een secretariële/PMO-ondersteuningsrol voor het MT van de Taskforce Data en Algoritmen (agendabeheer, notulen, werkplancyclus, coördinatie) — ondanks 'strategisch' in de titel geen zelfstandige energiemarkt-strategie- of beleidsadviesrol; vakgebied officieel 'Juridisch, Administratief/secretarieel'. Sollicitatietermijn liep bovendien af op de dag van vinden (31-07).",
-      "datum": "2026-07-31"
-    },
-    {
-      "bedrijf": "TotalEnergies",
-      "titel": "(geen specifieke vacature)",
-      "reden": "Uitgesloten op waarden-criterium: olieleveranties aan Israël + langdurig aangehouden Russische belangen",
-      "datum": "2026-07-15"
-    },
-    {
-      "bedrijf": "Stedin",
-      "titel": "Strategisch Projectleider Investeringsplan",
-      "reden": "Handmatig afgekeurd: projectleiderschap binnen Asset Management, geen strategie-adviesrol op directie-/beleidsniveau; nog steeds actueel op werkenbij.stedin.net, blijft afgekeurd op inhoud. 28-07 opnieuw teruggevonden tijdens volledige doorbladering (109 vacatures) — ongewijzigde conclusie",
-      "datum": "2026-07-28"
-    },
-    {
-      "bedrijf": "RWE",
-      "titel": "(geen specifieke vacature)",
-      "reden": "Huidige NL-vacatures zijn allemaal engineering/onderhoud/beveiliging-operationeel (o.a. Maintenance Coördinator, Discipline Engineer Electrical, Operations Engineer Offshore Wind, Security Officer OT) en supply chain management; geen strategie/advies op senior niveau. 13-08 NL-lijst op jobs.rwe.com opnieuw doorgenomen (17 resultaten): nog steeds geen live strategie-/beleidsrol.",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "Ørsted",
-      "titel": "(geen specifieke vacature)",
-      "reden": "NL-vestiging toont wisselend 0-1 openstaande vacature(s); zichtbare vakgebieden met open posities zijn Facilities, Finance & controlling, HR, IT & digital en Marketing — geen Strategy and business development of Public affairs/regulatory/legal. 13-08 opnieuw rechtstreeks gecontroleerd (orsted.com/en/careers/locations/netherlands): 1 vacature zichtbaar, dezelfde 5 vakgebieden, ongewijzigde conclusie.",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "TenneT",
-      "titel": "Policy Advisor (Grid Security)",
-      "reden": "Handmatig afgekeurd: vereist afgeronde technische WO-opleiding (elektro-/energietechniek) + 5 jaar ervaring in congestiemanagement/netcodes; technisch-inhoudelijk in plaats van generalistisch strategie-advies. Deze vacature (ID 103090) staat inmiddels herplaatst onder de titel \"Beleidsmedewerker congestie management\"/\"Policy Advisor\" met identieke, nog steeds technische eisen. 04-08 opnieuw via WebSearch teruggevonden (ID 103090, ongewijzigd), blijft afgekeurd op inhoud.",
-      "datum": "2026-08-04"
-    },
-    {
-      "bedrijf": "TenneT",
-      "titel": "Power System Insulation Coordination Strategist",
-      "reden": "Handmatig afgekeurd: \"strategist\" in titel is misleidend — vereist Master/PhD Elektrotechniek en ervaring met PSCAD/DIgSILENT, is een diep-technische engineeringrol",
-      "datum": "2026-07-15"
-    },
-    {
-      "bedrijf": "NEa",
-      "titel": "Senior Strategisch Adviseur Toezicht en Marktontwikkelingen",
-      "reden": "Niet meer live (verlopen); herverifieerd, ook een gelijknamige vacature onder ID NEA-2026-8530 toont \"vacature niet beschikbaar\" — deze ID staat inmiddels (opnieuw) geïndexeerd onder de titel \"Strategisch adviseur Hernieuwbare Energie\", maar ook die versie toont bij bezoek \"vacature niet beschikbaar\". 08-08 opnieuw rechtstreeks gecontroleerd (NEA-2026-8530): ongewijzigd, geen herplaatsing.",
-      "datum": "2026-08-08"
-    },
-    {
-      "bedrijf": "NEa",
-      "titel": "Strateeg Toezicht en Handhaving voor Duurzame Nalevingsstrategieën",
-      "reden": "Niet meer live (verlopen), herverifieerd onder ID NEA-2024-0023: \"vacature niet beschikbaar\". 05-08 opnieuw rechtstreeks gecontroleerd (zelfde ID): ongewijzigd, geen herplaatsing.",
-      "datum": "2026-08-04"
-    },
-    {
-      "bedrijf": "NEa",
-      "titel": "Afdelingshoofd Emissiehandel",
-      "reden": "Niet meer live (verlopen), herverifieerd onder ID NEA-2026-9168: nog steeds \"vacature niet beschikbaar\". 05-08 opnieuw rechtstreeks gecontroleerd (zelfde ID): ongewijzigd, geen herplaatsing.",
-      "datum": "2026-08-04"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Senior Beleidsadviseur (JR01177)",
-      "reden": "Niet meer live (404 — pagina bestaat niet meer); herverifieerd, nog steeds 404/\"pagina niet gevonden\"",
-      "datum": "2026-07-22"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Portfolio Strategie Consultant (JR13780)",
-      "reden": "Handmatig afgekeurd: vereist aantoonbare ervaring als Portfolio EpicOwner of Productmanager plus SAFe/Agile-vaardigheden — operationeel portfoliomanagement voor Grote Werkpakketten (netuitbreiding), geen markt-/energiebeleidsstrategie",
-      "datum": "2026-07-17"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Business Partner/Strategisch Adviseur Marketing & Communicatie (JR15228)",
-      "reden": "Handmatig afgekeurd: marketing- en communicatiestrategie, geen energiemarkt-/beleidsstrategie",
-      "datum": "2026-07-17"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Business Partner VMK (veiligheid, milieu en kwaliteit)",
-      "reden": "Handmatig afgekeurd: advies over veiligheid/milieu/kwaliteit, geen energiemarktbeleid of -strategie",
-      "datum": "2026-07-17"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Senior Strategie Consultant / Senior Business Consultant Netdigitalisering (JR15035)",
-      "reden": "Niet meer live in de praktijk: vacaturepagina toont een allang verstreken sluitingsdatum (31-08-2025) en betreft inhoudelijk een technische OT/IT-infrastructuurrol (Meet- en Regelstrategie). 05-08 opnieuw rechtstreeks gecontroleerd: pagina laadt nog wel maar sluitingsdatum en inhoud ongewijzigd, blijft afgekeurd/niet actueel.",
-      "datum": "2026-07-31"
-    },
-    {
-      "bedrijf": "Vattenfall",
-      "titel": "Senior Strategisch Adviseur Customers NL",
-      "reden": "Niet meer live (\"vacancy has now expired\"); ook zwakkere fit — klant-/marketingstrategie voor B2B in plaats van energiemarktontwerp of -beleid. 04-08 opnieuw via WebSearch teruggevonden (jid-49921, zelfde REF): nog steeds bekend in de index maar niet live, geen herplaatsing.",
-      "datum": "2026-08-04"
-    },
-    {
-      "bedrijf": "Vattenfall",
-      "titel": "Strategy Advisor BA Heat",
-      "reden": "Niet meer live (\"niet meer vacant\"). Eerder gezien als Duitse posting (careers.vattenfall.com/de/stellen/strategy-advisor-ba-heat/), geen NL-vacature, blijft gearchiveerd.",
-      "datum": "2026-07-31"
-    },
-    {
-      "bedrijf": "TenneT",
-      "titel": "Program Manager Capacity Remuneration Mechanism (CRM)",
-      "reden": "Niet meer live (404, ID 113970, herverifieerd op werkenbijtennet.nl). Arjen had hier al op gesolliciteerd — sollicitatiegeschiedenis blijft hiermee zichtbaar in het archief. Geen herplaatsing gevonden bij herzoeken",
-      "datum": "2026-07-22"
-    },
-    {
-      "bedrijf": "TenneT",
-      "titel": "Electricity Market Analyst (ID 113732)",
-      "reden": "Nieuw gevonden, maar te kwantitatief/technisch: vereist master/PhD in economics/engineering/mathematics, programmeervaardigheden (Python) en marktsimulatiesoftware (PLEXOS/BID3/Antares); schaal 8/9 is medior-niveau, geen senior strategie-adviesrol",
-      "datum": "2026-07-21"
-    },
-    {
-      "bedrijf": "TenneT",
-      "titel": "Programma Manager – Security (ID 115585)",
-      "reden": "Nieuw gevonden: operationeel programmamanagement voor het hardenen van assets/cybersecurity binnen Onshore, vereist AIVD-B screening. Governance/uitvoering-zwaar in plaats van markt-/beleidsstrategie",
-      "datum": "2026-07-21"
-    },
-    {
-      "bedrijf": "Vattenfall",
-      "titel": "Senior Strategisch Adviseur Heat NL (REF9874K)",
-      "reden": "Verlopen (sluitingsdatum was 16 juli). Sterke inhoudelijke fit (senior strateeg energiemarkt/BU Heat, WO + 5 jaar strategische ervaring) — blijft de moeite waard om te blijven checken. 04-08 opnieuw via WebSearch gecontroleerd (jid-48954): geen herplaatsing.",
-      "datum": "2026-08-04"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Senior Business Consultant (JR14426)",
-      "reden": "Nieuw gevonden, maar operationele rol binnen het veranderteam Onderhoud & Storingen (Product Owner-achtige functie, Agile/Scrum-omgeving); vertaalt organisatiebehoeften naar digitale verbeterprojecten, geen energiemarkt- of beleidsstrategie op directieniveau — vergelijkbaar met eerder afgekeurde Netdigitalisering- en Portfolio Strategie-rollen",
-      "datum": "2026-07-22"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Strategisch Consultant Transformatie (JR16999)",
-      "reden": "Handmatig afgekeurd door Arjen: mist de vereiste minimaal 8 jaar aantoonbare ervaring in een vergelijkbare transformatie-/verandermanagementrol",
-      "datum": "2026-07-22"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Adviseur Ruimtelijke Kaders / Beleidsadviseur Ruimtelijke Inpassing (JR14192)",
-      "reden": "Nieuw gevonden: vereist juridische achtergrond op het gebied van Ruimtelijke Ordening (Wabo/Ow) en minimaal 5 jaar ervaring in ruimtelijke ordening/energiesector; juridisch-regulerend van aard (vergelijkbaar met eerder afgekeurde Adviseur Regulering), geen energiemarkt- of beleidsstrategie op directieniveau",
-      "datum": "2026-07-22"
-    },
-    {
-      "bedrijf": "Vattenfall",
-      "titel": "Public and Regulatory Affairs Advisor (REF11181R)",
-      "reden": "Nieuw gevonden bij herzoeken op careers.vattenfall.com: inhoudelijk een sterke fit (energie-/klimaatbeleid, politieke en regulatoire stakeholders, lobbystrategie), maar vacature was al verlopen bij ontdekking (\"This vacancy has now expired\", deadline was 31 maart). 05-08 opnieuw rechtstreeks gecontroleerd (jid-50698): nog steeds \"This vacancy has now expired\", geen herplaatsing.",
-      "datum": "2026-07-31"
-    },
-    {
-      "bedrijf": "Vattenfall",
-      "titel": "Associate Strategy Advisor (REF9714Z)",
-      "reden": "Nieuw gevonden bij herzoeken op careers.vattenfall.com, maar te junior (2-3 jaar ervaring gevraagd) en al verlopen bij ontdekking (deadline 2 juli 2025). 05-08 opnieuw rechtstreeks gecontroleerd (jid-48838, zelfde REF9714Z): nog steeds \"this vacancy has now expired\", geen herplaatsing.",
-      "datum": "2026-07-31"
-    },
-    {
-      "bedrijf": "EBN",
-      "titel": "Portfoliomanager IT",
-      "reden": "Nieuw gevonden op werkenbijebn.recruitee.com, maar betreft een IT-portfoliomanagementrol (samenwerking met architecten, business-analyse voor IT), geen strategie- of beleidsadviesrol",
-      "datum": "2026-07-22"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Consultant innovatie & strategie (JR14828)",
-      "reden": "Nieuw gevonden via zoekopdracht, maar vacaturepagina geeft 404 (\"pagina niet gevonden\") — niet live",
-      "datum": "2026-07-24"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Kwartiermaker, Directeur Veranet (JR18468)",
-      "reden": "Nieuw gevonden, sterke inhoudelijke fit qua niveau (eindverantwoordelijke directeursrol, strategische koers IT-samenwerkingsorganisatie van de gezamenlijke netbeheerders), maar sluitingsdatum (5 mei 2026) is al ruim verstreken — vacature staat nog online maar reactietermijn is voorbij",
-      "datum": "2026-07-22"
-    },
-    {
-      "bedrijf": "Enexis",
-      "titel": "Business Consultant Strategie (12482)",
-      "reden": "Nieuw gevonden via zoekopdracht (onderdeel Strategy Office team), maar vacaturepagina toont foutmelding \"Momenteel kunnen we geen vacature details tonen\" — niet live. 05-08 opnieuw rechtstreeks gecontroleerd: ongewijzigd, geen herplaatsing.",
-      "datum": "2026-07-24"
-    },
-    {
-      "bedrijf": "NEa",
-      "titel": "Strategisch adviseur Hernieuwbare Energie / Senior Adviseur Hernieuwbare Energie (NEA-2026-8530 / NEA-2025-0011)",
-      "reden": "Nieuw gevonden via zoekopdracht, beide tonen bij bezoek \"vacature niet beschikbaar\" (reactietermijn verstreken) — niet live. 05-08 opnieuw rechtstreeks gecontroleerd (beide ID's): ongewijzigd, geen herplaatsing.",
-      "datum": "2026-08-04"
-    },
-    {
-      "bedrijf": "Stedin",
-      "titel": "Adviseur Portfolio en Strategische Sturing",
-      "reden": "Nieuw gevonden via zoekopdracht (advies over samenstelling en ontwikkeling changeportfolio System Operations), maar directe link toont \"algemene vacature fout\" — niet live. 13-08 opnieuw rechtstreeks gecontroleerd via nieuwe URL (adviseur-portfolio-en-strategische-sturing, ID 39696804992): \"Algemene vacature fout\", ongewijzigd, geen herplaatsing.",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Programma Manager Technische Bedrijfsschool (JR15249)",
-      "reden": "Nieuw gevonden en live geverifieerd, maar betreft leidinggevende/onderwijskundige rol voor het opleidingsportfolio van de Technische Bedrijfsschool (elektra distributie) — geen energiemarkt- of beleidsstrategie",
-      "datum": "2026-07-26"
-    },
-    {
-      "bedrijf": "Essent",
-      "titel": "Transformation Consultant (Strategy & Development)",
-      "reden": "Nieuw gevonden en live geverifieerd (Transformation & Performance Office, 's-Hertogenbosch, €5.067-€7.195, sloot 4 augustus), maar betreft organisatie-/verandermanagement (holistische bedrijfstransformaties, change management-frameworks), geen markt- of beleidsstrategie in de energiesector.",
-      "datum": "2026-07-31"
-    },
-    {
-      "bedrijf": "NEa",
-      "titel": "Adviseur verhandelbare emissierechten (NEA-2025-0005)",
-      "reden": "Nieuw gevonden via zoekopdracht, toont bij bezoek \"vacature niet beschikbaar\" (reactietermijn verstreken) — niet live",
-      "datum": "2026-07-26"
-    },
-    {
-      "bedrijf": "NEa",
-      "titel": "Adviseur CO2-Uitstoot (Luchtvaart, NEA-2023-0014)",
-      "reden": "Nieuw gevonden via zoekopdracht, toont bij bezoek \"vacature niet beschikbaar\" (reactietermijn ruim verstreken, betreft oude vacature uit 2023) — niet live. 05-08 opnieuw rechtstreeks gecontroleerd: ongewijzigd.",
-      "datum": "2026-07-26"
-    },
-    {
-      "bedrijf": "Eneco",
-      "titel": "Head of Strategy & Control / Strategic (Regional) Partner Manager (ID 2338 / ID 574)",
-      "reden": "Nieuw gevonden via WebSearch op 27-07 (Head of Strategy & Control leek inhoudelijk een sterke fit — vernieuwen overkoepelende strategie, beleidsdoelen vertalen naar oplossingen), maar beide tonen bij bezoek \"Waarschijnlijk is de pagina die je zocht niet meer beschikbaar\" — niet live.",
-      "datum": "2026-07-30"
-    },
-    {
-      "bedrijf": "Enexis",
-      "titel": "Adviseur Ruimtelijk Beleid en Energietransitie (13737) / Partner Energietransitie (10204, 12627) / Adviseur Mobiliteit (12690)",
-      "reden": "Nieuw gevonden via herzoeken op 27-07. Partner Energietransitie (10204) live gecontroleerd: \"Momenteel kunnen we geen vacature details tonen\" — niet live. Overige titels (Ruimtelijk Beleid, Mobiliteit, Partner Energietransitie Groningen/Drenthe) qua inhoud regionale gebiedsadviseursrollen (samenwerking gemeenten/provincies), geen senior markt-/beleidsstrategie op directieniveau — niet verder gecontroleerd, lage prioriteit fit. 04-08: Partner Energietransitie (10204) en Adviseur Ruimtelijk Beleid en Energietransitie (13737) opnieuw via WebSearch teruggevonden, ongewijzigd.",
-      "datum": "2026-08-04"
-    },
-    {
-      "bedrijf": "Vattenfall",
-      "titel": "Senior Transaction Manager (Onshore Wind, REF11517Z)",
-      "reden": "Nieuw gevonden via herzoeken op careers.vattenfall.com (Strategy and Transactions-team binnen Onshore Wind, leidt strategische partnerships/M&A-projecten en draagt bij aan de jaarlijkse strategie van de BU), maar vacature was al verlopen bij ontdekking (\"Deze vacature is inmiddels verlopen\", deadline was 26 maart); standplaats primair Stockholm/Hamburg/Londen/Hexham met Amsterdam als optie, en Finance/M&A-zwaarder dan pure markt-/beleidsstrategie.",
-      "datum": "2026-07-30"
-    },
-    {
-      "bedrijf": "Netbeheer Nederland",
-      "titel": "(geen specifieke vacature)",
-      "reden": "Actuele vacaturelijst (netbeheernederland.nl/werken-bij) toont doorlopend dezelfde ~5 vacatures: Programma Manager Weerbaarheid, Productmanager, Business Consultant/Project Coördinator Veiligheid en Kwaliteit en Infra, Open sollicitatie — geen senior strategie-/beleidsrol. Via WebSearch gevonden oudere titels die inhoudelijk sterk zouden passen (Beleidsadviseur Economie & Regelgeving, Beleidsadviseur Energietransitie, Adviseur Strategie & Beleid, Business Consultant(s) Energietransitie, Strategisch Communicatieadviseur) blijken bij bezoek allemaal verouderde nieuwsartikelen of ontoegankelijke pagina's — niet live. Blijft de moeite waard om dagelijks te blijven volgen: kleine organisatie (60 medewerkers) waar 'beleidsadviseur' al senior-niveau is qua inhoud. 13-08 overzichtspagina opnieuw rechtstreeks bekeken: zelfde 5 vacatures, geen nieuwe herplaatsing.",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Strategisch Communicatieadviseur Digitalisering (JR19006)",
-      "reden": "Nieuw gevonden en live geverifieerd, maar is communicatiestrategie voor het organisatieonderdeel Digitalisering (aansturen team communicatieadviseurs, framing/verhaal, sparringpartner bestuurder op communicatievlak) — geen energiemarkt- of beleidsstrategie, vergelijkbaar met eerder afgekeurde communicatie-adviesrollen (JR15228, JR13001). 04-08 opnieuw via WebSearch teruggevonden, ongewijzigd.",
-      "datum": "2026-08-04"
-    },
-    {
-      "bedrijf": "Alliander",
-      "titel": "Senior Strategie Consultant (JR11914)",
-      "reden": "Nieuw gevonden onder nieuwe vacature-ID — andere/herplaatste versie dan de eerder gearchiveerde 'Senior Strategie Consultant' (JR15035/JR14576/JR03974, 'positie vervuld'). Vraagt aantoonbare ervaring als Epic Owner of Productmanager plus Agile/SAFe-certificering; rol binnen Veranderteam Onderhoud & Storingen gericht op digitalisering/verandermanagement in de operatie, geen markt-/energiebeleidsstrategie op directieniveau — vergelijkbaar met eerder afgekeurde implementatie-/Netdigitalisering-rollen. 04-08 opnieuw via WebSearch teruggevonden, ongewijzigd.",
-      "datum": "2026-08-04"
-    },
-    {
-      "bedrijf": "Stedin",
-      "titel": "(geen specifieke vacature — volledige lijst doorzocht)",
-      "reden": "Domein gewijzigd van werkenbijstedin.net (structureel kapot, frame-/privacy-foutpagina) naar werkenbij.stedin.net — dit nieuwe domein werkt wél volledig: /vacatures-zoeken toont alle vacatures inline en is nu betrouwbaar te doorbladeren via de pijl-knop onderaan (de trefwoordfilter blijft overigens onbetrouwbaar, negeer die nog steeds). 04-08 alle 111 vacatures over 8 pagina's volledig doorgenomen — geen enkele senior strategie-/beleidsadviesrol op energiemarktniveau gevonden; wel bevestigd dat de eerder gearchiveerde titels (Senior Adviseur Corporate Strategie/Strategieontwikkeling; Adviseur Portfolio en Strategische Sturing) niet zijn teruggevonden onder deze of een andere titel. Vanaf nu te gebruiken als het reguliere Stedin-controlepunt i.p.v. 'notControlled'. 13-08: aanvullende WebSearch (strateeg/strategie/adviseur portfolio/beleidsadviseur) en directe herverificatie van de twee bekende titels — geen nieuwe senior strategie-/beleidsrol gevonden, lijst toont nu 110 vacatures. Pagina 1 (16 titels) rechtstreeks bekeken: geen nieuwe titels t.o.v. eerdere volledige doorbladering. Vakgebied-filter (Management/Staf & klantrelaties) blijkt nog steeds niet te werken.",
-      "datum": "2026-08-13"
-    },
-    {
-      "bedrijf": "Ministerie van Economische Zaken en Klimaat",
-      "titel": "Senior beleidsmedewerker energietransitie / Senior beleidsmedewerker-projectleider Duurzaam Gebruik Diepe Ondergrond (EZ-2026-8203)",
-      "reden": "Nieuw gevonden via WebSearch (werkenvoornederland.nl) en live geverifieerd (schaal 13, €5.353-€7.956, Den Haag, sluit 24 augustus). Inhoudelijk echter vergunningverlening/juridisch-ruimtelijk beleid voor de diepe ondergrond (aardwarmte, waterstofopslag, gaswinning) — vakgebied officieel 'Juridisch, Stedebouwkundig/ruimtelijke ordening, Natuur/milieu'. Dit is vergelijkbaar met eerder afgekeurde ruimtelijke-ordening/vergunningsrollen (Alliander Adviseur Ruimtelijke Kaders, TenneT RO&M) — geen markt-/energiebeleidsstrategie op directieniveau.",
-      "datum": "2026-08-05"
-    },
-    {
-      "bedrijf": "Essent",
-      "titel": "Consultant Market & Compliance",
-      "reden": "Nieuw gevonden en live geverifieerd (team Business Risk, 's-Hertogenbosch, €5.807-€8.253). Vertaalt nationale/Europese energiewet- en regelgeving naar interne processen, systemen en klantreizen en adviseert over compliance-risico's. Ondanks 'Market' in de titel is dit een regulatory-compliance-implementatierol (interpretatie en vertaling van regelgeving naar de organisatie), geen zelfstandige markt-/beleidsstrategieadviesrol op directieniveau — vergelijkbaar met eerder afgekeurde regulering/compliance-rollen (Alliander Adviseur Regulering). 13-08 herbevestigd nog steeds live op werkenbijessent.nl, ongewijzigd.",
-      "datum": "2026-08-13"
-    }
-  ],
-  "notControlled": []
+"lastUpdated": "2026-08-16T21:06:00+02:00",
+"lastCheckNote": "16 bronnen gecheckt (Stedin gedeeltelijk: paginering bleef herhaaldelijk op dezelfde pagina hangen ondanks meerdere pogingen via het paginanummerveld en de pijl-knop, ca. 6 van 8 pagina's vers doorgenomen deze run), 0 nieuwe matches toegevoegd aan active (1 nieuw gevonden kandidaat-vacature beoordeeld en gearchiveerd: geen live fit).",
+"active": [
+{
+"bedrijf": "Netbeheer Nederland",
+"titel": "Adviseur Economie en Regelgeving Energietransitie",
+"link": "https://netbeheernederland.recruitee.com/o/adviseur-economie-en-regelgeving-energie-transitie",
+"beschrijving": "Adviseur die op het snijvlak van energiebeleid, economie en techniek werkt aan de vormgeving van economische regulering van netbeheerders (o.a. het ACM-methodebesluit en de elektriciteitstariefherziening), met stakeholdermanagement richting ministeries, toezichthouders (ACM) en marktpartijen. Den Haag, hybride, 32-40 uur, €5.090-€7.891 bruto/mnd. Vacature staat doorlopend open. 16-08-2026 opnieuw rechtstreeks gecontroleerd: nog steeds live, ongewijzigd.",
+"fit": "Netbeheer Nederland is een kleine brancheorganisatie (~70 medewerkers) waar een 'adviseur'-rol functioneel al senior van aard is; deze rol combineert markt-/regelgevingsadvies over economische regulering van de energienetten met stakeholdermanagement richting ACM, ministeries en marktpartijen — sterke match met Arjens profiel van marktontwerp/beleidsadvies in de energiesector. Vraagt officieel 'slechts' 3 jaar ervaring, dus instapniveau qua formele eis is lager dan gebruikelijk, maar de inhoud (methodebesluiten, tariefdifferentiatie, projectmanager/regisseur-rollen combineren) is inhoudelijk senior.",
+"status": "Niet gesolliciteerd",
+"tags": [
+"energy",
+"policy",
+"regulation",
+"internal consultant"
+]
+}
+],
+"archive": [
+{
+"bedrijf": "Alliander",
+"titel": "Implementatie Consultant Strategie en Innovatie (JR14791)",
+"reden": "Nieuw gevonden via WebSearch (site:werkenbij.alliander.com), maar bij bezoek 404 (\"Helaas kunnen we de pagina die je zocht niet vinden\") op werkenbij.alliander.com — niet live.",
+"datum": "2026-08-16"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Strategy Deployment Consultant (JR09900)",
+"reden": "Nieuw gevonden via WebSearch (site:werkenbij.alliander.com), maar bij bezoek 404 (\"Helaas kunnen we de pagina die je zocht niet vinden\") op werkenbij.alliander.com — niet live.",
+"datum": "2026-08-15"
+},
+{
+"bedrijf": "Enexis",
+"titel": "Strategisch Adviseur Energietransitie (12778)",
+"reden": "Nieuw gevonden via WebSearch onder nieuw vacature-ID (t.o.v. eerder gearchiveerde 12180/13363), maar bij bezoek \"Momenteel kunnen we geen vacature details tonen\" — niet live.",
+"datum": "2026-08-15"
+},
+{
+"bedrijf": "Enexis",
+"titel": "Adviseur Sectorstrategie (8433)",
+"reden": "Nieuw gevonden via WebSearch onder nieuw vacature-ID (t.o.v. eerder gearchiveerde ID zonder nummer), maar bij bezoek \"Momenteel kunnen we geen vacature details tonen\" — niet live.",
+"datum": "2026-08-15"
+},
+{
+"bedrijf": "Gasunie",
+"titel": "Adviseur Business Development (130)",
+"reden": "Nieuw gevonden via WebSearch, maar bij bezoek 404 op werkenbijgasunie.nl — niet live.",
+"datum": "2026-08-15"
+},
+{
+"bedrijf": "Nederlandse Emissieautoriteit (NEa)",
+"titel": "Strategisch adviseur inkoop (NEA-2026-2968)",
+"reden": "Nieuw gevonden via WebSearch, maar bij bezoek \"vacature niet beschikbaar\" (reactietermijn verstreken) — niet live. Sowieso een zwakkere fit: inkoopstrategie, geen energiemarkt- of klimaatbeleid.",
+"datum": "2026-08-15"
+},
+{
+"bedrijf": "Ministerie van Economische Zaken en Klimaat",
+"titel": "Beleidsmedewerker netcongestie (beter benutten) (EZK-2026-4797)",
+"reden": "Nieuw gevonden via WebSearch naast de reeds gearchiveerde senior-variant (EZK-2026-5296), maar bij bezoek \"vacature niet beschikbaar\" (reactietermijn verstreken) — niet live.",
+"datum": "2026-08-15"
+},
+{
+"bedrijf": "Uniper",
+"titel": "(geen specifieke vacature)",
+"reden": "careers.uniper.energy toont 0 vacatures met het Netherlands-locatiefilter (rechtstreeks gecontroleerd via Chrome, JS-gerenderde pagina). Aanvullende WebSearch (site:careers.uniper.energy strategy/policy/government affairs/senior advisor) leverde alleen niet-NL-resultaten op (Düsseldorf, Parijs, Nottingham). Geen live NL-vacature van welke aard dan ook op dit moment. 16-08 opnieuw rechtstreeks gecontroleerd (0 Jobs met Netherlands-filter): ongewijzigd.",
+"datum": "2026-08-16"
+},
+{
+"bedrijf": "Enexis",
+"titel": "Senior business consultant end-to-end onderhoud en storingen (15142)",
+"reden": "Nieuw gevonden via WebSearch en live geverifieerd (Den Bosch, €4.953-€7.076/9.107 bruto, WO). Inhoudelijk overzicht houden op prestaties van de onderhoud- en storingenketen, procesverbetering en management adviseren over prioriteiten — operationeel proces-/ketenmanagement binnen Onderhoud & Storingen, geen markt- of energiebeleidsstrategie op directieniveau. Vergelijkbaar met eerder afgekeurde operationele business consultant-rollen.",
+"datum": "2026-08-14"
+},
+{
+"bedrijf": "Eneco",
+"titel": "Chief of Staff (CDO-organisatie, ID 1207164)",
+"reden": "Inhoudelijk een sterke fit qua rolprofiel (Chief of Staff-rollen tellen expliciet mee), rechterhand van de CDO en diens organisatie van ~200 medewerkers, leidt strategische planning. Bij bezoek echter 'pagina niet meer beschikbaar' — niet live, geen herplaatsing gevonden bij herzoeken. 16-08 opnieuw via WebSearch teruggevonden in de zoekindex en rechtstreeks herverifieerd: nog steeds \"pagina niet meer beschikbaar\", ongewijzigd. Blijft de moeite waard te volgen op een mogelijke herplaatsing.",
+"datum": "2026-08-16"
+},
+{
+"bedrijf": "TenneT",
+"titel": "Beleidsadviseur / Policy Advisor (Arnhem, ID 93682)",
+"reden": "Nieuw gevonden via WebSearch (site:werkenbijtennet.nl), maar bij bezoek 404 (\"Oops! The power's out... pagina bestaat niet meer\") op werkenbijtennet.nl — niet live.",
+"datum": "2026-08-13"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Consultant Congestiemanagement (JR13731)",
+"reden": "Nieuw gevonden via WebSearch, maar bij bezoek 404 (\"Helaas kunnen we de pagina die je zocht niet vinden\") op werkenbij.alliander.com — niet live.",
+"datum": "2026-08-13"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Beleidsadviseur Omgevingsmanagement (JR06414)",
+"reden": "Nieuw gevonden via WebSearch, maar bij bezoek 404 op werkenbij.alliander.com — niet live.",
+"datum": "2026-08-13"
+},
+{
+"bedrijf": "Gasunie",
+"titel": "Public & Regulatory Affairs Adviseur (vacature 208)",
+"reden": "Nieuw gevonden via WebSearch (werkenbijgasunie.nl/vacature/208), maar bij bezoek 404 — niet live.",
+"datum": "2026-08-13"
+},
+{
+"bedrijf": "Netbeheer Nederland",
+"titel": "Adviseur Strategie & Beleid",
+"reden": "Nieuw gevonden via WebSearch (netbeheernederland.nl/vacatures/adviseur-strategie-beleid-0), maar bij bezoek \"Page not found\" — verouderde geïndexeerde pagina, niet live. Actuele overzichtspagina (16-08) toont geen vergelijkbare titel, nog steeds dezelfde vacatures als voorheen.",
+"datum": "2026-08-13"
+},
+{
+"bedrijf": "NEa",
+"titel": "Adviseur registers en processen (hernieuwbare energie) (NEA-2026-1333)",
+"reden": "Nieuw gevonden via WebSearch, maar bij bezoek \"vacature niet beschikbaar\" (reactietermijn verstreken) — niet live.",
+"datum": "2026-08-13"
+},
+{
+"bedrijf": "NEa",
+"titel": "Adviseur Hernieuwbare Energie (NEA-2026-5635)",
+"reden": "Nieuw gevonden via WebSearch, maar bij bezoek \"vacature niet beschikbaar\" (reactietermijn verstreken) — niet live.",
+"datum": "2026-08-13"
+},
+{
+"bedrijf": "Ministerie van Economische Zaken en Klimaat",
+"titel": "Beleidsmedewerker energiesysteemanalyse (EZK-2026-1591)",
+"reden": "Nieuw gevonden en live geverifieerd (Directie Strategie Energiesysteem, DG Klimaat en Energie, Den Haag, sluit 24 augustus 2026), maar schaal 11 (€4.132-€6.275) — junior/medior analytische ondersteuningsrol (beoordelen externe systeemstudies, modelanalyses, data-validatie), geen zelfstandige senior strategie- of beleidsadviesrol op directieniveau.",
+"datum": "2026-08-13"
+},
+{
+"bedrijf": "Ministerie van Economische Zaken en Klimaat",
+"titel": "Senior beleidsmedewerker analyse duurzame energie-infrastructuur (EZ-2023-0094)",
+"reden": "Gevonden via WebSearch, maar bij bezoek \"vacature niet beschikbaar\" — verouderde, uit 2023 daterende vacature-ID, reactietermijn allang verstreken.",
+"datum": "2026-08-13"
+},
+{
+"bedrijf": "Eneco",
+"titel": "Strategy Analyst (Rotterdam, ID 2184)",
+"reden": "Gevonden via WebSearch, maar bij bezoek \"Waarschijnlijk is de pagina die je zocht niet meer beschikbaar\" — niet live. Enige actueel getagde 'Strategy'-vacature in de huidige lijst (54 vacatures, alle 6 pagina's doorgenomen) is de reeds gearchiveerde Specialist Duurzame Warmte.",
+"datum": "2026-08-13"
+},
+{
+"bedrijf": "Eneco",
+"titel": "Manager Strategy (Assets & Operations) (ID 1009148)",
+"reden": "Gevonden via WebSearch, maar bij bezoek \"Waarschijnlijk is de pagina die je zocht niet meer beschikbaar\" — niet live.",
+"datum": "2026-08-13"
+},
+{
+"bedrijf": "Enexis",
+"titel": "Adviseur Omgevingsparticipatie Warmtenetten (13911)",
+"reden": "Nieuw gevonden via zoekopdracht, maar vacaturepagina toont \"Momenteel kunnen we geen vacature details tonen\" — niet live.",
+"datum": "2026-08-13"
+},
+{
+"bedrijf": "Enexis",
+"titel": "Senior adviseur energietransitie (Venlo)",
+"reden": "Nieuw gevonden op werkenbij.enexis.nl (Staf & ondersteuning / Consultancy-categorie), live geverifieerd, maar HBO-niveau en een regionale stakeholderrol (verbindt Enexis met provincie/gemeenten/partners in Limburg, vertaalt plannen naar kansen voor het energiesysteem) — vergelijkbaar met eerder afgekeurde regionale gebiedsadviseursrollen (Partner Energietransitie e.d.), geen senior WO-niveau markt- of beleidsstrategie op directieniveau.",
+"datum": "2026-08-13"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Strategie Consultant Operatie (ODS, JR19034)",
+"reden": "Niet meer live: 08-08 rechtstreeks gecontroleerd, echte 404 (\"Helaas kunnen we de pagina die je zocht niet vinden\") op werkenbij.alliander.com — verdwenen ondanks de eerder gemelde deadline van 14 augustus. Arjen zat in de eerste sollicitatieronde na een informeel gesprek (status stond op 'Sollicitatie begonnen') — sollicitatiegeschiedenis blijft hiermee zichtbaar in het archief. Blijft de moeite waard te volgen op een mogelijke herplaatsing of op communicatie vanuit Alliander over het lopende sollicitatieproces.",
+"datum": "2026-08-08"
+},
+{
+"bedrijf": "Ministerie van Economische Zaken en Klimaat",
+"titel": "Coördinerend adviseur bij de Raad voor Energie (EZK-2026-6071)",
+"reden": "Handmatig door Arjen op de site gemarkeerd als 'Niet interessant'.",
+"datum": "2026-08-08"
+},
+{
+"bedrijf": "Netbeheer Nederland",
+"titel": "Project Coördinator EU Regelgeving en Public Affairs",
+"reden": "Nieuw gevonden (07-08-2026 geplaatst) op netbeheernederland.nl/werken-bij, live geverifieerd, maar is een ondersteunende coördinatorrol voor programmamanagers en beleidsadviseurs binnen team PACER (agendabeheer, actiepuntenbewaking, ondersteuning bij begroting/inkoop, notulen) — €3.902-€5.795 bruto/mnd (medior-niveau), geen zelfstandige senior strategie-/beleidsadviesrol.",
+"datum": "2026-08-08"
+},
+{
+"bedrijf": "Essent",
+"titel": "Senior Performance Coach",
+"reden": "Nieuw gevonden en live geverifieerd (Performance & Transformation Office, 's-Hertogenbosch, €5.807-€8.253, categorie 'Strategy & Development'), maar inhoudelijk een interne coachingsrol gericht op Agile/Lean/SAFe-verandermanagement en performancemanagement binnen IT- en Data-teams (coachen van Leadership Teams, verandertrajecten begeleiden) — organisatieontwikkeling/coaching, geen markt- of energiebeleidsstrategie. 16-08 opnieuw rechtstreeks gecontroleerd (volledige vacaturelijst, 17 vacatures): niet meer los in de lijst zichtbaar onder deze titel, blijft afgekeurd op inhoud zoals eerder vastgesteld.",
+"datum": "2026-08-16"
+},
+{
+"bedrijf": "Eneco",
+"titel": "Specialist Duurzame Warmte",
+"reden": "Nieuw gevonden en live geverifieerd (afdeling Heat Strategy & Control, Rotterdam, €83.000-€117.000 bruto/jaar, getagd als 'Strategy'), maar is een technisch-inhoudelijke duurzaamheidsexpert binnen de warmteketen (NTA 8800-normen, CO2-emissierapportages, warmte-etiketten, kwaliteitsverklaringen) — vereist WO energie-/techniek-/sustainability-achtergrond en 8+ jaar sectorervaring, geen generalistische markt- of beleidsstrategierol. 13-08 herbevestigd: dit is nog steeds de enige actieve vacature getagd 'Strategy' bij Eneco (van 54 vacatures, alle 6 pagina's doorgenomen).",
+"datum": "2026-08-13"
+},
+{
+"bedrijf": "Vattenfall",
+"titel": "Senior Business Excellence Advisor (Amsterdam, jid-50449)",
+"reden": "Nieuw gevonden via herzoeken op careers.vattenfall.com (Portfolio Strategy & Business Excellence-team), maar betreft document management en business-excellence/procesverbetering-projectmanagement binnen Solar & Batteries — geen markt- of energiebeleidsstrategie.",
+"datum": "2026-08-08"
+},
+{
+"bedrijf": "Gasunie",
+"titel": "Strategisch Communicatieadviseur",
+"reden": "Gevonden via WebSearch (werkenbijgasunie.nl/vacature/77/strategisch-communicatieadviseur), maar bij bezoek 404 — niet live. Vacaturelijst telt nog steeds slechts enkele resultaten, geen strategie-/beleidsrol op senior niveau.",
+"datum": "2026-08-08"
+},
+{
+"bedrijf": "Ministerie van Economische Zaken en Klimaat",
+"titel": "(Senior) Beleidsmedewerker netcongestie (beter benutten) (EZK-2026-5296)",
+"reden": "Gevonden via WebSearch, inhoudelijk een sterke fit qua onderwerp (netcongestie-oplossing, één van de grote energietransitie-vraagstukken), maar bij bezoek 'vacature niet beschikbaar' — reactietermijn al verstreken, niet live.",
+"datum": "2026-08-08"
+},
+{
+"bedrijf": "Ministerie van Economische Zaken en Klimaat",
+"titel": "Senior beleidsmedewerker/strateeg, DG Bedrijfsleven en Innovatie (EZ-2021-0186)",
+"reden": "Verouderde, nog geïndexeerde vacature uit 2021 (herkenbaar aan het vacature-ID); bij bezoek 'vacature niet beschikbaar' — niet live.",
+"datum": "2026-08-08"
+},
+{
+"bedrijf": "Stedin",
+"titel": "Beleidsadviseur Bedrijfsvoering",
+"reden": "Gevonden via WebSearch, maar bij bezoek 'Algemene vacature fout' — niet live (verouderde geïndexeerde link).",
+"datum": "2026-08-08"
+},
+{
+"bedrijf": "Stedin",
+"titel": "Adviseur Innovatie",
+"reden": "Gevonden via WebSearch, maar bij bezoek 'Algemene vacature fout' — niet live (verouderde geïndexeerde link).",
+"datum": "2026-08-08"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Business Consultant, System Operations (JR17380)",
+"reden": "Niet meer live: 07-08 rechtstreeks gecontroleerd, echte 404 (\"Helaas kunnen we de pagina die je zocht niet vinden\") op werkenbij.alliander.com. Was tot en met 05-08 nog live en was een sterke inhoudelijke match (sparringpartner directeur System Operations) — blijft de moeite waard om te blijven volgen op een mogelijke herplaatsing.",
+"datum": "2026-08-07"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Management Consultant, Strategisch Resource Management (JR15925)",
+"reden": "Niet meer live: 07-08 rechtstreeks gecontroleerd, echte 404 op werkenbij.alliander.com. Was tot en met 05-08 nog live en een sterke inhoudelijke match (rechterhand directeur SRM) — blijft de moeite waard om te blijven volgen op een mogelijke herplaatsing.",
+"datum": "2026-08-07"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Senior Consultant Strategische Verkenningen (JR14752)",
+"reden": "Niet meer live: 07-08 rechtstreeks gecontroleerd, echte 404 op werkenbij.alliander.com. Was tot en met 05-08 nog live en een sterke inhoudelijke match (senior klantstrateeg, sparringpartner Liander-directie) — blijft de moeite waard om te blijven volgen op een mogelijke herplaatsing.",
+"datum": "2026-08-07"
+},
+{
+"bedrijf": "Ministerie van Economische Zaken en Klimaat",
+"titel": "Adviseur bij de Raad voor Energie (EZK-2026-3108)",
+"reden": "Nieuw gevonden op 07-08 naast de gearchiveerde 'Coördinerend adviseur'-variant (zie active), maar dit is de instapvariant binnen hetzelfde team: schaal 11 (vs. schaal 13 voor coördinerend), geen projectleiderschap of coördinatie van teams vereist, gerichtop het voorbereiden van analyses en schrijven van teksten in plaats van het zelfstandig leiden van adviestrajecten — te weinig senior voor Arjens profiel. Reageren voor 10 augustus 2026.",
+"datum": "2026-08-07"
+},
+{
+"bedrijf": "TenneT",
+"titel": "Senior adviseur grondzaken Area West (ID 95105)",
+"reden": "Nieuw gevonden via WebSearch (site:werkenbijtennet.nl), live geverifieerd, maar betreft grondzaken/privaatrechtelijke advisering (onderhandelen met grondeigenaren, opstellen van zakelijke rechtovereenkomsten en schadevergoedingen voor netinfrastructuur) — operationeel/juridisch van aard, geen markt- of energiebeleidsstrategie.",
+"datum": "2026-08-07"
+},
+{
+"bedrijf": "TenneT",
+"titel": "Adviseur grondzaken Gelderland, Noord-Brabant, Limburg (ID 91003)",
+"reden": "Nieuw gevonden via WebSearch (site:werkenbijtennet.nl), zelfde categorie als de Area West-variant: grondzaken/privaatrechtelijke advisering, geen markt- of energiebeleidsstrategie.",
+"datum": "2026-08-07"
+},
+{
+"bedrijf": "RWE",
+"titel": "Hydrogen Strategy Manager (Geertruidenberg, 4931-NC)",
+"reden": "Nieuw gevonden via WebSearch, maar bij bezoek \"De vacature is offline\" — niet live. Zou anders een interessante fit zijn geweest (strategierol i.p.v. de gebruikelijke operationele/technische RWE-vacatures) — blijft de moeite waard om te blijven volgen op een herplaatsing. 16-08 NL-lijst (jobs.rwe.com, 14 resultaten) opnieuw rechtstreeks gecontroleerd: geen herplaatsing, nog steeds alleen operationele/technische en supply chain-rollen.",
+"datum": "2026-08-16"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Veranderconsultant, Strategisch Resource Management (JR14701)",
+"reden": "Handmatig door Arjen op de site gemarkeerd als 'Niet interessant'.",
+"datum": "2026-08-04"
+},
+{
+"bedrijf": "TenneT",
+"titel": "Offshore Development Specialist (32-40 uur, ID 114708)",
+"reden": "Handmatig door Arjen op de site gemarkeerd als 'Afgewezen'.",
+"datum": "2026-08-04"
+},
+{
+"bedrijf": "ACM",
+"titel": "Senior (Missiegedreven) Toezichthouder Energiemarkt",
+"reden": "Wederom niet meer live (404 op acm.nl, jobId 74958-link). Actuele ACM-vacaturelijst (16-08) toont nog steeds dezelfde 5 vacatures als voorheen: Lead Business Intelligence, Enterprise Architect, Senior Jurist Digitale Consumentenbescherming, Customer Experience Specialist - Service designer en Toezichthouder Energiemarkt (te junior, al eerder afgekeurd) — de senior-variant is dus zeer kort (±4 dagen) live geweest en alweer verdwenen. WebSearch (16-08) toont nog wel oudere index-resultaten voor \"Senior Strateeg\" en \"Portfolio Coördinator Directie Toezicht Energie\" bij ACM, maar deze staan niet in de actuele live vacaturelijst — stale zoekresultaten, niet live. Blijft de moeite waard te blijven volgen op een volgende herplaatsing.",
+"datum": "2026-08-16"
+},
+{
+"bedrijf": "Vattenfall",
+"titel": "(Senior) Project Manager - Strategic Projects (Offshore Wind, REF12440H)",
+"reden": "Arjen heeft hierop gesolliciteerd en is afgewezen. Ook niet meer live (verlopen); sluitingsdatum was 29 juli 2026, 30-07 rechtstreeks herverifieerd op careers.vattenfall.com: 'Deze vacature is inmiddels verlopen'. 04-08 opnieuw rechtstreeks gecontroleerd (jid-52212): nog steeds 'verlopen', ongewijzigd. Sollicitatiegeschiedenis blijft hiermee zichtbaar in het archief.",
+"datum": "2026-08-04"
+},
+{
+"bedrijf": "Vattenfall",
+"titel": "Climate Strategy Analyst (REF9678J)",
+"reden": "Nieuw gevonden via herzoeken op careers.vattenfall.com (jid-48760), maar niet live ('this vacancy has now expired', reactietermijn was 17 juni 2025) en sowieso een zwakke fit: tijdelijke functie (1 jaar, vervanging zwangerschapsverlof) gericht op klimaatdata/CSRD-rapportage binnen Strategic Development, geen markt- of beleidsstrategie op senior niveau.",
+"datum": "2026-08-04"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Adviseur Arbeidsverhoudingen (JR15191)",
+"reden": "Nieuw gevonden via WebSearch, maar betreft HR/arbeidsverhoudingen (medezeggenschap, coaching van HR-collega's en business stakeholders), geen energiemarkt- of beleidsstrategie",
+"datum": "2026-07-30"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Adviseur Regulering (JR17482)",
+"reden": "Handmatig afgekeurd door Arjen: mist de vereiste juridische achtergrond voor deze rol (juridische/beleidsmatige vertaling van de Energiewet naar netbeheer)",
+"datum": "2026-07-21"
+},
+{
+"bedrijf": "ACM",
+"titel": "Senior Strateeg, Directie Toezicht Energie",
+"reden": "Niet meer live (was een goede match qua inhoud); herverifieerd op zowel acm.nl (404) als op werkenvoornederland.nl onder een nieuwe vacature-ID (ACM-2026-5869) — ook daar reactietermijn verstreken. De opvolger 'Senior (Missiegedreven) Toezichthouder Energiemarkt' is inmiddels zelf ook twee keer verschenen en weer verdwenen (zie apart archiefitem) — deze specifieke titel/ID zelf niet teruggevonden.",
+"datum": "2026-07-31"
+},
+{
+"bedrijf": "Stedin",
+"titel": "Senior Adviseur Corporate Strategie/Strategieontwikkeling",
+"reden": "Niet meer live; herverifieerd via handmatige doorbladering van alle 8 pagina's op werkenbij.stedin.net/vacatures-zoeken — geen vergelijkbare titel teruggevonden. 13-08 opnieuw rechtstreeks gecontroleerd via nieuwe URL (sr-adviseur-corporate-strategie, ID 36205503232): \"Algemene vacature fout\", nog steeds niet live, geen herplaatsing.",
+"datum": "2026-08-13"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Strategie Consultant Operatie (ODS)",
+"reden": "Niet meer live op moment van eerste check — later opnieuw geplaatst onder JR19034, zie 'active'",
+"datum": "2026-07-15"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Programmamanager Strategie en Innovatie (JR10898)",
+"reden": "Handmatig afgekeurd door Arjen: eist 10 jaar ervaring waarvan 5 jaar aantoonbaar als programmamanager of epic owner — die ervaring is (nog) niet hard te maken",
+"datum": "2026-07-16"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Senior Strategie Consultant",
+"reden": "Niet meer live (\"positie vervuld\"); herverifieerd via zoekopdracht=strategie op werkenbij.alliander.com — niet teruggevonden onder deze of andere titel. Ook onder oudere ID's JR15035, JR14576 en JR03974 herverifieerd: alle drie tonen 404/\"pagina niet gevonden\". Wel een nieuwe, andere 'Senior Strategie Consultant' gevonden onder JR11914 — zie apart archiefitem, inhoudelijk afgekeurd.",
+"datum": "2026-07-31"
+},
+{
+"bedrijf": "Enexis",
+"titel": "Adviseur Sectorstrategie",
+"reden": "Niet meer live (verlopen); herverifieerd, vacaturepagina toont nu foutmelding \"kunnen we geen vacature details tonen\" en titel komt niet meer voor in de actuele Enexis-vacaturelijst. 04-08 opnieuw via WebSearch gecontroleerd: niet teruggevonden, geen herplaatsing.",
+"datum": "2026-08-04"
+},
+{
+"bedrijf": "Enexis",
+"titel": "Strategisch Adviseur Energietransitie",
+"reden": "Niet meer live (verlopen); herverifieerd via directe link (ID 12180) — zelfde foutmelding \"kunnen we geen vacature details tonen\". Ook ID 13363 (identieke titel) opnieuw gecontroleerd: nog steeds \"Momenteel kunnen we geen vacature details tonen\". 05-08 opnieuw rechtstreeks gecontroleerd (ID 13363): ongewijzigd, geen herplaatsing.",
+"datum": "2026-08-04"
+},
+{
+"bedrijf": "Gasunie",
+"titel": "Strateeg in de energietransitie",
+"reden": "Niet meer live (404, herverifieerd op werkenbijgasunie.nl/vacature/57/... — echte 404-pagina); huidige Gasunie-vacaturelijst bevat nog steeds geen strategie-/beleidsrol op senior niveau. 05-08 opnieuw rechtstreeks bezocht (/vacature/57/): nog steeds 404, geen herplaatsing.",
+"datum": "2026-08-04"
+},
+{
+"bedrijf": "Eneco",
+"titel": "Senior Strategy Advisor",
+"reden": "Niet meer live (pagina niet meer beschikbaar, herverifieerd); ook geen \"Strategy\"-vakgebied meer aanwezig in de huidige Eneco-vacaturelijst. Nieuwe titel \"Strategy Advisor\" (ID 1131674) en \"Senior Strategy Advisor\" (Rotterdam, ID 2183) via WebSearch gevonden — beide tonen bij bezoek \"pagina niet meer beschikbaar\", niet live. Ook \"Head of Strategy & Control\" (ID 2338) en \"Strategic (Regional) Partner Manager\" (ID 574) gecontroleerd: niet live. 05-08 opnieuw rechtstreeks gecontroleerd (ID 1131674): \"Waarschijnlijk is de pagina die je zocht niet meer beschikbaar\", ongewijzigd, geen herplaatsing.",
+"datum": "2026-08-04"
+},
+{
+"bedrijf": "Vattenfall",
+"titel": "Senior Strategy Advisor (Offshore Wind, Amsterdam)",
+"reden": "Niet meer live (verlopen); herverifieerd via careers.vattenfall.com zoekopdracht \"strategy\" (24 NL-resultaten, beide pagina's doorgenomen) — niet teruggevonden",
+"datum": "2026-07-25"
+},
+{
+"bedrijf": "Vattenfall",
+"titel": "Strategy Advisor in Offshore Wind (Hamburg-variant)",
+"reden": "Niet meer live (verlopen, ook niet NL). 30-07 herzoeken (careers.vattenfall.com, \"strategy\", 27 resultaten over 3 pagina's): geen NL-herplaatsing gevonden.",
+"datum": "2026-07-15"
+},
+{
+"bedrijf": "Vattenfall",
+"titel": "Senior Strategy Advisor (BU Wind, REF11967J)",
+"reden": "Niet meer live: pagina toont expliciet \"deze vacature is inmiddels verlopen\" (herverifieerd, jid-51761). 05-08 opnieuw rechtstreeks gecontroleerd (jid-51761): nog steeds 'verlopen', ongewijzigd, geen herplaatsing.",
+"datum": "2026-08-04"
+},
+{
+"bedrijf": "Enexis",
+"titel": "Strategisch Adviseur Organisatieontwikkeling",
+"reden": "Sluitingsdatum verstreken vóór check (deadline 8 juli) + zwakkere fit (HR/organisatieontwerp i.p.v. energiemarkt-strategie); herverifieerd via directe link (ID 15517) — zelfde foutmelding als voorheen. 05-08 opnieuw rechtstreeks gecontroleerd (ID 15517): ongewijzigd, blijft afgekeurd op inhoud, sluitingsdatum reeds verstreken.",
+"datum": "2026-08-04"
+},
+{
+"bedrijf": "EBN",
+"titel": "Public Affairs Advisor",
+"reden": "Niet meer live: pagina toont \"we konden deze vacature niet vinden\"; herverifieerd, ook herplaatsing op werkenbijebn.recruitee.com niet gevonden. 16-08 opnieuw rechtstreeks gecontroleerd (werkenbijebn.recruitee.com): homepage toont alleen nog 'Open Sollicitatie' als optie, geen herplaatsing.",
+"datum": "2026-08-16"
+},
+{
+"bedrijf": "TenneT",
+"titel": "Strategy Advisor (Arnhem/Bayreuth/Lehrte)",
+"reden": "Arjen heeft hierop gesolliciteerd en is afgewezen. Ook niet meer live (opnieuw geverifieerd op het juiste domein werkenbijtennet.nl, echte 404; eerdere check gebruikte per abuis careers.tennet.eu). 04-08 opnieuw via WebSearch (site:werkenbijtennet.nl) gecontroleerd: geen herplaatsing.",
+"datum": "2026-08-04"
+},
+{
+"bedrijf": "TenneT",
+"titel": "Strategisch Adviseur Ruimtelijke Ordening & Milieu",
+"reden": "Niet meer live (opnieuw geverifieerd op werkenbijtennet.nl, echte 404, o.a. ID's 93199, 93206, 95173); huidige RO&M-adviseursvacatures bij TenneT zijn regionale, operationeel/juridisch gerichte functies binnen een team van ~28 adviseurs, geen senior strategische functie. 05-08 opnieuw via WebSearch gecontroleerd (ID's 93199 en 93206 komen nog voor als regionale RO&M-adviseursrollen, inhoudelijk ongewijzigd): geen herplaatsing.",
+"datum": "2026-08-04"
+},
+{
+"bedrijf": "EBN",
+"titel": "Senior Strateeg",
+"reden": "Handmatig afgekeurd: vereist 15+ jaar ervaring in de energiemarkt, gas/CCS/warmte-georiënteerd",
+"datum": "2026-07-15"
+},
+{
+"bedrijf": "ACM",
+"titel": "Senior Technisch Expert Energie",
+"reden": "Handmatig afgekeurd: puur technisch (warmtenetten), geen strategie",
+"datum": "2026-07-15"
+},
+{
+"bedrijf": "ACM",
+"titel": "Toezichthouder Energiemarkt",
+"reden": "Handmatig afgekeurd: handhaving/inspecteursniveau, te junior. 16-08: nog steeds live op acm.nl, ongewijzigd, blijft afgekeurd op inhoud.",
+"datum": "2026-08-16"
+},
+{
+"bedrijf": "ACM",
+"titel": "Manager Finance & Control",
+"reden": "Handmatig afgekeurd: geen energie-inhoud, interne kandidaat al beschikbaar",
+"datum": "2026-07-15"
+},
+{
+"bedrijf": "ACM",
+"titel": "Senior Jurist Digitale Consumentenbescherming",
+"reden": "Handmatig afgekeurd: juridisch, digitale economie, geen energie/strategie",
+"datum": "2026-07-15"
+},
+{
+"bedrijf": "ACM",
+"titel": "Toezichthouder Handhaving Digitale Economie",
+"reden": "Handmatig afgekeurd: telecom/platformregulering, geen energie",
+"datum": "2026-07-15"
+},
+{
+"bedrijf": "ACM",
+"titel": "Strategisch Directiesecretaris - Taskforce Data en Algoritmen",
+"reden": "Nieuw gevonden op acm.nl (jobId 75039), maar inhoudelijk een secretariële/PMO-ondersteuningsrol voor het MT van de Taskforce Data en Algoritmen (agendabeheer, notulen, werkplancyclus, coördinatie) — ondanks 'strategisch' in de titel geen zelfstandige energiemarkt-strategie- of beleidsadviesrol; vakgebied officieel 'Juridisch, Administratief/secretarieel'. Sollicitatietermijn liep bovendien af op de dag van vinden (31-07).",
+"datum": "2026-07-31"
+},
+{
+"bedrijf": "TotalEnergies",
+"titel": "(geen specifieke vacature)",
+"reden": "Uitgesloten op waarden-criterium: olieleveranties aan Israël + langdurig aangehouden Russische belangen",
+"datum": "2026-07-15"
+},
+{
+"bedrijf": "Stedin",
+"titel": "Strategisch Projectleider Investeringsplan",
+"reden": "Handmatig afgekeurd: projectleiderschap binnen Asset Management, geen strategie-adviesrol op directie-/beleidsniveau; nog steeds actueel op werkenbij.stedin.net, blijft afgekeurd op inhoud. 28-07 opnieuw teruggevonden tijdens volledige doorbladering (109 vacatures) — ongewijzigde conclusie",
+"datum": "2026-07-28"
+},
+{
+"bedrijf": "RWE",
+"titel": "(geen specifieke vacature)",
+"reden": "Huidige NL-vacatures zijn allemaal engineering/onderhoud/beveiliging-operationeel (o.a. Maintenance Coördinator, Discipline Engineer Electrical, Operations Engineer Offshore Wind, Security Officer OT) en supply chain management; geen strategie/advies op senior niveau. 16-08 NL-lijst op jobs.rwe.com opnieuw doorgenomen (14 resultaten): nog steeds geen live strategie-/beleidsrol.",
+"datum": "2026-08-16"
+},
+{
+"bedrijf": "Ørsted",
+"titel": "(geen specifieke vacature)",
+"reden": "NL-vestiging toont wisselend 0-1 openstaande vacature(s); zichtbare vakgebieden met open posities zijn Facilities, Finance & controlling, HR, IT & digital en Marketing — geen Strategy and business development of Public affairs/regulatory/legal. 16-08 opnieuw rechtstreeks gecontroleerd (orsted.com/en/careers/locations/netherlands): 1 vacature zichtbaar, dezelfde 5 vakgebieden, ongewijzigde conclusie.",
+"datum": "2026-08-16"
+},
+{
+"bedrijf": "TenneT",
+"titel": "Policy Advisor (Grid Security)",
+"reden": "Handmatig afgekeurd: vereist afgeronde technische WO-opleiding (elektro-/energietechniek) + 5 jaar ervaring in congestiemanagement/netcodes; technisch-inhoudelijk in plaats van generalistisch strategie-advies. Deze vacature (ID 103090) staat inmiddels herplaatst onder de titel \"Beleidsmedewerker congestie management\"/\"Policy Advisor\" met identieke, nog steeds technische eisen. 04-08 opnieuw via WebSearch teruggevonden (ID 103090, ongewijzigd), blijft afgekeurd op inhoud.",
+"datum": "2026-08-04"
+},
+{
+"bedrijf": "TenneT",
+"titel": "Power System Insulation Coordination Strategist",
+"reden": "Handmatig afgekeurd: \"strategist\" in titel is misleidend — vereist Master/PhD Elektrotechniek en ervaring met PSCAD/DIgSILENT, is een diep-technische engineeringrol",
+"datum": "2026-07-15"
+},
+{
+"bedrijf": "NEa",
+"titel": "Senior Strategisch Adviseur Toezicht en Marktontwikkelingen",
+"reden": "Niet meer live (verlopen); herverifieerd, ook een gelijknamige vacature onder ID NEA-2026-8530 toont \"vacature niet beschikbaar\" — deze ID staat inmiddels (opnieuw) geïndexeerd onder de titel \"Strategisch adviseur Hernieuwbare Energie\", maar ook die versie toont bij bezoek \"vacature niet beschikbaar\". 08-08 opnieuw rechtstreeks gecontroleerd (NEA-2026-8530): ongewijzigd, geen herplaatsing.",
+"datum": "2026-08-08"
+},
+{
+"bedrijf": "NEa",
+"titel": "Strateeg Toezicht en Handhaving voor Duurzame Nalevingsstrategieën",
+"reden": "Niet meer live (verlopen), herverifieerd onder ID NEA-2024-0023: \"vacature niet beschikbaar\". 05-08 opnieuw rechtstreeks gecontroleerd (zelfde ID): ongewijzigd, geen herplaatsing.",
+"datum": "2026-08-04"
+},
+{
+"bedrijf": "NEa",
+"titel": "Afdelingshoofd Emissiehandel",
+"reden": "Niet meer live (verlopen), herverifieerd onder ID NEA-2026-9168: nog steeds \"vacature niet beschikbaar\". 05-08 opnieuw rechtstreeks gecontroleerd (zelfde ID): ongewijzigd, geen herplaatsing.",
+"datum": "2026-08-04"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Senior Beleidsadviseur (JR01177)",
+"reden": "Niet meer live (404 — pagina bestaat niet meer); herverifieerd, nog steeds 404/\"pagina niet gevonden\"",
+"datum": "2026-07-22"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Portfolio Strategie Consultant (JR13780)",
+"reden": "Handmatig afgekeurd: vereist aantoonbare ervaring als Portfolio EpicOwner of Productmanager plus SAFe/Agile-vaardigheden — operationeel portfoliomanagement voor Grote Werkpakketten (netuitbreiding), geen markt-/energiebeleidsstrategie",
+"datum": "2026-07-17"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Business Partner/Strategisch Adviseur Marketing & Communicatie (JR15228)",
+"reden": "Handmatig afgekeurd: marketing- en communicatiestrategie, geen energiemarkt-/beleidsstrategie",
+"datum": "2026-07-17"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Business Partner VMK (veiligheid, milieu en kwaliteit)",
+"reden": "Handmatig afgekeurd: advies over veiligheid/milieu/kwaliteit, geen energiemarktbeleid of -strategie",
+"datum": "2026-07-17"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Senior Strategie Consultant / Senior Business Consultant Netdigitalisering (JR15035)",
+"reden": "Niet meer live in de praktijk: vacaturepagina toont een allang verstreken sluitingsdatum (31-08-2025) en betreft inhoudelijk een technische OT/IT-infrastructuurrol (Meet- en Regelstrategie). 05-08 opnieuw rechtstreeks gecontroleerd: pagina laadt nog wel maar sluitingsdatum en inhoud ongewijzigd, blijft afgekeurd/niet actueel.",
+"datum": "2026-07-31"
+},
+{
+"bedrijf": "Vattenfall",
+"titel": "Senior Strategisch Adviseur Customers NL",
+"reden": "Niet meer live (\"vacancy has now expired\"); ook zwakkere fit — klant-/marketingstrategie voor B2B in plaats van energiemarktontwerp of -beleid. 04-08 opnieuw via WebSearch teruggevonden (jid-49921, zelfde REF): nog steeds bekend in de index maar niet live, geen herplaatsing.",
+"datum": "2026-08-04"
+},
+{
+"bedrijf": "Vattenfall",
+"titel": "Strategy Advisor BA Heat",
+"reden": "Niet meer live (\"niet meer vacant\"). Eerder gezien als Duitse posting (careers.vattenfall.com/de/stellen/strategy-advisor-ba-heat/), geen NL-vacature, blijft gearchiveerd.",
+"datum": "2026-07-31"
+},
+{
+"bedrijf": "TenneT",
+"titel": "Program Manager Capacity Remuneration Mechanism (CRM)",
+"reden": "Niet meer live (404, ID 113970, herverifieerd op werkenbijtennet.nl). Arjen had hier al op gesolliciteerd — sollicitatiegeschiedenis blijft hiermee zichtbaar in het archief. Geen herplaatsing gevonden bij herzoeken",
+"datum": "2026-07-22"
+},
+{
+"bedrijf": "TenneT",
+"titel": "Electricity Market Analyst (ID 113732)",
+"reden": "Nieuw gevonden, maar te kwantitatief/technisch: vereist master/PhD in economics/engineering/mathematics, programmeervaardigheden (Python) en marktsimulatiesoftware (PLEXOS/BID3/Antares); schaal 8/9 is medior-niveau, geen senior strategie-adviesrol",
+"datum": "2026-07-21"
+},
+{
+"bedrijf": "TenneT",
+"titel": "Programma Manager – Security (ID 115585)",
+"reden": "Nieuw gevonden: operationeel programmamanagement voor het hardenen van assets/cybersecurity binnen Onshore, vereist AIVD-B screening. Governance/uitvoering-zwaar in plaats van markt-/beleidsstrategie",
+"datum": "2026-07-21"
+},
+{
+"bedrijf": "Vattenfall",
+"titel": "Senior Strategisch Adviseur Heat NL (REF9874K)",
+"reden": "Verlopen (sluitingsdatum was 16 juli). Sterke inhoudelijke fit (senior strateeg energiemarkt/BU Heat, WO + 5 jaar strategische ervaring) — blijft de moeite waard om te blijven checken. 04-08 opnieuw via WebSearch gecontroleerd (jid-48954): geen herplaatsing.",
+"datum": "2026-08-04"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Senior Business Consultant (JR14426)",
+"reden": "Nieuw gevonden, maar operationele rol binnen het veranderteam Onderhoud & Storingen (Product Owner-achtige functie, Agile/Scrum-omgeving); vertaalt organisatiebehoeften naar digitale verbeterprojecten, geen energiemarkt- of beleidsstrategie op directieniveau — vergelijkbaar met eerder afgekeurde Netdigitalisering- en Portfolio Strategie-rollen",
+"datum": "2026-07-22"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Strategisch Consultant Transformatie (JR16999)",
+"reden": "Handmatig afgekeurd door Arjen: mist de vereiste minimaal 8 jaar aantoonbare ervaring in een vergelijkbare transformatie-/verandermanagementrol",
+"datum": "2026-07-22"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Adviseur Ruimtelijke Kaders / Beleidsadviseur Ruimtelijke Inpassing (JR14192)",
+"reden": "Nieuw gevonden: vereist juridische achtergrond op het gebied van Ruimtelijke Ordening (Wabo/Ow) en minimaal 5 jaar ervaring in ruimtelijke ordening/energiesector; juridisch-regulerend van aard (vergelijkbaar met eerder afgekeurde Adviseur Regulering), geen energiemarkt- of beleidsstrategie op directieniveau",
+"datum": "2026-07-22"
+},
+{
+"bedrijf": "Vattenfall",
+"titel": "Public and Regulatory Affairs Advisor (REF11181R)",
+"reden": "Nieuw gevonden bij herzoeken op careers.vattenfall.com: inhoudelijk een sterke fit (energie-/klimaatbeleid, politieke en regulatoire stakeholders, lobbystrategie), maar vacature was al verlopen bij ontdekking (\"This vacancy has now expired\", deadline was 31 maart). 05-08 opnieuw rechtstreeks gecontroleerd (jid-50698): nog steeds \"This vacancy has now expired\", geen herplaatsing.",
+"datum": "2026-07-31"
+},
+{
+"bedrijf": "Vattenfall",
+"titel": "Associate Strategy Advisor (REF9714Z)",
+"reden": "Nieuw gevonden bij herzoeken op careers.vattenfall.com, maar te junior (2-3 jaar ervaring gevraagd) en al verlopen bij ontdekking (deadline 2 juli 2025). 05-08 opnieuw rechtstreeks gecontroleerd (jid-48838, zelfde REF9714Z): nog steeds \"this vacancy has now expired\", geen herplaatsing.",
+"datum": "2026-07-31"
+},
+{
+"bedrijf": "EBN",
+"titel": "Portfoliomanager IT",
+"reden": "Nieuw gevonden op werkenbijebn.recruitee.com, maar betreft een IT-portfoliomanagementrol (samenwerking met architecten, business-analyse voor IT), geen strategie- of beleidsadviesrol",
+"datum": "2026-07-22"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Consultant innovatie & strategie (JR14828)",
+"reden": "Nieuw gevonden via zoekopdracht, maar vacaturepagina geeft 404 (\"pagina niet gevonden\") — niet live",
+"datum": "2026-07-24"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Kwartiermaker, Directeur Veranet (JR18468)",
+"reden": "Nieuw gevonden, sterke inhoudelijke fit qua niveau (eindverantwoordelijke directeursrol, strategische koers IT-samenwerkingsorganisatie van de gezamenlijke netbeheerders), maar sluitingsdatum (5 mei 2026) is al ruim verstreken — vacature staat nog online maar reactietermijn is voorbij",
+"datum": "2026-07-22"
+},
+{
+"bedrijf": "Enexis",
+"titel": "Business Consultant Strategie (12482)",
+"reden": "Nieuw gevonden via zoekopdracht (onderdeel Strategy Office team), maar vacaturepagina toont foutmelding \"Momenteel kunnen we geen vacature details tonen\" — niet live. 05-08 opnieuw rechtstreeks gecontroleerd: ongewijzigd, geen herplaatsing.",
+"datum": "2026-07-24"
+},
+{
+"bedrijf": "NEa",
+"titel": "Strategisch adviseur Hernieuwbare Energie / Senior Adviseur Hernieuwbare Energie (NEA-2026-8530 / NEA-2025-0011)",
+"reden": "Nieuw gevonden via zoekopdracht, beide tonen bij bezoek \"vacature niet beschikbaar\" (reactietermijn verstreken) — niet live. 05-08 opnieuw rechtstreeks gecontroleerd (beide ID's): ongewijzigd, geen herplaatsing.",
+"datum": "2026-08-04"
+},
+{
+"bedrijf": "Stedin",
+"titel": "Adviseur Portfolio en Strategische Sturing",
+"reden": "Nieuw gevonden via zoekopdracht (advies over samenstelling en ontwikkeling changeportfolio System Operations), maar directe link toont \"algemene vacature fout\" — niet live. 13-08 opnieuw rechtstreeks gecontroleerd via nieuwe URL (adviseur-portfolio-en-strategische-sturing, ID 39696804992): \"Algemene vacature fout\", ongewijzigd, geen herplaatsing.",
+"datum": "2026-08-13"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Programma Manager Technische Bedrijfsschool (JR15249)",
+"reden": "Nieuw gevonden en live geverifieerd, maar betreft leidinggevende/onderwijskundige rol voor het opleidingsportfolio van de Technische Bedrijfsschool (elektra distributie) — geen energiemarkt- of beleidsstrategie",
+"datum": "2026-07-26"
+},
+{
+"bedrijf": "Essent",
+"titel": "Transformation Consultant (Strategy & Development)",
+"reden": "Nieuw gevonden en live geverifieerd (Transformation & Performance Office, 's-Hertogenbosch, €5.067-€7.195, sloot 4 augustus), maar betreft organisatie-/verandermanagement (holistische bedrijfstransformaties, change management-frameworks), geen markt- of beleidsstrategie in de energiesector.",
+"datum": "2026-07-31"
+},
+{
+"bedrijf": "NEa",
+"titel": "Adviseur verhandelbare emissierechten (NEA-2025-0005)",
+"reden": "Nieuw gevonden via zoekopdracht, toont bij bezoek \"vacature niet beschikbaar\" (reactietermijn verstreken) — niet live",
+"datum": "2026-07-26"
+},
+{
+"bedrijf": "NEa",
+"titel": "Adviseur CO2-Uitstoot (Luchtvaart, NEA-2023-0014)",
+"reden": "Nieuw gevonden via zoekopdracht, toont bij bezoek \"vacature niet beschikbaar\" (reactietermijn ruim verstreken, betreft oude vacature uit 2023) — niet live. 05-08 opnieuw rechtstreeks gecontroleerd: ongewijzigd.",
+"datum": "2026-07-26"
+},
+{
+"bedrijf": "Eneco",
+"titel": "Head of Strategy & Control / Strategic (Regional) Partner Manager (ID 2338 / ID 574)",
+"reden": "Nieuw gevonden via WebSearch op 27-07 (Head of Strategy & Control leek inhoudelijk een sterke fit — vernieuwen overkoepelende strategie, beleidsdoelen vertalen naar oplossingen), maar beide tonen bij bezoek \"Waarschijnlijk is de pagina die je zocht niet meer beschikbaar\" — niet live.",
+"datum": "2026-07-30"
+},
+{
+"bedrijf": "Enexis",
+"titel": "Adviseur Ruimtelijk Beleid en Energietransitie (13737) / Partner Energietransitie (10204, 12627) / Adviseur Mobiliteit (12690)",
+"reden": "Nieuw gevonden via herzoeken op 27-07. Partner Energietransitie (10204) live gecontroleerd: \"Momenteel kunnen we geen vacature details tonen\" — niet live. Overige titels (Ruimtelijk Beleid, Mobiliteit, Partner Energietransitie Groningen/Drenthe) qua inhoud regionale gebiedsadviseursrollen (samenwerking gemeenten/provincies), geen senior markt-/beleidsstrategie op directieniveau — niet verder gecontroleerd, lage prioriteit fit. 04-08: Partner Energietransitie (10204) en Adviseur Ruimtelijk Beleid en Energietransitie (13737) opnieuw via WebSearch teruggevonden, ongewijzigd.",
+"datum": "2026-08-04"
+},
+{
+"bedrijf": "Vattenfall",
+"titel": "Senior Transaction Manager (Onshore Wind, REF11517Z)",
+"reden": "Nieuw gevonden via herzoeken op careers.vattenfall.com (Strategy and Transactions-team binnen Onshore Wind, leidt strategische partnerships/M&A-projecten en draagt bij aan de jaarlijkse strategie van de BU), maar vacature was al verlopen bij ontdekking (\"Deze vacature is inmiddels verlopen\", deadline was 26 maart); standplaats primair Stockholm/Hamburg/Londen/Hexham met Amsterdam als optie, en Finance/M&A-zwaarder dan pure markt-/beleidsstrategie.",
+"datum": "2026-07-30"
+},
+{
+"bedrijf": "Netbeheer Nederland",
+"titel": "(geen specifieke vacature)",
+"reden": "Actuele vacaturelijst (netbeheernederland.nl/werken-bij) toont doorlopend dezelfde ~5 vacatures: Programma Manager Weerbaarheid, Productmanager, Business Consultant/Project Coördinator Veiligheid en Kwaliteit en Infra, Open sollicitatie — geen senior strategie-/beleidsrol. Via WebSearch gevonden oudere titels die inhoudelijk sterk zouden passen (Beleidsadviseur Economie & Regelgeving, Beleidsadviseur Energietransitie, Adviseur Strategie & Beleid, Business Consultant(s) Energietransitie, Strategisch Communicatieadviseur) blijken bij bezoek allemaal verouderde nieuwsartikelen of ontoegankelijke pagina's — niet live. Blijft de moeite waard om dagelijks te blijven volgen: kleine organisatie (60 medewerkers) waar 'beleidsadviseur' al senior-niveau is qua inhoud. 16-08 overzichtspagina opnieuw rechtstreeks bekeken: zelfde vacatures, geen nieuwe herplaatsing.",
+"datum": "2026-08-16"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Strategisch Communicatieadviseur Digitalisering (JR19006)",
+"reden": "Nieuw gevonden en live geverifieerd, maar is communicatiestrategie voor het organisatieonderdeel Digitalisering (aansturen team communicatieadviseurs, framing/verhaal, sparringpartner bestuurder op communicatievlak) — geen energiemarkt- of beleidsstrategie, vergelijkbaar met eerder afgekeurde communicatie-adviesrollen (JR15228, JR13001). 04-08 opnieuw via WebSearch teruggevonden, ongewijzigd.",
+"datum": "2026-08-04"
+},
+{
+"bedrijf": "Alliander",
+"titel": "Senior Strategie Consultant (JR11914)",
+"reden": "Nieuw gevonden onder nieuwe vacature-ID — andere/herplaatste versie dan de eerder gearchiveerde 'Senior Strategie Consultant' (JR15035/JR14576/JR03974, 'positie vervuld'). Vraagt aantoonbare ervaring als Epic Owner of Productmanager plus Agile/SAFe-certificering; rol binnen Veranderteam Onderhoud & Storingen gericht op digitalisering/verandermanagement in de operatie, geen markt-/energiebeleidsstrategie op directieniveau — vergelijkbaar met eerder afgekeurde implementatie-/Netdigitalisering-rollen. 04-08 opnieuw via WebSearch teruggevonden, ongewijzigd.",
+"datum": "2026-08-04"
+},
+{
+"bedrijf": "Stedin",
+"titel": "(geen specifieke vacature — gedeeltelijke doorzoeking)",
+"reden": "Domein werkenbij.stedin.net werkt volledig; de trefwoordfilter blijft onbetrouwbaar (negeer die). 04-08 en 13-08 alle 111/110 vacatures over 8 pagina's volledig doorgenomen — geen senior strategie-/beleidsadviesrol gevonden. 16-08: paginering via zowel het paginanummerveld als de pijl-knop 'Volgende' bleef herhaaldelijk op dezelfde pagina-inhoud hangen ondanks meerdere pogingen (bevestigt het al op 15-08 gemelde probleem) — ca. 6 van 8 pagina's (~90 van 112 vacatures) zijn deze run vers bekeken, geen senior strategie-/beleidsrol aangetroffen; de resterende ~2 pagina's zijn NIET vers gecontroleerd deze run (tijd/technisch probleem, geen aanname van 'niets gevonden'). Vakgebied-filter (Management/Staf & klantrelaties) blijkt nog steeds niet te werken.",
+"datum": "2026-08-16"
+},
+{
+"bedrijf": "Ministerie van Economische Zaken en Klimaat",
+"titel": "Senior beleidsmedewerker energietransitie / Senior beleidsmedewerker-projectleider Duurzaam Gebruik Diepe Ondergrond (EZ-2026-8203)",
+"reden": "Nieuw gevonden via WebSearch (werkenvoornederland.nl) en live geverifieerd (schaal 13, €5.353-€7.956, Den Haag, sluit 24 augustus). Inhoudelijk echter vergunningverlening/juridisch-ruimtelijk beleid voor de diepe ondergrond (aardwarmte, waterstofopslag, gaswinning) — vakgebied officieel 'Juridisch, Stedebouwkundig/ruimtelijke ordening, Natuur/milieu'. Dit is vergelijkbaar met eerder afgekeurde ruimtelijke-ordening/vergunningsrollen (Alliander Adviseur Ruimtelijke Kaders, TenneT RO&M) — geen markt-/energiebeleidsstrategie op directieniveau.",
+"datum": "2026-08-05"
+},
+{
+"bedrijf": "Essent",
+"titel": "Consultant Market & Compliance",
+"reden": "Nieuw gevonden en live geverifieerd (team Business Risk, 's-Hertogenbosch, €5.807-€8.253). Vertaalt nationale/Europese energiewet- en regelgeving naar interne processen, systemen en klantreizen en adviseert over compliance-risico's. Ondanks 'Market' in de titel is dit een regulatory-compliance-implementatierol (interpretatie en vertaling van regelgeving naar de organisatie), geen zelfstandige markt-/beleidsstrategieadviesrol op directieniveau — vergelijkbaar met eerder afgekeurde regulering/compliance-rollen (Alliander Adviseur Regulering). 16-08: niet meer los zichtbaar in de actuele 17-vacatures lijst op werkenbijessent.nl, blijft gearchiveerd.",
+"datum": "2026-08-16"
+}
+],
+"notControlled": []
 }
