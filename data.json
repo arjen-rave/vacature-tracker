@@ -1,7 +1,77 @@
 {
- "lastUpdated": "2026-08-17T10:05:00+02:00",
- "lastCheckNote": "16 bronnen gecheckt (Stedin gedeeltelijk: paginering hing wederom vast, slechts 1 van 8 pagina's vers bekeken deze run), 1 nieuwe match toegevoegd aan active (Enexis: Strategisch Consultant End-2-End Grootverbruik & Netten).",
+ "lastUpdated": "2026-08-18T09:54:04+02:00",
+ "lastCheckNote": "17 bronnen gecheckt, 5 nieuwe matches toegevoegd aan active (Alliander/Liander: Consultant Strategie & Innovatie; ACM: Toezichthouder Energiemarkt; Netbeheer Nederland: Programmamanager Weerbaarheid; Ministerie van EZK: Senior beleidsmedewerker energietransitie; RVO: Gebiedsregisseur Verduurzaming Industrie).",
  "active": [
+  {
+    "bedrijf": "Alliander/Liander",
+    "titel": "Consultant Strategie & Innovatie",
+    "link": "https://werkenbij.alliander.com/vacatures/consultant-strategie-innovatie/jr19365",
+    "beschrijving": "Consultant binnen de afdeling Strategie & Innovatie van Liander (Alliander): vertaalt strategische initiatieven naar concrete keuzes en acties, managet de bredere keten en verbindt interne en externe stakeholders rond de energietransitie.",
+    "fit": "Strategieconsultancy-rol met minimaal 5 jaar ervaring, stakeholdermanagement en ketenoverstijgend werken - past bij Arjens profiel, al ligt het salarisniveau (schaal 9/10) lager dan bij de meeste andere actieve vacatures.",
+    "status": "Niet gesolliciteerd",
+    "tags": [
+      "energy",
+      "strategy",
+      "innovation",
+      "netbeheer"
+    ]
+  },
+  {
+    "bedrijf": "ACM",
+    "titel": "Toezichthouder Energiemarkt",
+    "link": "https://www.acm.nl/nl/organisatie/werken-bij/vacatures/toezichthouder-energiemarkt",
+    "beschrijving": "Toezichthouder bij de Directie Toezicht Energie van de ACM: houdt toezicht op de energie- en warmtemarkt, werkt aan oplossingen voor netcongestie en regulering van netbeheerders en warmtebedrijven, en adviseert het MT en bestuur.",
+    "fit": "Sterke match: missiegedreven toezichthoudersrol op de energiemarkt bij een onafhankelijke marktautoriteit, met stakeholdercontact richting netbeheerders, ministeries en toezichthouders.",
+    "status": "Niet gesolliciteerd",
+    "tags": [
+      "energy",
+      "regulation",
+      "policy",
+      "supervision"
+    ]
+  },
+  {
+    "bedrijf": "Netbeheer Nederland",
+    "titel": "Programmamanager Weerbaarheid",
+    "link": "https://netbeheernederland.recruitee.com/o/programma-manager-weerbaarheid",
+    "beschrijving": "Programmamanager die namens de acht Nederlandse netbeheerders de weerbaarheid en veerkracht van het energiesysteem coordineert, strategie vertaalt naar concrete prioriteiten en fungeert als sparringpartner voor de Stuurgroep Weerbaarheid (bestuurders en directeuren).",
+    "fit": "Sterke match: senior programmamanagementrol (10+ jaar ervaring) in een politiek-bestuurlijke context, met stakeholdermanagement richting ministeries, toezichthouders en sectorbestuurders - dicht bij een chief-of-staff-achtige, verbindende rol.",
+    "status": "Niet gesolliciteerd",
+    "tags": [
+      "energy",
+      "strategy",
+      "resilience",
+      "senior"
+    ]
+  },
+  {
+    "bedrijf": "Ministerie van Economische Zaken en Klimaat",
+    "titel": "Senior beleidsmedewerker energietransitie",
+    "link": "https://www.werkenvoornederland.nl/vacatures/senior-beleidsmedewerker-energietransitie-EZ-2026-8203",
+    "beschrijving": "Senior beleidsmedewerker bij de directie Transitie Diepe Ondergrond van het ministerie van EZK: ontwikkelt beleid voor het programma Duurzaam Gebruik Diepe Ondergrond (aardwarmte, waterstofopslag, gaswinning) en adviseert de politieke en ambtelijke leiding.",
+    "fit": "Sterke match: senior beleidsrol (schaal 13, 5+ jaar ervaring) in een politiek-bestuurlijke omgeving, met directe advisering aan de minister en coordinatie van complexe beleidstrajecten rond de energietransitie.",
+    "status": "Niet gesolliciteerd",
+    "tags": [
+      "energy",
+      "policy",
+      "senior",
+      "government"
+    ]
+  },
+  {
+    "bedrijf": "Rijksdienst voor Ondernemend Nederland (RVO)",
+    "titel": "Gebiedsregisseur Verduurzaming Industrie",
+    "link": "https://www.werkenvoornederland.nl/vacatures/gebiedsregisseur-verduurzaming-industrie-RVO-2026-1514",
+    "beschrijving": "Gebiedsregisseur die namens RVO regionale samenwerking tot stand brengt tussen bedrijven, netbeheerders en overheden bij de verduurzaming van industriele regio's, en knelpunten signaleert en oplost rond vergunningen, netcapaciteit en financiering.",
+    "fit": "Goede match: verbindende, bestuurlijk sensitieve rol (WO, 5+ jaar ervaring) op het snijvlak van industrie, netbeheerders en overheidsbeleid - sluit aan bij Arjens profiel van senior advies-/verbindingsrollen in de energietransitie.",
+    "status": "Niet gesolliciteerd",
+    "tags": [
+      "energy",
+      "industry",
+      "stakeholder management",
+      "government"
+    ]
+  },
   {
    "bedrijf": "Netbeheer Nederland",
    "titel": "Themalead Digitalisering Energiesector (CIO)",
