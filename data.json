@@ -1,7 +1,21 @@
 {
-  "lastUpdated": "2026-08-18T09:54:04+02:00",
-  "lastCheckNote": "17 bronnen gecheckt, 5 nieuwe matches toegevoegd aan active (Alliander/Liander: Consultant Strategie & Innovatie; ACM: Toezichthouder Energiemarkt; Netbeheer Nederland: Programmamanager Weerbaarheid; Ministerie van EZK: Senior beleidsmedewerker energietransitie; RVO: Gebiedsregisseur Verduurzaming Industrie).",
+  "lastUpdated": "2026-08-19T10:58:00+02:00",
+  "lastCheckNote": "17 bronnen gecheckt, 1 nieuwe match toegevoegd aan active (Enexis: Senior adviseur energietransitie); 3 vacatures gearchiveerd omdat Arjen ze op de site als 'Niet interessant' markeerde (Netbeheer Nederland: Themalead Digitalisering Energiesector; Roland Berger: Project Manager; Enexis: Strategisch Consultant End-2-End); 1 nieuw gevonden maar niet-passende vacature gearchiveerd (Netbeheer Nederland: Project Coordinator EU Regelgeving en Public Affairs).",
   "active": [
+    {
+      "bedrijf": "Enexis",
+      "titel": "Senior adviseur energietransitie",
+      "link": "https://werkenbij.enexis.nl/vacatures/senior-adviseur-energietransitie-15981",
+      "beschrijving": "Senior Adviseur Energietransitie voor de regio Limburg: vertegenwoordigt Enexis op tactisch/strategisch niveau bij provincie, gemeenten en marktpartijen, voert de dialoog over energiebeleid (netcongestie, transitievisie warmte, laadinfrastructuur, energy hubs) en is mentor voor regionale adviseurs en sparringpartner voor de strategisch adviseur.",
+      "fit": "Sterke match: senior stakeholdergerichte adviesrol met directe beleidsbeinvloeding richting provincie en gemeenten over de energietransitie, dicht bij markt-/beleidsadvies zonder pure technische uitvoering.",
+      "status": "Niet gesolliciteerd",
+      "tags": [
+        "energy",
+        "policy",
+        "stakeholder management",
+        "senior"
+      ]
+    },
     {
       "bedrijf": "Alliander/Liander",
       "titel": "Consultant Strategie & Innovatie",
@@ -72,33 +86,8 @@
         "government"
       ]
     },
-    {
-      "bedrijf": "Netbeheer Nederland",
-      "titel": "Themalead Digitalisering Energiesector (CIO)",
-      "link": "https://topofminds.com/cio-energiesector-netbeheer-nederland/",
-      "beschrijving": "Themalead Digitalisering Energiesector (CIO), gevonden via Top of Minds: ontwikkelt en bewaakt namens Netbeheer Nederland de gezamenlijke digitaliseringsvisie en -strategie van de acht Nederlandse netbeheerders, en vertegenwoordigt de sector richting overheid en toezichthouders op digitale dossiers als netcongestie en infrastructuurplanning. Vanaf 15 jaar ervaring, C-level/directeur-niveau uit energiesector, overheid of consultancy. Werving loopt via Top of Minds (Jessica Lim / Stephanie Stuit).",
-      "fit": "Netbeheer Nederland staat al op de vaste lijst. Deze rol is qua seniority en scope (bestuurlijke, sectorbrede strategische rol met stakeholdermanagement richting CIO's, bestuurders, ministeries en toezichthouders) een sterke match met Arjens profiel, al ligt de inhoudelijke focus op digitalisering/IT in plaats van pure beleid/marktstrategie - vergelijkbaar met een chief-of-staff-achtige, verbindende rol op directieniveau.",
-      "status": "Niet interessant",
-      "tags": [
-        "energy",
-        "digitalisering",
-        "chief of staff",
-        "senior"
-      ]
-    },
-    {
-      "bedrijf": "Roland Berger",
-      "titel": "Project Manager, Energy and Utilities",
-      "link": "https://topofminds.com/vacature-project-manager-roland-berger/",
-      "beschrijving": "Project Manager in het Energy and Utilities-team van Roland Berger Amsterdam (gevonden via Top of Minds), adviseert energiebedrijven, netbeheerders en investeerders over strategische vraagstukken zoals offshore wind, waterstof, CCS en energiesysteemontwikkeling. Vanaf 6 jaar ervaring, vereist expliciet actuele ervaring bij een tier-one of tier-two consultancy. Werving loopt via Top of Minds (Remco Vlemmix / Catherine Visch).",
-      "fit": "Zwakkere match dan de andere getrackte rollen: dit is een in-house consultancyrol bij een strategiebureau, niet een rol bij een energiebedrijf of publieke instelling zelf, en vereist expliciet actuele ervaring bij een tier-one/tier-two consultancy. Wel relevant als je strategy consulting in de energiesector ook overweegt - inhoudelijk sluit het thema (energietransitie-strategie) aan bij je profiel.",
-      "status": "Niet interessant",
-      "tags": [
-        "energy",
-        "strategy",
-        "consulting"
-      ]
-    },
+    
+    
     {
       "bedrijf": "Netbeheer Nederland",
       "titel": "Adviseur Economie en Regelgeving Energietransitie",
@@ -112,23 +101,33 @@
         "regulation",
         "internal consultant"
       ]
+    }
+  ],
+  "archive": [
+    {
+      "bedrijf": "Netbeheer Nederland",
+      "titel": "Themalead Digitalisering Energiesector (CIO)",
+      "reden": "Handmatig door Arjen op de site gemarkeerd als 'Niet interessant'.",
+      "datum": "2026-08-19"
+    },
+    {
+      "bedrijf": "Roland Berger",
+      "titel": "Project Manager, Energy and Utilities",
+      "reden": "Handmatig door Arjen op de site gemarkeerd als 'Niet interessant'.",
+      "datum": "2026-08-19"
     },
     {
       "bedrijf": "Enexis",
       "titel": "Strategisch Consultant End-2-End Grootverbruik & Netten",
-      "link": "https://werkenbij.enexis.nl/vacatures/strategisch-consultant-end-2-end-grootverbruik-en-netten-15568",
-      "beschrijving": "Strategisch Consultant in Den Bosch die complexe strategische vraagstukken analyseert, stakeholders verbindt en management, directie en bestuur helpt scherpe, goed onderbouwde besluiten te nemen over de energietransitie. Schrijft besluitvormingsstukken en adviesnota's op tactisch/strategisch niveau; implementatie en operationeel procesbeheer laat de rol bewust aan anderen. Den Bosch, 32-40 uur, €4.953-€7.076 bruto/mnd, HBO. Geplaatst 14-08-2026, live geverifieerd 17-08-2026.",
-      "fit": "Sterke match met Arjens profiel: een adviesrol zonder formele positie die desondanks management, directie en bestuur van een grote netbeheerder (Enexis) beïnvloedt en voorziet van strategische opties — vergelijkbaar met de eerder als sterke fit beoordeelde (inmiddels verdwenen) Alliander-consultantrollen. HBO als officieel vereiste opleiding is lager dan Arjens niveau, maar de inhoud (strategie, besluitvorming op bestuursniveau, informeel beïnvloeden) is duidelijk senior.",
-      "status": "Niet interessant",
-      "tags": [
-        "energy",
-        "strategy",
-        "internal consultant",
-        "senior"
-      ]
-    }
-  ],
-  "archive": [
+      "reden": "Handmatig door Arjen op de site gemarkeerd als 'Niet interessant'.",
+      "datum": "2026-08-19"
+    },
+    {
+      "bedrijf": "Netbeheer Nederland",
+      "titel": "Project Coordinator EU Regelgeving en Public Affairs",
+      "reden": "Coordinator-niveau vacature (salarisschaal EUR 3.902-EUR 5.795, lager dan de Adviseur-rol); vacaturetekst bevat bovendien een contentfout (kopie van de Adviseur Economie en Regelgeving-vacature). Niet senior genoeg voor Arjens profiel.",
+      "datum": "2026-08-19"
+    },
     {
       "bedrijf": "Stedin",
       "titel": "Senior Adviseur Strategieontwikkeling (JR10815)",
