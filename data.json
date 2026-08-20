@@ -1,22 +1,22 @@
 {
-  "lastUpdated": "2026-08-19T10:58:00+02:00",
-  "lastCheckNote": "17 bronnen gecheckt, 1 nieuwe match toegevoegd aan active (Enexis: Senior adviseur energietransitie); 3 vacatures gearchiveerd omdat Arjen ze op de site als 'Niet interessant' markeerde (Netbeheer Nederland: Themalead Digitalisering Energiesector; Roland Berger: Project Manager; Enexis: Strategisch Consultant End-2-End); 1 nieuw gevonden maar niet-passende vacature gearchiveerd (Netbeheer Nederland: Project Coordinator EU Regelgeving en Public Affairs).",
+  "lastUpdated": "2026-08-20T08:40:00+02:00",
+  "lastCheckNote": "17 bronnen gecheckt, 1 nieuwe match toegevoegd aan active (Enexis: Strategisch Consultant End-2-End Grootverbruik & Netten); 1 vacature verplaatst naar archive omdat Arjen hem op de site als 'Niet interessant' markeerde (Enexis: Senior adviseur energietransitie); Vattenfall niet volledig controleerbaar (kapotte trefwoordfilter, zie notControlled).",
   "active": [
     {
       "bedrijf": "Enexis",
-      "titel": "Senior adviseur energietransitie",
-      "link": "https://werkenbij.enexis.nl/vacatures/senior-adviseur-energietransitie-15981",
-      "beschrijving": "Senior Adviseur Energietransitie voor de regio Limburg: vertegenwoordigt Enexis op tactisch/strategisch niveau bij provincie, gemeenten en marktpartijen, voert de dialoog over energiebeleid (netcongestie, transitievisie warmte, laadinfrastructuur, energy hubs) en is mentor voor regionale adviseurs en sparringpartner voor de strategisch adviseur.",
-      "fit": "Sterke match: senior stakeholdergerichte adviesrol met directe beleidsbeinvloeding richting provincie en gemeenten over de energietransitie, dicht bij markt-/beleidsadvies zonder pure technische uitvoering.",
-      "status": "Niet interessant",
+      "titel": "Strategisch Consultant End-2-End Grootverbruik & Netten",
+      "link": "https://werkenbij.enexis.nl/vacatures/strategisch-consultant-end-2-end-grootverbruik-en-netten-15568",
+      "beschrijving": "Strategisch consultant die complexe strategische vraagstukken analyseert, stakeholders verbindt en directie/bestuur van Enexis helpt onderbouwde keuzes te maken over de energietransitie. Den Bosch, HBO, gepost 14-08-2026.",
+      "fit": "Sterke match: strategie-adviesrol met directe lijn naar directie/bestuur van Enexis, gericht op de energietransitie, geen technische uitvoeringsrol. Let op: een vergelijkbaar getitelde rol ('Enexis: Strategisch Consultant End-2-End') werd eerder door Arjen als 'Niet interessant' gemarkeerd en gearchiveerd - mogelijk een herplaatsing; graag zelf beoordelen of dit een nieuwe/andere positie betreft.",
+      "status": "Niet gesolliciteerd",
       "tags": [
         "energy",
-        "policy",
-        "stakeholder management",
+        "strategy",
+        "grid operator",
         "senior"
       ]
     },
-    {
+{
       "bedrijf": "Alliander/Liander",
       "titel": "Consultant Strategie & Innovatie",
       "link": "https://werkenbij.alliander.com/vacatures/consultant-strategie-innovatie/jr19365",
@@ -102,6 +102,12 @@
     }
   ],
   "archive": [
+    {
+      "bedrijf": "Enexis",
+      "titel": "Senior adviseur energietransitie",
+      "reden": "Handmatig door Arjen op de site gemarkeerd als 'Niet interessant'.",
+      "datum": "2026-08-20"
+    },
     {
       "bedrijf": "Netbeheer Nederland",
       "titel": "Themalead Digitalisering Energiesector (CIO)",
@@ -829,5 +835,12 @@
       "datum": "2026-08-16"
     }
   ],
-  "notControlled": []
+  "notControlled": [
+    {
+      "bedrijf": "Vattenfall",
+      "titel": "vacatures - zoekfilter doorzocht",
+      "reden": "De trefwoordfilter op careers.vattenfall.com/nl/nl/jobs retourneert bij elke zoekterm (o.a. strategy, policy) dezelfde generieke set van 22 resultaten (Engineering/IT/Procurement/Wind/Finance) - kon niet betrouwbaar vaststellen of er een passende strategie-/beleidsrol tussen zit.",
+      "link": "https://careers.vattenfall.com/nl/nl/jobs"
+    }
+  ]
 }
