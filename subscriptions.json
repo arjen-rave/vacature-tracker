@@ -22,5 +22,13 @@
       "p256dh": "BKDaApS9l_8459zpkDm2Dg-l-2YH8pQEO7V_CWfJaojElwwoS2PMN9Pjkh5RbC8xeNr8vgn6yYvdxoif1Rkr4Rw",
       "auth": "1OjoB9WMnCqSIExAmHHR2g"
     }
+  },
+  {
+    "endpoint": "https://fcm.googleapis.com/fcm/send/fEZuZfF74oE:APA91bFrVCvXT6Izx0Q5-XznI7mmK8msZ4R8vxSepaCEYy1uvIY8ZqA63FiRx2f0XK-WugizqdoUidvZ4CTLIjY-6rzYty5M1_Ovv8mr9VhFg3WQMVO__8Jkd7XMSeQpHiwRnaVU-IkW",
+    "expirationTime": null,
+    "keys": {
+      "p256dh": "BEwZJ9KY5MuUo2dGxLdRytoxYuLEoKiuJEt1uYvbbHAx3kRqXXIVAKs9ZrOjEpyiZoyhtBE5HQoDGYmID4klPhQ",
+      "auth": "Wrl9e00PcZmch94tfHxgNQ"
+    }
   }
 ]
