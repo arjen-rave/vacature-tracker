@@ -1,7 +1,50 @@
 {
-  "lastUpdated": "2026-08-20T08:40:00+02:00",
-  "lastCheckNote": "17 bronnen gecheckt, 1 nieuwe match toegevoegd aan active (Enexis: Strategisch Consultant End-2-End Grootverbruik & Netten); 1 vacature verplaatst naar archive omdat Arjen hem op de site als 'Niet interessant' markeerde (Enexis: Senior adviseur energietransitie); Vattenfall niet volledig controleerbaar (kapotte trefwoordfilter, zie notControlled).",
+  "lastUpdated": "2026-08-21T08:52:00+02:00",
+  "lastCheckNote": "17 bronnen gecheckt, 3 nieuwe matches toegevoegd aan active (RVO: Afdelingsmanager Energiesysteem-innovatie en Ondergrond; Eneco: Strategic Businessmanager Trade; Vattenfall: Senior Strategisch Adviseur Heat NL, herplaatsing onder nieuwe referentie); 7 kandidaten beoordeeld en gearchiveerd (niet live of geen fit); Vattenfall niet volledig controleerbaar (kapotte trefwoordfilter, zie notControlled).",
   "active": [
+    {
+      "bedrijf": "Rijksdienst voor Ondernemend Nederland (RVO)",
+      "titel": "Afdelingsmanager Energiesysteem-innovatie en Ondergrond",
+      "link": "https://www.werkenvoornederland.nl/vacatures/afdelingsmanager-energiesysteem-innovatie-en-ondergrond-RVO-2026-7352",
+      "beschrijving": "Afdelingsmanager die leiding geeft aan zes teams (ca. 140 medewerkers) die werken aan energie-innovatie en het zorgvuldig gebruik van de diepe ondergrond voor energiedoeleinden (waterstof, geothermie, mijnbouwschade). Den Haag, WO, schaal 15, gepost 21-08-2026, sluit 7 september 2026.",
+      "fit": "Zeer sterke match: senior managementrol op directieniveau (Algemene Bestuursdienst, schaal 15) bij RVO met directe verantwoordelijkheid voor de vertaling van energie- en klimaatbeleid naar uitvoering, stakeholdermanagement richting kennisinstellingen, bedrijven en het ministerie van EZK, en strategische samenhang met de Directie Transitie. Vraagt ruime managementervaring en strategisch inzicht in de energiesector.",
+      "status": "Niet gesolliciteerd",
+      "tags": [
+        "energy",
+        "policy",
+        "management",
+        "senior",
+        "government"
+      ]
+    },
+    {
+      "bedrijf": "Eneco",
+      "titel": "Strategic Businessmanager Trade",
+      "link": "https://www.werkenbijeneco.nl/vacatures/strategic-businessmanager-trade-3185",
+      "beschrijving": "Nieuwe rol binnen Eneco Energy Trade die strategisch advies combineert met executie: trusted advisor en coördinator voor het voltallige Trade Management Team, bereidt strategische besluitvorming voor en vertaalt prioriteiten naar actie. Rotterdam, WO, 5+ jaar ervaring, €95.000-€145.000 bruto/jaar.",
+      "fit": "Sterke match met een chief-of-staff-profiel (expliciet genoemd als fit in Arjens rolprofiel): werkt direct met het voltallige Trade Management Team van Eneco aan strategische prioriteiten, governance en besluitvorming, met brede blootstelling aan senior leiderschap. Combineert strategisch denken met hands-on uitvoering, geen zuiver adviserende rol maar wel nauw verbonden aan directie/MT.",
+      "status": "Niet gesolliciteerd",
+      "tags": [
+        "energy",
+        "chief of staff",
+        "strategy",
+        "senior"
+      ]
+    },
+    {
+      "bedrijf": "Vattenfall",
+      "titel": "Senior Strategisch Adviseur Heat NL",
+      "link": "https://careers.vattenfall.com/nl/nl/job/senior-strategisch-adviseur-heat-nl-in-amsterdam-jid-52506",
+      "beschrijving": "Senior strateeg verantwoordelijk voor de strategische koers van BU Customers NL en BU Heat NL bij Vattenfall, adviseert directie, managementteams en C-level over complexe strategische vraagstukken in de energietransitie. Amsterdam, WO, 5+ jaar ervaring in een strategische rol bij consultancy of corporate, €6.900-€8.500 bruto/mnd. Reageren voor 3 september 2026.",
+      "fit": "Sterke match: senior strategie-adviesrol met directe lijn naar directie en C-level van Vattenfall Nederland, gericht op de energietransitie en marktontwikkeling — precies het type rol uit Arjens rolprofiel. Herplaatsing van een eerder (juli 2026) verlopen, inhoudelijk vergelijkbare vacature onder nieuwe referentie (REF12606H, was REF9874K).",
+      "status": "Niet gesolliciteerd",
+      "tags": [
+        "energy",
+        "strategy",
+        "senior",
+        "policy"
+      ]
+    },
     {
       "bedrijf": "Enexis",
       "titel": "Strategisch Consultant End-2-End Grootverbruik & Netten",
@@ -102,6 +145,48 @@
     }
   ],
   "archive": [
+    {
+      "bedrijf": "Alliander",
+      "titel": "Strategie Consultant Operatie (JR14576)",
+      "reden": "Nieuw gevonden via WebSearch (naast eerder gearchiveerde JR19034/JR14752-varianten), maar bij bezoek 404 (\"Helaas kunnen we de pagina die je zocht niet vinden\") op werkenbij.alliander.com — niet live.",
+      "datum": "2026-08-21"
+    },
+    {
+      "bedrijf": "Enexis",
+      "titel": "Business Consultant Strategie (12482)",
+      "reden": "Opnieuw gevonden via WebSearch (Strategy Office team), maar bij bezoek nogmaals \"Momenteel kunnen we geen vacature details tonen\" — niet live, ongewijzigd t.o.v. eerdere check 24-07.",
+      "datum": "2026-08-21"
+    },
+    {
+      "bedrijf": "Enexis",
+      "titel": "Teammanager Advies Marketing & Communicatie en Public Affairs (15273)",
+      "reden": "Nieuw gevonden via WebSearch, maar bij bezoek \"Momenteel kunnen we geen vacature details tonen\" — niet live.",
+      "datum": "2026-08-21"
+    },
+    {
+      "bedrijf": "Enexis",
+      "titel": "Senior Business Consultant IAM (14954)",
+      "reden": "Nieuw gevonden en live geverifieerd (Den Bosch, €4.953-€7.076, HBO), maar inhoudelijk een technische Identity & Access Management-consultancyrol (autorisaties, governance, IT-security-architectuur) — geen markt- of energiebeleidsstrategie.",
+      "datum": "2026-08-21"
+    },
+    {
+      "bedrijf": "Ministerie van Economische Zaken en Klimaat",
+      "titel": "Financieel Strategisch Adviseur Klimaat & Energie (EZK-2026-5132)",
+      "reden": "Nieuw gevonden via WebSearch (Klimaatfonds, energietransitie, staatssteun), maar bij bezoek \"vacature niet beschikbaar\" (reactietermijn verstreken) — niet live.",
+      "datum": "2026-08-21"
+    },
+    {
+      "bedrijf": "Rijksdienst voor Ondernemend Nederland (RVO)",
+      "titel": "Senior Adviseur/Projectcoördinator economische weerbaarheid, innovatie en industriebeleid (RVO-2026-1548)",
+      "reden": "Nieuw gevonden via WebSearch, maar bij bezoek \"vacature niet beschikbaar\" (reactietermijn verstreken) — niet live. Sowieso een bredere economische-weerbaarheidsrol, niet specifiek energie/klimaat.",
+      "datum": "2026-08-21"
+    },
+    {
+      "bedrijf": "Netbeheer Nederland",
+      "titel": "Productmanager",
+      "reden": "Nieuw gevonden en live geverifieerd (Den Haag, €4.400-€7.736, gepost 17-07-2026), maar inhoudelijk een productmanagementrol (portfolio-levenscyclus, go-to-market van producten zoals het capaciteitssturend contract) — dichter bij product-/portfoliomanagement dan bij strategie- of beleidsadvies aan directie/bestuur.",
+      "datum": "2026-08-21"
+    },
     {
       "bedrijf": "Enexis",
       "titel": "Senior adviseur energietransitie",
