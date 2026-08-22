@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-21T08:52:00+02:00",
-  "lastCheckNote": "17 bronnen gecheckt, 3 nieuwe matches toegevoegd aan active (RVO: Afdelingsmanager Energiesysteem-innovatie en Ondergrond; Eneco: Strategic Businessmanager Trade; Vattenfall: Senior Strategisch Adviseur Heat NL, herplaatsing onder nieuwe referentie); 7 kandidaten beoordeeld en gearchiveerd (niet live of geen fit); Vattenfall niet volledig controleerbaar (kapotte trefwoordfilter, zie notControlled).",
+  "lastUpdated": "2026-08-22T08:36:00+02:00",
+  "lastCheckNote": "17 bronnen gecheckt (Stedin gedeeltelijk: paginering bevestigd kapot, alleen pagina 1 van 8 doorzocht); geen nieuwe matches toegevoegd aan active (Enexis Senior adviseur energietransitie Venlo opnieuw gevonden maar al eerder op 13-08 afgekeurd en gearchiveerd wegens te weinig senior/WO-niveau, niet opnieuw toegevoegd); 1 item gearchiveerd (Eneco Strategic Businessmanager Trade, vervuld); Vattenfall titel bijgewerkt naar actuele vacaturenaam (Senior Strateeg).",
   "active": [
     {
       "bedrijf": "Rijksdienst voor Ondernemend Nederland (RVO)",
@@ -18,22 +18,8 @@
       ]
     },
     {
-      "bedrijf": "Eneco",
-      "titel": "Strategic Businessmanager Trade",
-      "link": "https://www.werkenbijeneco.nl/vacatures/strategic-businessmanager-trade-3185",
-      "beschrijving": "Nieuwe rol binnen Eneco Energy Trade die strategisch advies combineert met executie: trusted advisor en coördinator voor het voltallige Trade Management Team, bereidt strategische besluitvorming voor en vertaalt prioriteiten naar actie. Rotterdam, WO, 5+ jaar ervaring, €95.000-€145.000 bruto/jaar.",
-      "fit": "Sterke match met een chief-of-staff-profiel (expliciet genoemd als fit in Arjens rolprofiel): werkt direct met het voltallige Trade Management Team van Eneco aan strategische prioriteiten, governance en besluitvorming, met brede blootstelling aan senior leiderschap. Combineert strategisch denken met hands-on uitvoering, geen zuiver adviserende rol maar wel nauw verbonden aan directie/MT.",
-      "status": "Niet gesolliciteerd",
-      "tags": [
-        "energy",
-        "chief of staff",
-        "strategy",
-        "senior"
-      ]
-    },
-    {
       "bedrijf": "Vattenfall",
-      "titel": "Senior Strategisch Adviseur Heat NL",
+      "titel": "Senior Strateeg (Customers & Heat NL)",
       "link": "https://careers.vattenfall.com/nl/nl/job/senior-strategisch-adviseur-heat-nl-in-amsterdam-jid-52506",
       "beschrijving": "Senior strateeg verantwoordelijk voor de strategische koers van BU Customers NL en BU Heat NL bij Vattenfall, adviseert directie, managementteams en C-level over complexe strategische vraagstukken in de energietransitie. Amsterdam, WO, 5+ jaar ervaring in een strategische rol bij consultancy of corporate, €6.900-€8.500 bruto/mnd. Reageren voor 3 september 2026.",
       "fit": "Sterke match: senior strategie-adviesrol met directe lijn naar directie en C-level van Vattenfall Nederland, gericht op de energietransitie en marktontwikkeling — precies het type rol uit Arjens rolprofiel. Herplaatsing van een eerder (juli 2026) verlopen, inhoudelijk vergelijkbare vacature onder nieuwe referentie (REF12606H, was REF9874K).",
@@ -145,6 +131,12 @@
     }
   ],
   "archive": [
+    {
+      "bedrijf": "Eneco",
+      "titel": "Strategic Businessmanager Trade",
+      "reden": "Niet meer live: pagina toont ‘Oeps, deze vacature is al vervuld!’ (geverifieerd 22-08-2026). De vacature stond nog wel vermeld op de algemene vacatures-overzichtspagina, maar de detailpagina zelf bevestigt dat de rol is ingevuld.",
+      "datum": "2026-08-22"
+    },
     {
       "bedrijf": "Alliander",
       "titel": "Strategie Consultant Operatie (JR14576)",
