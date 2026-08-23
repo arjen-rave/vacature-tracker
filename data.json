@@ -1,7 +1,21 @@
 {
-  "lastUpdated": "2026-08-22T08:36:00+02:00",
-  "lastCheckNote": "17 bronnen gecheckt (Stedin gedeeltelijk: paginering bevestigd kapot, alleen pagina 1 van 8 doorzocht); geen nieuwe matches toegevoegd aan active (Enexis Senior adviseur energietransitie Venlo opnieuw gevonden maar al eerder op 13-08 afgekeurd en gearchiveerd wegens te weinig senior/WO-niveau, niet opnieuw toegevoegd); 1 item gearchiveerd (Eneco Strategic Businessmanager Trade, vervuld); Vattenfall titel bijgewerkt naar actuele vacaturenaam (Senior Strateeg).",
+  "lastUpdated": "2026-08-23T08:37:00+02:00",
+  "lastCheckNote": "17 bronnen gecheckt (alle 17 dit keer volledig afgerond, inclusief Stedin alle 8 paginas via ?p= workaround en Vattenfall volledige jobslijst via pagination() JS-call); 1 nieuwe match toegevoegd aan active (Eneco - Strategic Businessmanager Trade, chief-of-staff-achtige rol bij Trade Management Team; let op: zelfde functietitel was op 22-08 gearchiveerd als vervuld, maar vandaag een nieuwe/live vacaturetekst met dezelfde titel aangetroffen en daarom opnieuw toegevoegd); Netbeheer Nederland Project Coordinator EU Regelgeving en Public Affairs overwogen maar niet toegevoegd (coordinator-niveau, salaris lager dan senior-schaal, te ondersteunend).",
   "active": [
+    {
+      "bedrijf": "Eneco",
+      "titel": "Strategic Businessmanager Trade",
+      "link": "https://www.werkenbijeneco.nl/vacatures/strategic-businessmanager-trade-3185",
+      "beschrijving": "Nieuwe rol binnen het Trade Management Team van Eneco Energy Trade: combineert strategisch adviseurschap met hands-on uitvoering - agenda's en besluitvorming voorbereiden, governance van het management team bewaken, en zelfstandig Trade-brede initiatieven en verbeterprogramma's leiden.",
+      "fit": "Sterke match als chief-of-staff-achtige rol (telt expliciet mee volgens Arjens profiel): werkt direct met het voltallige Trade Management Team aan strategische prioriteiten, governance en besluitvorming bij een grote Nederlandse energieleverancier, met brede blootstelling aan senior management en WO-niveau vereist.",
+      "status": "Niet gesolliciteerd",
+      "tags": [
+        "energy",
+        "chief of staff",
+        "governance",
+        "senior"
+      ]
+    },
     {
       "bedrijf": "Rijksdienst voor Ondernemend Nederland (RVO)",
       "titel": "Afdelingsmanager Energiesysteem-innovatie en Ondergrond",
@@ -912,12 +926,5 @@
       "datum": "2026-08-16"
     }
   ],
-  "notControlled": [
-    {
-      "bedrijf": "Vattenfall",
-      "titel": "vacatures - zoekfilter doorzocht",
-      "reden": "De trefwoordfilter op careers.vattenfall.com/nl/nl/jobs retourneert bij elke zoekterm (o.a. strategy, policy) dezelfde generieke set van 22 resultaten (Engineering/IT/Procurement/Wind/Finance) - kon niet betrouwbaar vaststellen of er een passende strategie-/beleidsrol tussen zit.",
-      "link": "https://careers.vattenfall.com/nl/nl/jobs"
-    }
-  ]
+  "notControlled": []
 }
