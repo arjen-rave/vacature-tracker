@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-23T08:37:00+02:00",
-  "lastCheckNote": "17 bronnen gecheckt (alle 17 dit keer volledig afgerond, inclusief Stedin alle 8 paginas via ?p= workaround en Vattenfall volledige jobslijst via pagination() JS-call); 1 nieuwe match toegevoegd aan active (Eneco - Strategic Businessmanager Trade, chief-of-staff-achtige rol bij Trade Management Team; let op: zelfde functietitel was op 22-08 gearchiveerd als vervuld, maar vandaag een nieuwe/live vacaturetekst met dezelfde titel aangetroffen en daarom opnieuw toegevoegd); Netbeheer Nederland Project Coordinator EU Regelgeving en Public Affairs overwogen maar niet toegevoegd (coordinator-niveau, salaris lager dan senior-schaal, te ondersteunend).",
+  "lastUpdated": "2026-08-24T08:44:00+02:00",
+  "lastCheckNote": "17 bronnen gecheckt (alle 17 dit keer volledig afgerond: TenneT, Alliander/Liander, Stedin (8/8 paginas), Enexis, Gasunie, Vattenfall, Eneco, RWE, Orsted, Uniper, NEa, ACM, EBN, Essent, Netbeheer Nederland, EZK, RVO); 0 nieuwe matches toegevoegd aan active; 1 vacature verplaatst naar archive (Ministerie van Economische Zaken en Klimaat - Senior beleidsmedewerker energietransitie, verlopen); Alliander vacatures-overzicht pagina bleef hangen op 'Bezig met laden' ondanks 12+ sec wachten, in notControlled gezet; overige kandidaten die via WebSearch naar voren kwamen (o.a. Vattenfall Senior Strategy Advisor, Vattenfall Senior Business Transformation Manager, Gasunie Strateeg in de energietransitie, Enexis Strategisch Adviseur Energietransitie, ACM Financieel Toezichthouder Energie-en Warmtemarkt (te junior/financieel-specifiek), NEa en RVO diverse kandidaten) bleken bij verificatie verlopen, niet passend qua niveau, of niet meer bestaand.",
   "active": [
     {
       "bedrijf": "Eneco",
@@ -102,20 +102,6 @@
       ]
     },
     {
-      "bedrijf": "Ministerie van Economische Zaken en Klimaat",
-      "titel": "Senior beleidsmedewerker energietransitie",
-      "link": "https://www.werkenvoornederland.nl/vacatures/senior-beleidsmedewerker-energietransitie-EZ-2026-8203",
-      "beschrijving": "Senior beleidsmedewerker bij de directie Transitie Diepe Ondergrond van het ministerie van EZK: ontwikkelt beleid voor het programma Duurzaam Gebruik Diepe Ondergrond (aardwarmte, waterstofopslag, gaswinning) en adviseert de politieke en ambtelijke leiding.",
-      "fit": "Sterke match: senior beleidsrol (schaal 13, 5+ jaar ervaring) in een politiek-bestuurlijke omgeving, met directe advisering aan de minister en coordinatie van complexe beleidstrajecten rond de energietransitie.",
-      "status": "Niet gesolliciteerd",
-      "tags": [
-        "energy",
-        "policy",
-        "senior",
-        "government"
-      ]
-    },
-    {
       "bedrijf": "Rijksdienst voor Ondernemend Nederland (RVO)",
       "titel": "Gebiedsregisseur Verduurzaming Industrie",
       "link": "https://www.werkenvoornederland.nl/vacatures/gebiedsregisseur-verduurzaming-industrie-RVO-2026-1514",
@@ -145,6 +131,12 @@
     }
   ],
   "archive": [
+    {
+      "bedrijf": "Ministerie van Economische Zaken en Klimaat",
+      "titel": "Senior beleidsmedewerker energietransitie",
+      "reden": "Vacature niet meer beschikbaar - reactietermijn verstreken (pagina toont \"Vacature niet beschikbaar\").",
+      "datum": "2026-08-24"
+    },
     {
       "bedrijf": "Eneco",
       "titel": "Strategic Businessmanager Trade",
@@ -926,5 +918,11 @@
       "datum": "2026-08-16"
     }
   ],
-  "notControlled": []
+  "notControlled": [
+    {
+      "bedrijf": "Alliander/Liander",
+      "titel": "Vacatureoverzicht (algemene zoekpagina)",
+      "reden": "Pagina https://werkenbij.alliander.com/vacatures bleef op 24-08-2026 hangen op skeleton-placeholders (\"Bezig met laden\") ondanks 12+ seconden wachten en meerdere pogingen (met en zonder zoekterm) - lijst rendert niet. Individuele vacaturepaginas werken wel gewoon (bestaande actieve vacature bevestigd live). Twee kandidaat-URLs uit WebSearch (Senior Consultant Strategische Verkenningen, Adviseur Regulering) bleken 404.",
+      "link": "https://werkenbij.alliander.com/vacatures"
+    }]
 }
