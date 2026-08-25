@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-24T08:44:00+02:00",
-  "lastCheckNote": "17 bronnen gecheckt (alle 17 dit keer volledig afgerond: TenneT, Alliander/Liander, Stedin (8/8 paginas), Enexis, Gasunie, Vattenfall, Eneco, RWE, Orsted, Uniper, NEa, ACM, EBN, Essent, Netbeheer Nederland, EZK, RVO); 0 nieuwe matches toegevoegd aan active; 1 vacature verplaatst naar archive (Ministerie van Economische Zaken en Klimaat - Senior beleidsmedewerker energietransitie, verlopen); Alliander vacatures-overzicht pagina bleef hangen op 'Bezig met laden' ondanks 12+ sec wachten, in notControlled gezet; overige kandidaten die via WebSearch naar voren kwamen (o.a. Vattenfall Senior Strategy Advisor, Vattenfall Senior Business Transformation Manager, Gasunie Strateeg in de energietransitie, Enexis Strategisch Adviseur Energietransitie, ACM Financieel Toezichthouder Energie-en Warmtemarkt (te junior/financieel-specifiek), NEa en RVO diverse kandidaten) bleken bij verificatie verlopen, niet passend qua niveau, of niet meer bestaand.",
+  "lastUpdated": "2026-08-25T09:22:00+02:00",
+  "lastCheckNote": "17 bronnen gecheckt (alle 17 dit keer volledig afgerond: TenneT, Alliander/Liander, Stedin (8/8 paginas), Enexis, Gasunie, Vattenfall, Eneco, RWE, Orsted, Uniper, NEa, ACM, EBN, Essent, Netbeheer Nederland, EZK, RVO); 0 nieuwe matches toegevoegd aan active; 1 vacature verplaatst naar archive (Netbeheer Nederland - Adviseur Economie en Regelgeving Energietransitie, link 404); alle 8 overige actieve vacatures live geverifieerd; Alliander vacatures-overzicht pagina bleef opnieuw hangen op \"Bezig met laden\" (in notControlled gehouden); kandidaten via WebSearch (o.a. TenneT beleidsmedewerker congestiemanagement (technisch WO-profiel vereist, geen fit), Alliander Senior Beleidsadviseur/Senior Strategie Consultant, Enexis Strategisch adviseur organisatieontwikkeling/Sectorstrategie/Partner Energietransitie, Gasunie Strateeg in de energietransitie/Public Regulatory Affairs, Vattenfall Senior Business Transformation Manager/Senior Strategy Advisor/Senior Strategisch Adviseur Customers NL, Eneco Manager Strategy Assets Operations, NEa Senior strategisch adviseur toezicht en marktontwikkelingen/afdelingshoofd Emissiehandel, EBN Public Affairs Advisor, Netbeheer Nederland Adviseur Strategie Beleid/Strategisch Communicatieadviseur, EZK Senior beleidsmedewerker netcongestie/duurzaam gebruik diepe ondergrond, RVO Senior adviseur Nationaal Groeifonds/Procescoordinator ICT en Subsidies SDE) bleken bij verificatie verlopen (404 of expliciet vermeld als verlopen) of niet live.",
   "active": [
     {
       "bedrijf": "Eneco",
@@ -114,23 +114,15 @@
         "stakeholder management",
         "government"
       ]
-    },
-    {
-      "bedrijf": "Netbeheer Nederland",
-      "titel": "Adviseur Economie en Regelgeving Energietransitie",
-      "link": "https://netbeheernederland.recruitee.com/o/adviseur-economie-en-regelgeving-energie-transitie",
-      "beschrijving": "Adviseur die op het snijvlak van energiebeleid, economie en techniek werkt aan de vormgeving van economische regulering van netbeheerders (o.a. het ACM-methodebesluit en de elektriciteitstariefherziening), met stakeholdermanagement richting ministeries, toezichthouders (ACM) en marktpartijen. Den Haag, hybride, 32-40 uur, €5.090-€7.891 bruto/mnd. Vacature staat doorlopend open. 17-08-2026 opnieuw rechtstreeks gecontroleerd: nog steeds live, ongewijzigd.",
-      "fit": "Netbeheer Nederland is een kleine brancheorganisatie (~70 medewerkers) waar een 'adviseur'-rol functioneel al senior van aard is; deze rol combineert markt-/regelgevingsadvies over economische regulering van de energienetten met stakeholdermanagement richting ACM, ministeries en marktpartijen — sterke match met Arjens profiel van marktontwerp/beleidsadvies in de energiesector. Vraagt officieel 'slechts' 3 jaar ervaring, dus instapniveau qua formele eis is lager dan gebruikelijk, maar de inhoud (methodebesluiten, tariefdifferentiatie, projectmanager/regisseur-rollen combineren) is inhoudelijk senior.",
-      "status": "Niet gesolliciteerd",
-      "tags": [
-        "energy",
-        "policy",
-        "regulation",
-        "internal consultant"
-      ]
     }
   ],
   "archive": [
+    {
+      "bedrijf": "Netbeheer Nederland",
+      "titel": "Adviseur Economie en Regelgeving Energietransitie",
+      "reden": "Link geeft 404 (\"We konden deze vacature niet vinden\") - vacature niet meer live en ook niet meer opgenomen op de vacatures-overzichtspagina van Netbeheer Nederland (25-08-2026 gecontroleerd).",
+      "datum": "2026-08-25"
+    },
     {
       "bedrijf": "Ministerie van Economische Zaken en Klimaat",
       "titel": "Senior beleidsmedewerker energietransitie",
