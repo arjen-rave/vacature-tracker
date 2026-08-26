@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-25T09:22:00+02:00",
-  "lastCheckNote": "17 bronnen gecheckt (alle 17 dit keer volledig afgerond: TenneT, Alliander/Liander, Stedin (8/8 paginas), Enexis, Gasunie, Vattenfall, Eneco, RWE, Orsted, Uniper, NEa, ACM, EBN, Essent, Netbeheer Nederland, EZK, RVO); 0 nieuwe matches toegevoegd aan active; 1 vacature verplaatst naar archive (Netbeheer Nederland - Adviseur Economie en Regelgeving Energietransitie, link 404); alle 8 overige actieve vacatures live geverifieerd; Alliander vacatures-overzicht pagina bleef opnieuw hangen op \"Bezig met laden\" (in notControlled gehouden); kandidaten via WebSearch (o.a. TenneT beleidsmedewerker congestiemanagement (technisch WO-profiel vereist, geen fit), Alliander Senior Beleidsadviseur/Senior Strategie Consultant, Enexis Strategisch adviseur organisatieontwikkeling/Sectorstrategie/Partner Energietransitie, Gasunie Strateeg in de energietransitie/Public Regulatory Affairs, Vattenfall Senior Business Transformation Manager/Senior Strategy Advisor/Senior Strategisch Adviseur Customers NL, Eneco Manager Strategy Assets Operations, NEa Senior strategisch adviseur toezicht en marktontwikkelingen/afdelingshoofd Emissiehandel, EBN Public Affairs Advisor, Netbeheer Nederland Adviseur Strategie Beleid/Strategisch Communicatieadviseur, EZK Senior beleidsmedewerker netcongestie/duurzaam gebruik diepe ondergrond, RVO Senior adviseur Nationaal Groeifonds/Procescoordinator ICT en Subsidies SDE) bleken bij verificatie verlopen (404 of expliciet vermeld als verlopen) of niet live.",
+  "lastUpdated": "2026-08-26T08:35:23+02:00",
+  "lastCheckNote": "17 bronnen gecheckt (allemaal dit keer bezocht: TenneT, Alliander/Liander, Stedin (8/8 paginas), Enexis, Gasunie, Vattenfall, Eneco, RWE, Orsted, Uniper, NEa, ACM, EBN, Essent, Netbeheer Nederland, EZK, RVO); 0 nieuwe matches toegevoegd aan active, geen archiveringen deze run; alle 8 actieve vacatures live geverifieerd, geen statuswijzigingen door Arjen aangetroffen; twee kandidaten overwogen en afgewezen (Enexis Senior adviseur energietransitie Venlo - HBO-niveau en regionale stakeholdersrol, geen strategisch WO-niveau; ACM Financieel Toezichthouder Energie- en Warmtemarkt - specialistische inspecteursrol i.p.v. strategie of beleid); Alliander vacatureoverzicht laadde dit keer wel (214 vacatures) maar trefwoordfilter en paginering (36 paginas) werken niet betrouwbaar; Eneco vacatureoverzicht (52 vacatures, 6 paginas) - paginaklik en categoriefilter hadden geen effect, alleen pagina 1 gecontroleerd; kandidaten via WebSearch bij Alliander (Senior Consultant Strategische Verkenningen, Senior Beleidsadviseur), Vattenfall (Senior Strategy Advisor, Senior Strategisch Adviseur Customers NL), Enexis (Adviseur Sectorstrategie, Strategisch Adviseur Energietransitie, Strategisch adviseur organisatieontwikkeling, Partner Energietransitie), NEa (Strategisch adviseur Hernieuwbare Energie, afdelingshoofd Emissiehandel), Essent (Lead Sustainability & Society), EBN (Public Affairs Advisor), Netbeheer Nederland (Adviseur Strategie en Beleid, Strategisch Communicatieadviseur), EZK (Senior beleidsmedewerker energietransitie en netcongestie) en RVO (Senior Adviseur economische weerbaarheid, Procescoordinator ICT en Subsidies) bleken bij live-verificatie allemaal verlopen of 404 (stale Google-index).",
   "active": [
     {
       "bedrijf": "Eneco",
@@ -913,8 +913,15 @@
   "notControlled": [
     {
       "bedrijf": "Alliander/Liander",
-      "titel": "Vacatureoverzicht (algemene zoekpagina)",
-      "reden": "Pagina https://werkenbij.alliander.com/vacatures bleef op 24-08-2026 hangen op skeleton-placeholders (\"Bezig met laden\") ondanks 12+ seconden wachten en meerdere pogingen (met en zonder zoekterm) - lijst rendert niet. Individuele vacaturepaginas werken wel gewoon (bestaande actieve vacature bevestigd live). Twee kandidaat-URLs uit WebSearch (Senior Consultant Strategische Verkenningen, Adviseur Regulering) bleken 404.",
+      "titel": "Vacatureoverzicht (algemene zoekpagina) - trefwoordfilter en paginering",
+      "reden": "Op 26-08-2026 laadde https://werkenbij.alliander.com/vacatures deze keer wel (214 vacatures, 36 paginas, eerder op 24-08-2026 bleef de pagina hangen op skeleton-placeholders). De trefwoordfilter (?query=...) past echter niet toe op de resultaten - lijst blijft ongefilterd de nieuwste 10 tonen. 36 paginas handmatig doorlopen was niet haalbaar binnen deze run. Kandidaten uit WebSearch (Senior Consultant Strategische Verkenningen, Senior Beleidsadviseur) bleken bij live-verificatie beide 404.",
       "link": "https://werkenbij.alliander.com/vacatures"
-    }]
+    },
+    {
+      "bedrijf": "Eneco",
+      "titel": "Vacatureoverzicht - paginering en categoriefilter",
+      "reden": "Op 26-08-2026: https://www.werkenbijeneco.nl/vacatures toont 52 vacatures over 6 paginas, maar klikken op paginanummer 2 en op categoriefilter Business development & Sales hadden geen zichtbaar effect - lijst bleef de eerste 10 tonen. Slechts 10 van 52 vacatures gecontroleerd deze run; geen match onder de zichtbare 10.",
+      "link": "https://www.werkenbijeneco.nl/vacatures"
+    }
+  ]
 }
