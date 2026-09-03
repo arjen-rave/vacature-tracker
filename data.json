@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-08-29T13:01:00+02:00",
-  "lastCheckNote": "17 bronnen gecheckt (allemaal dit keer bezocht: TenneT, Alliander/Liander, Stedin (8/8 paginas), Enexis, Gasunie, Vattenfall, Eneco, RWE, Orsted, Uniper, NEa, ACM, EBN, Essent, Netbeheer Nederland, EZK, RVO); 1 nieuwe match toegevoegd aan active (Alliander/Liander Senior Portfolio Consultant, WO-niveau, adviseert ExCo/SRO met strategische portfolio-inzichten - chief-of-staff-achtige interne strategierol); geen archiveringen deze run, alle 8 bestaande actieve vacatures plus de nieuwe live geverifieerd, geen statuswijzigingen door Arjen aangetroffen; Orsted NL toont momenteel 0 vacatures, Uniper NL toont 0 vacatures; Alliander vacatureoverzicht (query=strateeg) trefwoordfilter nog steeds kapot (199 vacatures ongefilterd, 34 paginas) - blijft in notControlled; Eneco vacatureoverzicht paginering niet opnieuw getest deze run (WebSearch gebruikt als aanvulling); Stedin 8/8 paginas succesvol doorgenomen via directe URL-navigatie zonder hang-problemen; diverse kandidaten via WebSearch bij TenneT, Vattenfall (Public/Regulatory Affairs Advisor, Senior Strategy Advisor Wind, Senior Strategisch Adviseur Customers NL), Gasunie (Strateeg energietransitie, Public en Regulatory Affairs Adviseur, Strategisch Communicatieadviseur), Enexis (Strategisch Adviseur Energietransitie, Strategisch adviseur organisatieontwikkeling), NEa (7 kandidaten), EBN (Public Affairs Advisor), Netbeheer Nederland (Adviseur Strategie en Beleid, Beleidsadviseur Economie en Regelgeving - laatste bleek stale nieuwsartikel uit 2022), EZK (Senior Beleidsmedewerker netcongestie) en RVO (Senior Adviseur economische weerbaarheid) bleken bij live-verificatie allemaal verlopen of 404 of stale.",
+  "lastUpdated": "2026-09-03T15:06:37+02:00",
+  "lastCheckNote": "17 bronnen gecheckt (TenneT, Alliander/Liander, Stedin, Enexis, Gasunie, Vattenfall, Eneco, RWE, Orsted, Uniper, NEa, ACM, EBN, Essent, Netbeheer Nederland, EZK, RVO); 2 nieuwe matches toegevoegd aan active (ACM Financieel Toezichthouder Energie- en Warmtemarkt; Eneco Program Director Trade Transformation); 3 archiveringen (Eneco Strategic Businessmanager Trade - vervuld; Alliander/Liander Consultant Strategie & Innovatie - verlopen; RVO Gebiedsregisseur Verduurzaming Industrie - verlopen); overige 6 bestaande actieve vacatures geverifieerd nog live. Stedin: gedeeltelijke check, alleen pagina 1 van 7 handmatig bekeken - paginering en trefwoordfilter opnieuw bevestigd kapot (zoals eerder gemeld), WebSearch-aanvulling leverde alleen verlopen vacatures op. EZK: meerdere WebSearch-queries uitgevoerd, alle gevonden kandidaten bleken bij live-verificatie verlopen; volledige live doorzoeking van werkenvoornederland.nl voor EZK niet mogelijk doordat organisatie/query-parameters in de URL genegeerd worden door de site. Eneco vacatureoverzicht dit keer wel volledig doorgenomen (61 van 61 vacatures via paginering met ?o= parameter, werkte deze run goed) - notControlled-item voor Eneco daarom verwijderd. Alliander/Liander trefwoordfilter opnieuw bevestigd kapot, blijft in notControlled. Orsted NL en Uniper NL tonen momenteel 0 vacatures. RVO-organisatiepagina gaf een volledige live lijst (14 vacatures); EBN-portaal toont momenteel geen specifieke vacatures buiten open sollicitatie.",
   "active": [
+    {
+      "bedrijf": "ACM",
+      "titel": "Financieel Toezichthouder Energie- en Warmtemarkt",
+      "link": "https://www.acm.nl/nl/organisatie/werken-bij/vacatures/financieel-toezichthouder-energie-en-warmtemarkt",
+      "beschrijving": "Financieel toezichthouder binnen de Directie Toezicht Energie van de ACM: onderzoekt de financiele en organisatorische integriteit van energieleveranciers, warmtebedrijven en netbeheerders en werkt mee aan het reguleren van tarieven.",
+      "fit": "Senior toezichthoudende/regulerende rol in de energiesector bij een onafhankelijke marktautoriteit; sluit aan bij Arjens interesse in marktontwerp en regulering, vergelijkbaar met de bestaande ACM-vacature Toezichthouder Energiemarkt.",
+      "status": "Niet gesolliciteerd",
+      "tags": ["energy", "regulation", "financial oversight", "senior"]
+    },
+    {
+      "bedrijf": "Eneco",
+      "titel": "Program Director Trade Transformation",
+      "link": "https://www.werkenbijeneco.nl/vacatures/program-director-trade-transformation-3135",
+      "beschrijving": "Directeur die de transformatie van Eneco's Trade-organisatie leidt: governance, target operating model, risicobeheersing en performance management voor de energiehandelsportefeuille, rapporterend aan de voorzitter van het Trade MT.",
+      "fit": "Senior strategische directierol met sterk governance- en transformatiekarakter (rapporteert aan MT-voorzitter, adviseert MT), passend bij Arjens profiel voor strategie/advies op directieniveau in de energiesector.",
+      "status": "Niet gesolliciteerd",
+      "tags": ["energy", "strategy", "transformation", "senior"]
+    },
     {
       "bedrijf": "Alliander/Liander",
       "titel": "Senior Portfolio Consultant",
@@ -11,20 +29,7 @@
       "status": "Niet gesolliciteerd",
       "tags": ["energy", "strategy", "chief of staff", "governance", "senior", "internal advisory"]
     },
-    {
-      "bedrijf": "Eneco",
-      "titel": "Strategic Businessmanager Trade",
-      "link": "https://www.werkenbijeneco.nl/vacatures/strategic-businessmanager-trade-3185",
-      "beschrijving": "Nieuwe rol binnen het Trade Management Team van Eneco Energy Trade: combineert strategisch adviseurschap met hands-on uitvoering - agenda's en besluitvorming voorbereiden, governance van het management team bewaken, en zelfstandig Trade-brede initiatieven en verbeterprogramma's leiden.",
-      "fit": "Sterke match als chief-of-staff-achtige rol (telt expliciet mee volgens Arjens profiel): werkt direct met het voltallige Trade Management Team aan strategische prioriteiten, governance en besluitvorming bij een grote Nederlandse energieleverancier, met brede blootstelling aan senior management en WO-niveau vereist.",
-      "status": "Niet gesolliciteerd",
-      "tags": [
-        "energy",
-        "chief of staff",
-        "governance",
-        "senior"
-      ]
-    },
+    
     {
       "bedrijf": "Rijksdienst voor Ondernemend Nederland (RVO)",
       "titel": "Afdelingsmanager Energiesysteem-innovatie en Ondergrond",
@@ -68,20 +73,7 @@
         "senior"
       ]
     },
-{
-      "bedrijf": "Alliander/Liander",
-      "titel": "Consultant Strategie & Innovatie",
-      "link": "https://werkenbij.alliander.com/vacatures/consultant-strategie-innovatie/jr19365",
-      "beschrijving": "Consultant binnen de afdeling Strategie & Innovatie van Liander (Alliander): vertaalt strategische initiatieven naar concrete keuzes en acties, managet de bredere keten en verbindt interne en externe stakeholders rond de energietransitie.",
-      "fit": "Strategieconsultancy-rol met minimaal 5 jaar ervaring, stakeholdermanagement en ketenoverstijgend werken - past bij Arjens profiel, al ligt het salarisniveau (schaal 9/10) lager dan bij de meeste andere actieve vacatures.",
-      "status": "Niet gesolliciteerd",
-      "tags": [
-        "energy",
-        "strategy",
-        "innovation",
-        "netbeheer"
-      ]
-    },
+
     {
       "bedrijf": "ACM",
       "titel": "Toezichthouder Energiemarkt",
@@ -109,23 +101,27 @@
         "resilience",
         "senior"
       ]
+    }
+  ],
+  "archive": [
+    {
+      "bedrijf": "Eneco",
+      "titel": "Strategic Businessmanager Trade",
+      "reden": "Vacature is vervuld (werkenbijeneco.nl toont: 'Oeps, deze vacature is al vervuld!')",
+      "datum": "2026-09-03"
+    },
+    {
+      "bedrijf": "Alliander/Liander",
+      "titel": "Consultant Strategie & Innovatie",
+      "reden": "Vacature is verlopen ('Deze vacature is verlopen. Solliciteren is niet meer mogelijk.')",
+      "datum": "2026-09-03"
     },
     {
       "bedrijf": "Rijksdienst voor Ondernemend Nederland (RVO)",
       "titel": "Gebiedsregisseur Verduurzaming Industrie",
-      "link": "https://www.werkenvoornederland.nl/vacatures/gebiedsregisseur-verduurzaming-industrie-RVO-2026-1514",
-      "beschrijving": "Gebiedsregisseur die namens RVO regionale samenwerking tot stand brengt tussen bedrijven, netbeheerders en overheden bij de verduurzaming van industriele regio's, en knelpunten signaleert en oplost rond vergunningen, netcapaciteit en financiering.",
-      "fit": "Goede match: verbindende, bestuurlijk sensitieve rol (WO, 5+ jaar ervaring) op het snijvlak van industrie, netbeheerders en overheidsbeleid - sluit aan bij Arjens profiel van senior advies-/verbindingsrollen in de energietransitie.",
-      "status": "Niet gesolliciteerd",
-      "tags": [
-        "energy",
-        "industry",
-        "stakeholder management",
-        "government"
-      ]
-    }
-  ],
-  "archive": [
+      "reden": "Vacature niet beschikbaar op werkenvoornederland.nl (reactie-/openstellingstermijn verstreken)",
+      "datum": "2026-09-03"
+    },
     {
       "bedrijf": "Netbeheer Nederland",
       "titel": "Adviseur Economie en Regelgeving Energietransitie",
@@ -925,12 +921,6 @@
       "titel": "Vacatureoverzicht (algemene zoekpagina) - trefwoordfilter en paginering",
       "reden": "Op 29-08-2026 opnieuw getest: https://werkenbij.alliander.com/vacatures?query=strateeg toont nog steeds 199 ongefilterde vacatures over 34 paginas, trefwoordfilter werkt niet. Wel: vaste vacature-URLs uit eerdere WebSearch-runs (Senior Consultant Strategische Verkenningen JR14752, Senior Strategie Consultant JR11914, Portfolio Strategie Consultant JR13780) zijn alle drie stale/404 gebleken. Nieuwe match dit keer gevonden op pagina 1 van het ongefilterde overzicht (Senior Portfolio Consultant, toegevoegd aan active), wat aantoont dat het overzicht zelf wel bruikbaar is als je handmatig scant, alleen het filter niet.",
       "link": "https://werkenbij.alliander.com/vacatures"
-    },
-    {
-      "bedrijf": "Eneco",
-      "titel": "Vacatureoverzicht - paginering en categoriefilter",
-      "reden": "Op 26-08-2026: https://www.werkenbijeneco.nl/vacatures toont 52 vacatures over 6 paginas, maar klikken op paginanummer 2 en op categoriefilter Business development & Sales hadden geen zichtbaar effect - lijst bleef de eerste 10 tonen. Slechts 10 van 52 vacatures gecontroleerd deze run; geen match onder de zichtbare 10.",
-      "link": "https://www.werkenbijeneco.nl/vacatures"
     }
   ]
 }
