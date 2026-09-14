@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-11T09:07:34+02:00",
-  "lastCheckNote": "17 bronnen gecheckt, 1 nieuwe match toegevoegd aan active (TenneT Beleidsmedewerker congestie management), geen archiveringen (alle 8 bestaande actieve vacatures nog live, status overal 'Niet gesolliciteerd'). TenneT: gecheckt, 1 nieuwe match toegevoegd (Beleidsmedewerker congestie management, vacature 103090, geen vaste sluitingsdatum, beleidsrol binnen Grid Security op transportcapaciteit/netveiligheid/congestiemanagement met vertegenwoordiging in externe werkgroepen; bestaande Systems & Markets Policy Advisor 115751 nog live, sluit 13 september; Beleidsadviseur/Policy Advisor 93682 uit WebSearch bleek 404; Manager Strategy & Innovation 104855 nogmaals 404/verlopen). Alliander/Liander: gecheckt, geen nieuwe match (bestaande Senior Portfolio Consultant JR19352 nog live, sluit 13 september; WebSearch-kandidaten Senior Beleidsadviseur JR01177, Consultant Congestiemanagement JR13731 en Strategy Deployment Consultant JR09900 alle 404, Consultant Strategie Innovatie jr19365 verlopen). Stedin: vandaag wel volledig doorgebladerd via paginering (in tegenstelling tot eerdere runs) — alle ~90-99 vacatures over 6-7 pagina's gescand, geen strategie/beleid/chief-of-staff match (voornamelijk technische/operationele rollen); trefwoordfilter niet opnieuw getest maar niet nodig gehad omdat paginering vandaag wel werkte; WebSearch-kandidaten sr adviseur corporate strategie, Beleidsadviseur Bedrijfsvoering en Adviseur portfolio en strategische sturing alle ALGEMENE VACATUREFOUT. Enexis: gecheckt, geen nieuwe match (beide bestaande vacatures nog live, Directeur Weerbaarheid sluit vandaag 11 september — aandacht voor morgen of deze nog live is; WebSearch-kandidaten Senior adviseur energietransitie 15981 en Strategisch Adviseur Organisatieontwikkeling 15517 beide niet beschikbaar). Gasunie: gecheckt, niets passends (nog steeds maar 6 vacatures, geen strategie/beleidsrol; Public & Regulatory Affairs Adviseur 404). Vattenfall: gecheckt via JavaScript-paginering-workaround (pagination(2)-functie rechtstreeks aangeroepen omdat de gewone kliknavigatie niet werkte) — alle 22 NL-vacatures over 2 pagina's volledig gescand, geen strategie/beleid/policy match (Director Industrial Relations Netherlands is HR, geen policy-rol). Eneco: gecheckt, geen nieuwe match (bestaande Program Director Trade Transformation nog live; WebSearch-kandidaat Manager Strategy Assets & Operations 404, Head of Strategy & Control 2338 nogmaals 404). RWE: gecheckt, niets passends (13 NL-vacatures op jobs.rwe.com, allemaal techniek/onderhoud/procurement). Orsted: gecheckt, niets passends (1 vacature totaal in NL, Strategy and business development niet zichtbaar tussen de getoonde areas of work). Uniper: gecheckt, niets passends (careers.uniper.energy toont 0 jobs met filter Netherlands). NEa: gecheckt, niets passends (WebSearch-kandidaten Senior strategisch adviseur toezicht en marktontwikkelingen, Strategisch adviseur Hernieuwbare Energie en afdelingshoofd Emissiehandel alle vacature niet beschikbaar). ACM: gecheckt, geen nieuwe match (9 totale vacatures op de site bekeken; beide bestaande vacatures nog live; Senior Strateeg bij de Directie Toezicht Energie uit WebSearch bleek 404/niet meer in de huidige lijst van 9; Senior Strategisch Adviseur CIO-Office blijft IT-strategie, geen energiebeleid, zoals eerder al geconcludeerd). EBN: gecheckt, niets passends (werkenbijebn.recruitee.com toont alleen Open Sollicitatie, geen specifieke vacatures live). Essent: gecheckt, geen nieuwe match (22 vacatures totaal, 14 zichtbaar zonder werkende paginering/filter, allemaal sales/marketing/finance/customer service; WebSearch-kandidaten Adviseur Regulatory Affairs en Lead Sustainability & Society beide niet live). Netbeheer Nederland: gecheckt, geen nieuwe match (bestaande Programmamanager Weerbaarheid nog live; WebSearch-kandidaat Adviseur Strategie & Beleid bleek niet meer te bestaan; huidige overzichtspagina toont alleen de bestaande vacature plus open sollicitatie). EZK: gecheckt, niets passends (WebSearch-kandidaten Senior beleidsmedewerker energietransitie diepe ondergrond 8203 en Financieel Strategisch Adviseur Klimaat & Energie 5132 beide vacature niet beschikbaar). RVO: gecheckt, niets passends (WebSearch-kandidaat Senior Adviseur Vestigingsklimaat en Economische Weerbaarheid RVO-2025-0256 vacature niet beschikbaar, overige kandidaten niet energie-/klimaatspecifiek of te operationeel qua titel).",
+  "lastUpdated": "2026-09-14T09:08:08+02:00",
+  "lastCheckNote": "17 bronnen gecheckt, 0 nieuwe matches toegevoegd aan active, 1 archivering (Alliander/Liander Senior Portfolio Consultant JR19352, vacature verlopen). TenneT: gecheckt, geen nieuwe match (Beleidsmedewerker congestie management 103090 en Systems & Markets Policy Advisor 115751 beide nog live; Systems & Markets Policy Advisor had als reactietermijn 13 september, vandaag 14 september nog steeds volledig te bezoeken/te solliciteren dus nog niet als verlopen behandeld; WebSearch-kandidaten (Adviseur grondzaken 91003, Beleidsadviseur/Policy Advisor 93682, RO&M-adviseurs 93199/93206, Rewards and Benefits Advisor, HSE Adviseur Environment, Offshore Development Specialist, Asset Specialist EMC) allemaal al eerder afgekeurd/404 of inhoudelijk geen fit). Alliander/Liander: 1 archivering (Senior Portfolio Consultant JR19352 nu 'Deze vacature is verlopen. Solliciteren is niet meer mogelijk.'); WebSearch-kandidaat Strategisch Consultant Transformatie JR16999 nieuw gevonden maar 404; overige kandidaten (Consultant Strategie Innovatie JR19365, Senior Beleidsadviseur JR01177, Business Consultant JR17380, Senior Consultant Strategische Verkenningen JR14752, Senior Strategie Consultant JR15035/JR11914, Management Traineeship JR18379) al bekend/stale, geen herplaatsing. Stedin: NIET volledig doorzoekbaar — paginering op werkenbij.stedin.net/vacatures-zoeken opnieuw kapot (bleef hangen op pagina 1 van 7 ondanks klikken op 'Volgende' en filter op vakgebied Management; slechts 15 van 98 vacatures rechtstreeks te zien), aangevuld met WebSearch (sr adviseur corporate strategie 36205503232, adviseur innovatie 39148412864, adviseur portfolio en strategische sturing 39696804992, beleidsadviseur bedrijfsvoering 33151195776, medior adviseur strategie executie JR10678) — stuk voor stuk 'Algemene vacature fout' of 404, geen enkele live. Behandeld als gedeeltelijke check, zie notControlled. Enexis: gecheckt, geen nieuwe match (Directeur Weerbaarheid 15410 en Strategisch Consultant End-2-End Grootverbruik & Netten 15568 beide nog live, ondanks dat Directeur Weerbaarheid oorspronkelijk als sluitend op 11 september was genoteerd — pagina nog volledig actief met sollicitatieformulier; WebSearch-kandidaten Adviseur Mobiliteit 12690 en Adviseur Ruimtelijk Beleid en Energietransitie 13737 beide 'Momenteel kunnen we geen vacature details tonen', niet live). Gasunie: gecheckt, niets passends (WebSearch-kandidaten allemaal al bekende/eerder gearchiveerde vacature-IDs, geen nieuwe gevonden, nog steeds geen strategie-/beleidsrol op senior niveau). Vattenfall: gecheckt via WebSearch (careers.vattenfall.com/jobs met search=strategy&country=Netherlands-parameter filtert niet echt, toont 294 ongefilterde internationale resultaten); nieuw gevonden kandidaten Public and Regulatory Affairs Advisor (jid-50698) en Senior Strategisch Adviseur Customers NL (jid-48955) allebei 'Deze vacature is inmiddels verlopen'; Associate Strategy Advisor (jid-48838, sowieso te junior qua ervaringseis) en Resilience Area Lead (jid-52205, multi-locatie EU-rol) eveneens verlopen. Eneco: gecheckt, geen nieuwe match (Program Director Trade Transformation nog live; WebSearch-kandidaat Consultant Rotterdam en Mechelen 1205463 niet meer beschikbaar; Head of BT NL, Head of Enabling Technology en Strategic HR Business Partner Tech inhoudelijk geen fit — resp. technologie-leiderschap en HR). RWE: gecheckt, niets passends (geen NL strategie-/beleidsrol gevonden via WebSearch op jobs.rwe.com, alleen internationale/niet-NL resultaten). Ørsted: gecheckt, niets passends (orsted.com/en/careers/locations/netherlands toont nog steeds 0 vacatures). Uniper: gecheckt, niets passends (careers.uniper.energy met Netherlands-filter toont 0 Jobs, rechtstreeks via Chrome geverifieerd met screenshot). NEa: gecheckt, niets passends (WebSearch-kandidaat afdelingshoofd Emissiehandel NEA-2026-9168 'vacature niet beschikbaar', reactietermijn verstreken). ACM: gecheckt, geen nieuwe match (volledige lijst van 9 vacatures rechtstreeks bekeken op acm.nl; Financieel Toezichthouder Energie- en Warmtemarkt en Toezichthouder Energiemarkt beide nog live; overige 7 (Senior Juridisch Adviseur, Projectleider Data Economie, Analytics Engineer, Senior Strategisch Adviseur CIO-Office [IT-strategie, geen energiebeleid], Manager Mens en Organisatie, Senior DataPlatform Engineer, Technisch specialist Data & Cloud) inhoudelijk geen fit). EBN: gecheckt, niets passends (werkenbijebn.recruitee.com toont momenteel geen enkele open vacature, alleen algemene bedrijfsinformatie; Public Affairs Advisor-link uit WebSearch bleek 'We konden deze vacature niet vinden'). Essent: gecheckt, geen nieuwe match (22 vacatures totaal, 14 rechtstreeks zichtbaar zonder werkende volledige paginering, allemaal sales/marketing/finance/customer service/engineering; Adviseur Regulatory Affairs uit WebSearch bleek niet meer live ('Oeps, hier is niemand!')). Netbeheer Nederland: gecheckt, geen nieuwe match (overzichtspagina toont nog steeds alleen de bestaande Programmamanager Weerbaarheid plus een open sollicitatie; WebSearch-kandidaten Adviseur Strategie & Beleid, Beleidsadviseur Economie & Regelgeving, Secretaris domein Systeem & Infra en Business Consultant(s) Energietransitie zijn verouderde nieuwsartikelen/links, niet (meer) op de actuele overzichtspagina). EZK: gecheckt, niets passends (WebSearch-kandidaten Senior Beleidsmedewerker/Senior Vergunningverlener EZ-2026-1179 en Beleidsmedewerker omgevingsbetrokkenheid gebruik diepe ondergrond EZK-2026-6279 beide 'vacature niet beschikbaar', reactietermijn verstreken). RVO: gecheckt, niets passends (WebSearch-kandidaten Directeur-generaal RVO RVO-2026-3641 en Procescoördinator ICT en Subsidies (SDE++) RVO-2026-9996 beide 'vacature niet beschikbaar', reactietermijn verstreken).",
   "active": [
     {
       "bedrijf": "TenneT",
@@ -23,7 +23,12 @@
       "beschrijving": "Inhoudelijke en verbindende rol op het gebied van elektriciteitsmarkten, marktintegriteit en regelgeving binnen het Market Monitoring for Surveillance (MMS) team; beoordeelt signalen van marktmisbruik en adviseert management over complexe beleidsmatige en regulatoire vraagstukken, met nauw contact richting ACM en ACER. Arnhem, WO, sluit 13 september 2026.",
       "fit": "Sterke match met marktontwerp/beleid-profiel: adviesrol op het snijvlak van beleid, marktwerking en regelgeving in de elektriciteitsmarkt, met directe adviesrelatie naar management; geen technische uitvoeringsrol.",
       "status": "Niet gesolliciteerd",
-      "tags": ["energy", "policy", "market design", "regulation"]
+      "tags": [
+        "energy",
+        "policy",
+        "market design",
+        "regulation"
+      ]
     },
     {
       "bedrijf": "Enexis",
@@ -32,7 +37,13 @@
       "beschrijving": "Directeur die verantwoordelijk is voor de fysieke en digitale weerbaarheid van Enexis: ontwikkelt de geintegreerde weerbaarheidsstrategie, is secretaris van de Stuurgroep Weerbaarheid en adviseert en rapporteert aan de Raad van Bestuur over prioriteiten en middelenallocatie.",
       "fit": "Sterke match: directeursrol met directe adviesrelatie tot de RvB, verantwoordelijk voor strategische regie op weerbaarheid van kritieke energie-infrastructuur, vergelijkbaar met de bestaande Netbeheer Nederland-vacature maar dan intern bij een netbeheerder. Let op: sluit al op 11 september 2026, dus urgent.",
       "status": "Niet gesolliciteerd",
-      "tags": ["energy", "resilience", "director", "senior", "grid operator"]
+      "tags": [
+        "energy",
+        "resilience",
+        "director",
+        "senior",
+        "grid operator"
+      ]
     },
     {
       "bedrijf": "ACM",
@@ -60,22 +71,6 @@
         "strategy",
         "transformation",
         "senior"
-      ]
-    },
-    {
-      "bedrijf": "Alliander/Liander",
-      "titel": "Senior Portfolio Consultant",
-      "link": "https://werkenbij.alliander.com/vacatures/senior-portfolio-consultant/jr19352",
-      "beschrijving": "Bewaakt binnen het Strategisch Portfoliomanagement Office (SPM-Office) de kwaliteit en samenhang van het totale Alliander-portfolio, voert regie op het kwartaalproces en vertaalt portfoliodata en scenario-analyses naar besluitvormingsstukken.",
-      "fit": "Chief-of-staff-achtige interne strategie- en governancerol (telt expliciet mee volgens Arjens profiel): adviseert senior stakeholders, de SRO en de ExCo met strategische portfolio-inzichten en bereidt bestuurlijke besluitvorming voor, WO-niveau, 8+ jaar ervaring vereist.",
-      "status": "Niet gesolliciteerd",
-      "tags": [
-        "energy",
-        "strategy",
-        "chief of staff",
-        "governance",
-        "senior",
-        "internal advisory"
       ]
     },
     {
@@ -122,6 +117,12 @@
     }
   ],
   "archive": [
+    {
+      "bedrijf": "Alliander/Liander",
+      "titel": "Senior Portfolio Consultant",
+      "reden": "Vacature is verlopen ('Deze vacature is verlopen. Solliciteren is niet meer mogelijk.'), rechtstreeks geverifieerd op werkenbij.alliander.com/vacatures/senior-portfolio-consultant/jr19352.",
+      "datum": "2026-09-14"
+    },
     {
       "bedrijf": "Rijksdienst voor Ondernemend Nederland (RVO)",
       "titel": "Afdelingsmanager Energiesysteem-innovatie en Ondergrond",
@@ -955,8 +956,14 @@
     {
       "bedrijf": "Alliander/Liander",
       "titel": "Vacatureoverzicht (algemene zoekpagina) - trefwoordfilter en paginering",
-      "reden": "Op 06-09-2026 opnieuw getest: overzichtspagina (werkenbij.alliander.com/vacatures) toont 164 vacatures over 28 pagina's, trefwoordfilter nog steeds onbetrouwbaar/niet volledig handmatig te doorzoeken binnen de tijd. Zeven vaste vacature-URLs uit WebSearch (Senior Consultant Strategische Verkenningen JR14752, Consultant Congestiemanagement JR13731, Senior Strategie Consultant JR11914, Senior Business Consultant Netdigitalisering JR15035, Consultant Strategie Innovatie JR19365, Strategy Deployment Consultant JR09900, Business Consultant JR17380) alle zeven stale/404 gebleken. Bestaande match (Senior Portfolio Consultant, JR19352) blijft actief en live.",
+      "reden": "Op 14-09-2026 opnieuw getest: overzichtspagina blijft niet betrouwbaar handmatig doorzoekbaar binnen de tijd. WebSearch-kandidaat Strategisch Consultant Transformatie (JR16999) nieuw gevonden maar 404. Zeven eerder gevonden vaste vacature-URL's blijven stale/404. Geen bevestigde live strategie-/beleidsrol behalve reeds gearchiveerde items.",
       "link": "https://werkenbij.alliander.com/vacatures"
+    },
+    {
+      "bedrijf": "Stedin",
+      "titel": "Vacatureoverzicht (vacatures-zoeken) - paginering",
+      "reden": "Op 14-09-2026: paginering op werkenbij.stedin.net/vacatures-zoeken bleef hangen op pagina 1 van 7 (98 vacatures totaal, slechts 15 rechtstreeks zichtbaar), zowel via de 'Volgende'-link als via het vakgebied-filter (Management). Aangevuld met WebSearch, maar alle vijf gevonden kandidaat-URL's (sr adviseur corporate strategie, adviseur innovatie, adviseur portfolio en strategische sturing, beleidsadviseur bedrijfsvoering, medior adviseur strategie executie JR10678) bleken 'Algemene vacature fout' of 404. Kon dus niet volledig handmatig doorbladerd worden deze run.",
+      "link": "https://werkenbij.stedin.net/vacatures-zoeken"
     }
   ]
 }
