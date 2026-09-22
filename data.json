@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-21T16:08:23+02:00",
-  "lastCheckNote": "19 bronnen gecheckt, 1 nieuwe match toegevoegd aan active (Stedin Corporate Strateeg Duurzaamheid), 1 archivering o.b.v. Arjens statuswijziging (Invest-NL Senior Investment Manager - Energy naar 'Niet interessant') en 1 nieuwe kandidaat overwogen en afgekeurd (Eneco Strategisch Partner Manager, sales-rol). TenneT: geen nieuwe match (Business Advisor 117207 nog live; WebSearch-kandidaat Business Development and Consulting Manager 101505 nieuw gevonden maar 404). Alliander/Liander: notControlled, overzichtspagina te omvangrijk; WebSearch-kandidaten JR13780/JR14828 nieuw gevonden maar beide 404. Stedin: NIEUWE MATCH (Corporate Strateeg Duurzaamheid, via homepage-widget); paginering/filter blijft structureel kapot (stuurt nu door naar homepage), zie notControlled. Enexis: geen nieuwe match (Strategisch Consultant End-2-End 15568 nog live). Gasunie: niets passends (5 actuele vacatures rechtstreeks bekeken). Vattenfall: niets passends (22 NL-resultaten over 2 pagina's doorgenomen, keyword-filter genegeerd, uitsluitend technische/operationele rollen). Eneco: 1 kandidaat overwogen en afgekeurd (Strategisch Partner Manager 3165, sales-rol, deadline bovendien al verstreken); Head of Strategy & Control 2338 opnieuw gecontroleerd: nog steeds niet live. RWE: niets passends (volledige NL-lijst, 15 resultaten, uitsluitend engineering/onderhoud). Ørsted: niets passends (0 vacatures totaal). Uniper: niets passends (0 Jobs met Netherlands-filter). NEa: niets passends (WebSearch-kandidaten allemaal al bekende/afgekeurde IDs). ACM: geen nieuwe match (beide actieve vacatures nog live; volledige lijst nu 11 vacatures). EBN: niets passends (Business Controller, Financial Planning Analyst, Open Sollicitatie, Trainee Geoscientist; Public Affairs Advisor uit WebSearch-index niet live). Essent: niets passends (16 vacatures, geen Strategy & Development-rol zichtbaar). Netbeheer Nederland: geen nieuwe match (overzichtspagina ongewijzigd; WebSearch-kandidaten verouderde nieuwsartikelen). EZK: niets passends (actieve vacature Projectleider ruimtelijke verkenning nog live; 3 nieuwe WebSearch-kandidaten EZ-2026-8203/EZ-2026-1179/EZK-2026-6279 alle 'vacature niet beschikbaar'). RVO: niets passends (nieuwe kandidaat Adviseur Duurzame Waardeketens RVO-2026-3219 'vacature niet beschikbaar'). SodM: niets passends (WebSearch-kandidaten al bekend/verouderd of puur inspecteursniveau, genegeerd conform instructie). Invest-NL: 1 archivering (Senior Investment Manager - Energy naar archief o.b.v. Arjens statuswijziging); overige 5 vacatures nog steeds niet energie-specifiek/senior genoeg.",
+  "lastUpdated": "2026-09-22T14:42:58+02:00",
+  "lastCheckNote": "19 bronnen gecheckt, geen nieuwe matches toegevoegd aan active (alle 7 actieve vacatures nog live, geen statuswijzigingen). TenneT: geen nieuwe match (Business Advisor 117207 nog live; WebSearch-kandidaten allemaal al bekende/afgekeurde of nog steeds 404 IDs). Alliander/Liander: notControlled, overzichtspagina te omvangrijk (189 vacatures, 32 pagina's); WebSearch-kandidaat Consultant Strategie & Innovatie JR19365 nieuw gevonden maar verlopen. Stedin: geen nieuwe match (Corporate Strateeg Duurzaamheid 45010567104 nog live; paginering blijft structureel kapot, zie notControlled; 3 WebSearch-kandidaten nieuw gevonden maar alle 3 \"Algemene vacature fout\"). Enexis: geen nieuwe match (Strategisch Consultant End-2-End 15568 nog live; WebSearch-kandidaat Senior adviseur energietransitie 15981 nieuw gevonden maar niet live). Gasunie: niets passends (5 actuele vacatures rechtstreeks bekeken, geen strategie/beleid op senior niveau). Vattenfall: niets passends (22 NL-resultaten over 2 pagina's doorgenomen met keyword \"strategie\" genegeerd conform instructie, uitsluitend technische/operationele/IT-rollen; 2 nieuwe WebSearch-kandidaten Senior Strategisch Adviseur Customers NL beide verlopen). Eneco: niets passends (WebSearch-kandidaten Senior Strategy & Analytics Advisor 1866 en Manager Strategy Assets & Operations 1009148 beide niet live; Chief of Staff 1207164 en Head of Strategy & Control 2338 blijven niet live). RWE: niets passends (volledige NL-lijst, 15 resultaten, uitsluitend engineering/onderhoud/supply chain). Ørsted: niets passends (0 vacatures totaal, rechtstreeks bevestigd via screenshot). Uniper: niets passends (0 Jobs met Netherlands-filter, rechtstreeks bevestigd via screenshot na herhaalde pogingen, get_page_text faalde op canvas-content). NEa: niets passends (WebSearch-kandidaten allemaal al bekende/afgekeurde IDs of nieuw gevonden Senior Adviseur Hernieuwbare Energie 2025-0011, ook niet live). ACM: geen nieuwe match (beide actieve vacatures nog live; volledige lijst nu 8 vacatures, overige 6 geen energie/strategie-fit). EBN: niets passends (Business Controller, Financial Planning Analyst, Trainee Geoscientist; Public Affairs Advisor nog steeds niet live). Essent: niets passends (16 actuele vacatures direct bekeken, geen Strategy & Development-rol; WebSearch-kandidaat Lead Sustainability & Society nieuw gevonden maar niet live). Netbeheer Nederland: geen nieuwe match (Programmamanager Weerbaarheid nog live; WebSearch-kandidaat Beleidsadviseur Economie & Regelgeving bleek verouderd nieuwsartikel uit 2022). EZK: niets passends (actieve vacature Projectleider ruimtelijke verkenning nog live, sluit 1 oktober; bekende WebSearch-kandidaten EZ-2026-8203/EZ-2026-1179/EZK-2026-6279 blijven 'vacature niet beschikbaar'). RVO: niets bevestigd nieuws — WebSearch toonde een 'Senior Bestuursadviseur' (schaal 13) in de gerelateerde-vacatures-widget van werkenvoornederland.nl, maar de directe vacature-URL kon niet worden gevonden/geverifieerd binnen deze run, dus niet toegevoegd; overige kandidaten (Procescoördinator-rollen) te operationeel/niet senior genoeg. SodM: niets passends (2 WebSearch-kandidaten met oudere vacature-ID's, beide 'vacature niet beschikbaar'). Invest-NL: niets nieuws (5 actuele vacatures: Data Engineer, Head of Legal, Hoofd Interne Audit, Senior Investment Manager Energy [blijft gearchiveerd o.b.v. Arjens eerdere 'niet interessant'-markering, nog steeds dezelfde listing], Senior Investment Manager AgriFood [niet energie-specifiek]).",
   "active": [
     {
       "bedrijf": "TenneT",
@@ -102,6 +102,48 @@
     }
   ],
   "archive": [
+    {
+      "bedrijf": "Alliander",
+      "titel": "Consultant Strategie & Innovatie (JR19365)",
+      "reden": "Nieuw gevonden via WebSearch (naast eerder gearchiveerde JR14828/JR13780-varianten), maar bij bezoek \"Deze vacature is verlopen. Solliciteren is niet meer mogelijk.\" — niet live.",
+      "datum": "2026-09-22"
+    },
+    {
+      "bedrijf": "Eneco",
+      "titel": "Senior Strategy & Analytics Advisor (Rotterdam, ID 1866)",
+      "reden": "Nieuw gevonden via WebSearch, maar bij bezoek \"Waarschijnlijk is de pagina die je zocht niet meer beschikbaar\" — niet live.",
+      "datum": "2026-09-22"
+    },
+    {
+      "bedrijf": "Vattenfall",
+      "titel": "Senior Strategisch Adviseur Customers NL (Amsterdam, jid-48955 / jid-49921)",
+      "reden": "Nieuw gevonden via herzoeken op careers.vattenfall.com (2 verschillende vacature-ID's, zelfde functietitel), beide bij bezoek \"deze vacature is inmiddels verlopen\" — niet live.",
+      "datum": "2026-09-22"
+    },
+    {
+      "bedrijf": "Enexis",
+      "titel": "Senior adviseur energietransitie (15981)",
+      "reden": "Nieuw gevonden via WebSearch (nieuw ID naast eerder gearchiveerde Venlo-variant), maar bij bezoek \"Momenteel kunnen we geen vacature details tonen\" — niet live.",
+      "datum": "2026-09-22"
+    },
+    {
+      "bedrijf": "Nederlandse Emissieautoriteit (NEa)",
+      "titel": "Senior Adviseur Hernieuwbare Energie (NEA-2025-0011)",
+      "reden": "Nieuw gevonden via WebSearch, maar bij bezoek \"vacature niet beschikbaar\" (reactietermijn verstreken) — niet live.",
+      "datum": "2026-09-22"
+    },
+    {
+      "bedrijf": "Staatstoezicht op de Mijnen (SodM)",
+      "titel": "Strategisch Bestuursadviseur Energietransitie (EZ-2025-0016) / Strategisch Bestuursadviseur (EZ-2023-0409)",
+      "reden": "Beide nieuw gevonden via WebSearch (oudere vacature-ID's), maar bij bezoek beide \"vacature niet beschikbaar\" (reactietermijn verstreken) — niet live.",
+      "datum": "2026-09-22"
+    },
+    {
+      "bedrijf": "Netbeheer Nederland",
+      "titel": "Beleidsadviseur Economie & Regelgeving",
+      "reden": "Via WebSearch geïndexeerd nieuwsartikel gevonden, maar bij bezoek blijkt het artikel gedateerd op 11 februari 2022 — allang verlopen, geen actuele vacature.",
+      "datum": "2026-09-22"
+    },
     {
       "bedrijf": "Eneco",
       "titel": "Strategisch Partner Manager",
