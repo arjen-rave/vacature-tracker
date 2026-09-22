@@ -8,347 +8,434 @@
 <link rel="icon" href="icon-192.png">
 <link rel="apple-touch-icon" href="icon-192.png">
 <style>
-  :root { color-scheme: dark light; }
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 700px; margin: 0 auto; padding: 20px 14px 64px; line-height: 1.5; }
-  h1 { font-size: 1.4rem; }
-  h2 { font-size: 1.05rem; margin-top: 2.2rem; border-bottom: 1px solid #8883; padding-bottom: 6px; }
-  .meta { color: #888; font-size: 0.9rem; }
-  .empty { color: #888; font-style: italic; padding: 16px 0; }
-  .toggle-row { display: flex; align-items: center; gap: 10px; margin-top: 14px; }
-  .toggle-switch { position: relative; display: inline-block; width: 46px; height: 26px; flex-shrink: 0; }
-  .toggle-switch input { opacity: 0; width: 0; height: 0; }
-  .toggle-slider { position: absolute; inset: 0; background: #6b7280; border-radius: 999px; cursor: pointer; transition: background 0.15s ease; }
-  .toggle-slider::before { content: ""; position: absolute; width: 20px; height: 20px; left: 3px; top: 3px; background: white; border-radius: 50%; transition: transform 0.15s ease; }
-  .toggle-switch input:checked + .toggle-slider { background: #2563eb; }
-  .toggle-switch input:checked + .toggle-slider::before { transform: translateX(20px); }
-  .toggle-switch input:disabled + .toggle-slider { opacity: 0.6; cursor: default; }
-  .toggle-label { font-size: 0.95rem; font-weight: 600; }
+:root { color-scheme: dark light; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 700px; margin: 0 auto; padding: 20px 14px 64px; line-height: 1.5; }
+h1 { font-size: 1.4rem; }
+h2 { font-size: 1.05rem; margin-top: 2.2rem; border-bottom: 1px solid #8883; padding-bottom: 6px; }
+.meta { color: #888; font-size: 0.9rem; }
+.empty { color: #888; font-style: italic; padding: 16px 0; }
+.toggle-row { display: flex; align-items: center; gap: 10px; margin-top: 14px; }
+.toggle-switch { position: relative; display: inline-block; width: 46px; height: 26px; flex-shrink: 0; }
+.toggle-switch input { opacity: 0; width: 0; height: 0; }
+.toggle-slider { position: absolute; inset: 0; background: #6b7280; border-radius: 999px; cursor: pointer; transition: background 0.15s ease; }
+.toggle-slider::before { content: ""; position: absolute; width: 20px; height: 20px; left: 3px; top: 3px; background: white; border-radius: 50%; transition: transform 0.15s ease; }
+.toggle-switch input:checked + .toggle-slider { background: #2563eb; }
+.toggle-switch input:checked + .toggle-slider::before { transform: translateX(20px); }
+.toggle-switch input:disabled + .toggle-slider { opacity: 0.6; cursor: default; }
+.toggle-label { font-size: 0.95rem; font-weight: 600; }
 
-  /* Archief zit standaard ingeklapt achter deze section-toggle — met tientallen
-     items is de volledige lijst anders altijd een lange scroll bij het laden
-     van de pagina. Zelfde caret-stijl als de losse kaarten, voor consistentie. */
-  .section-details { margin-top: 2.2rem; }
-  .section-details summary { cursor: pointer; list-style: none; border-bottom: 1px solid #8883; padding-bottom: 6px; }
-  .section-details summary::-webkit-details-marker { display: none; }
-  .section-details summary::before { content: "▸"; display: inline-block; margin-right: 8px; color: #888; transition: transform 0.15s ease; }
-  .section-details[open] summary::before { transform: rotate(90deg); }
-  .section-summary-heading { display: inline; font-size: 1.05rem; margin: 0; }
-  #subStatus { margin-top: 8px; font-size: 0.85rem; color: #888; }
+/* Sorteerbalk boven Actief/Gesolliciteerd — geldt voor beide secties tegelijk,
+zodat er niet twee aparte dropdowns nodig zijn. Keuze wordt onthouden via
+localStorage zodat hij niet elke keer opnieuw gezet hoeft te worden. */
+.sort-row { display: flex; align-items: center; gap: 10px; margin-top: 18px; flex-wrap: wrap; }
+.sort-row label { font-size: 0.88rem; font-weight: 600; color: #888; }
+.sort-row select { padding: 6px 10px; border-radius: 6px; border: 1px solid #8886; font-size: 0.88rem; background: transparent; color: inherit; }
 
-  /* Collapsible cards — replace the old wide tables. Each vacancy/archive/
-     notControlled row is a native <details> element: collapsed shows a compact
-     top line, tapping it expands the rest. No JS needed for the toggle itself,
-     which keeps this fast and reliable on mobile. */
-  .card-list { margin-top: 10px; display: flex; flex-direction: column; gap: 8px; }
-  .card { border: 1px solid #8883; border-radius: 10px; padding: 0; overflow: hidden; background: #8880 0a; }
-  .card summary { list-style: none; cursor: pointer; padding: 12px 14px; }
-  .card summary::-webkit-details-marker { display: none; }
-  .card summary::before { content: "▸"; display: inline-block; margin-right: 8px; color: #888; transition: transform 0.15s ease; }
-  .card[open] summary::before { transform: rotate(90deg); }
-  .card-top { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; }
-  .bedrijf { font-weight: 700; font-size: 0.85rem; color: #888; text-transform: uppercase; letter-spacing: 0.02em; }
-  a.job-link { font-weight: 600; text-decoration: none; color: #2563eb; }
-  a.job-link:hover { text-decoration: underline; }
-  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
-  .tag { display: inline-block; background: #2563eb; color: #fff; border-radius: 999px; padding: 2px 10px; font-size: 0.75rem; font-weight: 600; }
-  .card-body { padding: 0 14px 14px; border-top: 1px solid #8883; }
-  .card-body p { margin: 10px 0; font-size: 0.92rem; }
-  .card-body .field-label { font-weight: 600; display: block; margin-bottom: 2px; }
-  .status-row { margin-top: 12px; }
-  .status-row label { font-weight: 600; font-size: 0.88rem; display: block; margin-bottom: 4px; }
-  .status-row select { width: 100%; padding: 8px 10px; border-radius: 6px; border: 1px solid #8886; font-size: 0.92rem; background: transparent; color: inherit; }
-  .status-msg { font-size: 0.8rem; margin-top: 6px; min-height: 1em; color: #888; }
-  .archive-date { color: #888; font-size: 0.8rem; margin-left: auto; white-space: nowrap; }
-  .version { text-align: center; color: #888; font-size: 0.78rem; margin-top: 3rem; }
+/* Archief zit standaard ingeklapt achter deze section-toggle — met tientallen
+items is de volledige lijst anders altijd een lange scroll bij het laden
+van de pagina. Actief en Gesolliciteerd gebruiken dezelfde toggle-stijl,
+maar staan standaard open (via het "open" attribuut op de <details>). */
+.section-details { margin-top: 2.2rem; }
+.section-details summary { cursor: pointer; list-style: none; border-bottom: 1px solid #8883; padding-bottom: 6px; }
+.section-details summary::-webkit-details-marker { display: none; }
+.section-details summary::before { content: "▸"; display: inline-block; margin-right: 8px; color: #888; transition: transform 0.15s ease; }
+.section-details[open] summary::before { transform: rotate(90deg); }
+.section-summary-heading { display: inline; font-size: 1.05rem; margin: 0; }
+#subStatus { margin-top: 8px; font-size: 0.85rem; color: #888; }
+
+/* Collapsible cards — replace the old wide tables. Each vacancy/archive/
+notControlled row is a native <details> element: collapsed shows a compact
+top line, tapping it expands the rest. No JS needed for the toggle itself,
+which keeps this fast and reliable on mobile. */
+.card-list { margin-top: 10px; display: flex; flex-direction: column; gap: 8px; }
+.card { border: 1px solid #8883; border-radius: 10px; padding: 0; overflow: hidden; background: #8880 0a; }
+.card summary { list-style: none; cursor: pointer; padding: 12px 14px; }
+.card summary::-webkit-details-marker { display: none; }
+.card summary::before { content: "▸"; display: inline-block; margin-right: 8px; color: #888; transition: transform 0.15s ease; }
+.card[open] summary::before { transform: rotate(90deg); }
+.card-top { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; }
+.bedrijf { font-weight: 700; font-size: 0.85rem; color: #888; text-transform: uppercase; letter-spacing: 0.02em; }
+a.job-link { font-weight: 600; text-decoration: none; color: #2563eb; }
+a.job-link:hover { text-decoration: underline; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.tag { display: inline-block; background: #2563eb; color: #fff; border-radius: 999px; padding: 2px 10px; font-size: 0.75rem; font-weight: 600; }
+.card-body { padding: 0 14px 14px; border-top: 1px solid #8883; }
+.card-body p { margin: 10px 0; font-size: 0.92rem; }
+.card-body .field-label { font-weight: 600; display: block; margin-bottom: 2px; }
+.status-row { margin-top: 12px; }
+.status-row label { font-weight: 600; font-size: 0.88rem; display: block; margin-bottom: 4px; }
+.status-row select { width: 100%; padding: 8px 10px; border-radius: 6px; border: 1px solid #8886; font-size: 0.92rem; background: transparent; color: inherit; }
+.status-msg { font-size: 0.8rem; margin-top: 6px; min-height: 1em; color: #888; }
+.archive-date { color: #888; font-size: 0.8rem; margin-left: auto; white-space: nowrap; }
+.version { text-align: center; color: #888; font-size: 0.78rem; margin-top: 3rem; }
 </style>
 </head>
 <body>
-  <h1>Vacature-tracker</h1>
-  <p class="meta">Laatst bijgewerkt: <span id="lastUpdated">–</span></p>
+<h1>Vacature-tracker</h1>
+<p class="meta">Laatst bijgewerkt: <span id="lastUpdated">–</span></p>
 
-  <button id="installBtn" style="display:none;">App installeren</button>
-  <div class="toggle-row">
-    <label class="toggle-switch">
-      <input type="checkbox" id="subscribeToggle">
-      <span class="toggle-slider"></span>
-    </label>
-    <span class="toggle-label">Meldingen</span>
-  </div>
-  <div id="subStatus">Als meldingen aan staan ontvang je een melding als het overzicht is geupdate.</div>
-  <div id="subHint" style="display:none; margin-top: 6px; font-size: 0.85rem; color: #f59e0b;">
-    Toestemming voor meldingen staat op "geweigerd" in je browser/toestel — dat kan deze schakelaar niet zelf herstellen.
-    Zet meldingen voor deze site aan via je browser-/systeeminstellingen en zet de schakelaar daarna nogmaals aan.
-  </div>
+<button id="installBtn" style="display:none;">App installeren</button>
+<div class="toggle-row">
+<label class="toggle-switch">
+<input type="checkbox" id="subscribeToggle">
+<span class="toggle-slider"></span>
+</label>
+<span class="toggle-label">Meldingen</span>
+</div>
+<div id="subStatus">Als meldingen aan staan ontvang je een melding als het overzicht is geupdate.</div>
+<div id="subHint" style="display:none; margin-top: 6px; font-size: 0.85rem; color: #f59e0b;">
+Toestemming voor meldingen staat op "geweigerd" in je browser/toestel — dat kan deze schakelaar niet zelf herstellen.
+Zet meldingen voor deze site aan via je browser-/systeeminstellingen en zet de schakelaar daarna nogmaals aan.
+</div>
 
-  <h2>Actief</h2>
-  <div id="activeCards"></div>
+<div class="sort-row">
+<label for="sortSelect">Sorteer op</label>
+<select id="sortSelect">
+<option value="datum-desc">Datum toegevoegd (nieuwste eerst)</option>
+<option value="bedrijf-asc">Bedrijf (A-Z)</option>
+<option value="titel-asc">Functienaam (A-Z)</option>
+</select>
+</div>
 
-  <h2>Niet controleerbaar</h2>
-  <div id="notControlledCards"></div>
+<details class="section-details" id="activeSection" open>
+<summary><h2 class="section-summary-heading">Actief</h2></summary>
+<div id="activeCards"></div>
+</details>
 
-  <details class="section-details">
-    <summary><h2 class="section-summary-heading">Archief</h2></summary>
-    <div id="archiveCards"></div>
-  </details>
+<details class="section-details" id="gesolliciteerdSection" open>
+<summary><h2 class="section-summary-heading">Gesolliciteerd</h2></summary>
+<div id="gesolliciteerdCards"></div>
+</details>
 
-  <p class="version">v1.4</p>
+<h2>Niet controleerbaar</h2>
+<div id="notControlledCards"></div>
+
+<details class="section-details">
+<summary><h2 class="section-summary-heading">Archief</h2></summary>
+<div id="archiveCards"></div>
+</details>
+
+<p class="version">v1.5</p>
 
 <script>
 const VAPID_PUBLIC_KEY = "BJaeAvCGohpg7Q2DHrdqWZnvp3nCWE0T5jWispamQAkVsRPJlJel1GxRcUTu3EmGcLrS1EbZBB9Du5BBo86sw0c";
 const WORKER_URL = "https://vacature-tracker-subscribe.arjen-ravestein.workers.dev";
 
 const STATUS_OPTIONS = [
-  "Niet gesolliciteerd",
-  "Gesolliciteerd",
-  "Sollicitatie begonnen",
-  "Afgewezen",
-  "Aanbod",
-  "Niet interessant"
+"Niet gesolliciteerd",
+"Gesolliciteerd",
+"Sollicitatie begonnen",
+"Afgewezen",
+"Aanbod",
+"Niet interessant"
 ];
 
+// Statussen die in de "Gesolliciteerd"-sectie horen i.p.v. "Actief". Afgewezen/
+// Niet interessant blijven bewust bij Actief zichtbaar tot de dagelijkse check
+// ze naar het archief verplaatst — zie SKILL.md stap 2b.
+const GESOLLICITEERD_STATUSES = ["Gesolliciteerd", "Sollicitatie begonnen", "Aanbod"];
+
+const SORT_STORAGE_KEY = "vt-sort";
+let allActiveRows = [];
+
 function urlBase64ToUint8Array(base64String) {
-  const padding = "=".repeat((4 - base64String.length % 4) % 4);
-  const base64 = (base64String + padding).replace(/-/g, "+").replace(/_/g, "/");
-  const rawData = atob(base64);
-  return Uint8Array.from([...rawData].map(c => c.charCodeAt(0)));
+const padding = "=".repeat((4 - base64String.length % 4) % 4);
+const base64 = (base64String + padding).replace(/-/g, "+").replace(/_/g, "/");
+const rawData = atob(base64);
+return Uint8Array.from([...rawData].map(c => c.charCodeAt(0)));
 }
 
 async function loadData() {
-  const res = await fetch("data.json", { cache: "no-store" });
-  const data = await res.json();
+const res = await fetch("data.json", { cache: "no-store" });
+const data = await res.json();
 
-  document.getElementById("lastUpdated").textContent = new Date(data.lastUpdated).toLocaleString("nl-NL", {
-    year: "numeric", month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit"
-  });
+document.getElementById("lastUpdated").textContent = new Date(data.lastUpdated).toLocaleString("nl-NL", {
+year: "numeric", month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit"
+});
 
-  renderActive(data.active);
-  renderNotControlled(data.notControlled);
-  renderArchive(data.archive);
+allActiveRows = data.active || [];
+
+const sortSelect = document.getElementById("sortSelect");
+const savedSort = localStorage.getItem(SORT_STORAGE_KEY);
+if (savedSort && [...sortSelect.options].some(o => o.value === savedSort)) {
+sortSelect.value = savedSort;
+}
+sortSelect.addEventListener("change", () => {
+localStorage.setItem(SORT_STORAGE_KEY, sortSelect.value);
+renderActiveSections();
+});
+
+renderActiveSections();
+renderNotControlled(data.notControlled);
+renderArchive(data.archive);
 }
 
-function renderActive(rows) {
-  const el = document.getElementById("activeCards");
-  if (!rows || rows.length === 0) {
-    el.innerHTML = '<p class="empty">Momenteel geen actieve matches.</p>';
-    return;
-  }
-  el.innerHTML = `<div class="card-list">
-    ${rows.map(r => `<details class="card">
-      <summary>
-        <div class="card-top">
-          <span class="bedrijf">${escapeHtml(r.bedrijf)}</span>
-          <a class="job-link" href="${escapeHtml(r.link)}" target="_blank" rel="noopener">${escapeHtml(r.titel)}</a>
-        </div>
-        ${(r.tags && r.tags.length) ? `<div class="tags">${r.tags.map(t => `<span class="tag">${escapeHtml(t)}</span>`).join("")}</div>` : ""}
-      </summary>
-      <div class="card-body">
-        <p><span class="field-label">Beschrijving</span>${escapeHtml(r.beschrijving || "")}</p>
-        <p><span class="field-label">Waarom fit</span>${escapeHtml(r.fit || "")}</p>
-        <div class="status-row">
-          <label>Sollicitatie status</label>
-          <select data-link="${escapeHtml(r.link)}">
-            ${STATUS_OPTIONS.map(s => `<option value="${escapeHtml(s)}" ${s === (r.status || "Niet gesolliciteerd") ? "selected" : ""}>${escapeHtml(s)}</option>`).join("")}
-          </select>
-          <div class="status-msg"></div>
-        </div>
-      </div>
-    </details>`).join("")}
-  </div>`;
+function sortRows(rows, sortKey) {
+const copy = rows.slice();
+if (sortKey === "bedrijf-asc") {
+copy.sort((a, b) => (a.bedrijf || "").localeCompare(b.bedrijf || "", "nl"));
+} else if (sortKey === "titel-asc") {
+copy.sort((a, b) => (a.titel || "").localeCompare(b.titel || "", "nl"));
+} else {
+// datum-desc: nieuwste eerst, items zonder datumToegevoegd onderaan
+copy.sort((a, b) => {
+const da = a.datumToegevoegd ? Date.parse(a.datumToegevoegd) : NaN;
+const db = b.datumToegevoegd ? Date.parse(b.datumToegevoegd) : NaN;
+const va = Number.isNaN(da) ? -Infinity : da;
+const vb = Number.isNaN(db) ? -Infinity : db;
+return vb - va;
+});
+}
+return copy;
+}
 
-  el.querySelectorAll("select[data-link]").forEach(select => {
-    select.addEventListener("change", () => updateStatus(select));
-  });
+function renderActiveSections() {
+const sortKey = document.getElementById("sortSelect").value;
+const gesolliciteerd = allActiveRows.filter(r => GESOLLICITEERD_STATUSES.includes(r.status));
+const actief = allActiveRows.filter(r => !GESOLLICITEERD_STATUSES.includes(r.status));
+renderCards("activeCards", sortRows(actief, sortKey), "Momenteel geen actieve matches.");
+renderCards("gesolliciteerdCards", sortRows(gesolliciteerd, sortKey), "Nog nergens op gesolliciteerd.");
+}
+
+function formatDateAdded(datumToegevoegd) {
+if (!datumToegevoegd) return "";
+const d = new Date(datumToegevoegd);
+if (Number.isNaN(d.getTime())) return "";
+return d.toLocaleDateString("nl-NL", { year: "numeric", month: "numeric", day: "numeric" });
+}
+
+function renderCards(elementId, rows, emptyText) {
+const el = document.getElementById(elementId);
+if (!rows || rows.length === 0) {
+el.innerHTML = `<p class="empty">${escapeHtml(emptyText)}</p>`;
+return;
+}
+el.innerHTML = `<div class="card-list">
+${rows.map(r => `<details class="card">
+<summary>
+<div class="card-top">
+<span class="bedrijf">${escapeHtml(r.bedrijf)}</span>
+<a class="job-link" href="${escapeHtml(r.link)}" target="_blank" rel="noopener">${escapeHtml(r.titel)}</a>
+${formatDateAdded(r.datumToegevoegd) ? `<span class="archive-date">${escapeHtml(formatDateAdded(r.datumToegevoegd))}</span>` : ""}
+</div>
+${(r.tags && r.tags.length) ? `<div class="tags">${r.tags.map(t => `<span class="tag">${escapeHtml(t)}</span>`).join("")}</div>` : ""}
+</summary>
+<div class="card-body">
+<p><span class="field-label">Beschrijving</span>${escapeHtml(r.beschrijving || "")}</p>
+<p><span class="field-label">Waarom fit</span>${escapeHtml(r.fit || "")}</p>
+${formatDateAdded(r.datumToegevoegd) ? `<p><span class="field-label">Datum toegevoegd</span>${escapeHtml(formatDateAdded(r.datumToegevoegd))}</p>` : ""}
+<div class="status-row">
+<label>Sollicitatie status</label>
+<select data-link="${escapeHtml(r.link)}">
+${STATUS_OPTIONS.map(s => `<option value="${escapeHtml(s)}" ${s === (r.status || "Niet gesolliciteerd") ? "selected" : ""}>${escapeHtml(s)}</option>`).join("")}
+</select>
+<div class="status-msg"></div>
+</div>
+</div>
+</details>`).join("")}
+</div>`;
+
+el.querySelectorAll("select[data-link]").forEach(select => {
+select.addEventListener("change", () => updateStatus(select));
+});
 }
 
 async function updateStatus(select) {
-  const link = select.dataset.link;
-  const newStatus = select.value;
-  const msg = select.parentElement.querySelector(".status-msg");
-  const previousValue = select.dataset.lastValue || newStatus;
-  select.disabled = true;
-  msg.textContent = "Bezig met opslaan...";
-  try {
-    const res = await fetch(WORKER_URL + "/update-status", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ link, status: newStatus })
-    });
-    if (!res.ok) throw new Error("Worker gaf status " + res.status);
-    select.dataset.lastValue = newStatus;
-    msg.textContent = "Opgeslagen.";
-    if (newStatus === "Afgewezen" || newStatus === "Niet interessant") {
-      msg.textContent = "Opgeslagen — wordt bij de volgende dagelijkse check naar het archief verplaatst.";
-    }
-  } catch (err) {
-    // Keep the real error visible instead of silently reverting without
-    // explanation — same lesson learned from the subscribe/unsubscribe flow.
-    select.value = previousValue;
-    msg.textContent = "Opslaan mislukt: " + err.message + " — probeer het opnieuw.";
-  } finally {
-    select.disabled = false;
-  }
+const link = select.dataset.link;
+const newStatus = select.value;
+const msg = select.parentElement.querySelector(".status-msg");
+const previousValue = select.dataset.lastValue || newStatus;
+select.disabled = true;
+msg.textContent = "Bezig met opslaan...";
+try {
+const res = await fetch(WORKER_URL + "/update-status", {
+method: "POST",
+headers: { "Content-Type": "application/json" },
+body: JSON.stringify({ link, status: newStatus })
+});
+if (!res.ok) throw new Error("Worker gaf status " + res.status);
+select.dataset.lastValue = newStatus;
+msg.textContent = "Opgeslagen.";
+if (newStatus === "Afgewezen" || newStatus === "Niet interessant") {
+msg.textContent = "Opgeslagen — wordt bij de volgende dagelijkse check naar het archief verplaatst.";
+}
+// Werk de lokale kopie bij en herteken Actief/Gesolliciteerd direct, zodat
+// de kaart meteen naar de juiste sectie verhuist zonder dat er een pagina-
+// herlaad nodig is.
+const row = allActiveRows.find(r => r.link === link);
+if (row) row.status = newStatus;
+renderActiveSections();
+} catch (err) {
+// Keep the real error visible instead of silently reverting without
+// explanation — same lesson learned from the subscribe/unsubscribe flow.
+select.value = previousValue;
+msg.textContent = "Opslaan mislukt: " + err.message + " — probeer het opnieuw.";
+select.disabled = false;
+}
 }
 
 function renderNotControlled(rows) {
-  const el = document.getElementById("notControlledCards");
-  if (!rows || rows.length === 0) {
-    el.innerHTML = '<p class="empty">Alles kon deze check gecontroleerd worden.</p>';
-    return;
-  }
-  el.innerHTML = `<div class="card-list">
-    ${rows.map(r => `<details class="card">
-      <summary>
-        <div class="card-top">
-          <span class="bedrijf">${escapeHtml(r.bedrijf)}</span>
-          ${r.link
-            ? `<a class="job-link" href="${escapeHtml(r.link)}" target="_blank" rel="noopener">${escapeHtml(r.titel)}</a>`
-            : `<span>${escapeHtml(r.titel)}</span>`}
-        </div>
-      </summary>
-      <div class="card-body">
-        <p><span class="field-label">Reden</span>${escapeHtml(r.reden)}</p>
-      </div>
-    </details>`).join("")}
-  </div>`;
+const el = document.getElementById("notControlledCards");
+if (!rows || rows.length === 0) {
+el.innerHTML = '<p class="empty">Alles kon deze check gecontroleerd worden.</p>';
+return;
+}
+el.innerHTML = `<div class="card-list">
+${rows.map(r => `<details class="card">
+<summary>
+<div class="card-top">
+<span class="bedrijf">${escapeHtml(r.bedrijf)}</span>
+${r.link
+? `<a class="job-link" href="${escapeHtml(r.link)}" target="_blank" rel="noopener">${escapeHtml(r.titel)}</a>`
+: `<span>${escapeHtml(r.titel)}</span>`}
+</div>
+</summary>
+<div class="card-body">
+<p><span class="field-label">Reden</span>${escapeHtml(r.reden)}</p>
+</div>
+</details>`).join("")}
+</div>`;
 }
 
 function renderArchive(rows) {
-  const el = document.getElementById("archiveCards");
-  if (!rows || rows.length === 0) {
-    el.innerHTML = '<p class="empty">Archief is leeg.</p>';
-    return;
-  }
-  el.innerHTML = `<div class="card-list">
-    ${rows.map(r => `<details class="card">
-      <summary>
-        <div class="card-top">
-          <span class="bedrijf">${escapeHtml(r.bedrijf)}</span>
-          <span>${escapeHtml(r.titel)}</span>
-          <span class="archive-date">${escapeHtml(r.datum)}</span>
-        </div>
-      </summary>
-      <div class="card-body">
-        <p><span class="field-label">Reden</span>${escapeHtml(r.reden)}</p>
-      </div>
-    </details>`).join("")}
-  </div>`;
+const el = document.getElementById("archiveCards");
+if (!rows || rows.length === 0) {
+el.innerHTML = '<p class="empty">Archief is leeg.</p>';
+return;
+}
+el.innerHTML = `<div class="card-list">
+${rows.map(r => `<details class="card">
+<summary>
+<div class="card-top">
+<span class="bedrijf">${escapeHtml(r.bedrijf)}</span>
+${r.link
+? `<a class="job-link" href="${escapeHtml(r.link)}" target="_blank" rel="noopener">${escapeHtml(r.titel)}</a>`
+: `<span>${escapeHtml(r.titel)}</span>`}
+<span class="archive-date">${escapeHtml(r.datum)}</span>
+</div>
+</summary>
+<div class="card-body">
+<p><span class="field-label">Reden</span>${escapeHtml(r.reden)}</p>
+</div>
+</details>`).join("")}
+</div>`;
 }
 
 function escapeHtml(str) {
-  return String(str ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+return String(str ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 
 const SUB_STEADY_TEXT = "Als meldingen aan staan ontvang je een melding als het overzicht is geupdate.";
 
 async function setupSubscribe() {
-  const toggle = document.getElementById("subscribeToggle");
-  const status = document.getElementById("subStatus");
-  const hint = document.getElementById("subHint");
+const toggle = document.getElementById("subscribeToggle");
+const status = document.getElementById("subStatus");
+const hint = document.getElementById("subHint");
 
-  if (!("serviceWorker" in navigator) || !("PushManager" in window)) {
-    toggle.disabled = true;
-    status.textContent = "Pushmeldingen worden niet ondersteund in deze browser.";
-    return;
-  }
+if (!("serviceWorker" in navigator) || !("PushManager" in window)) {
+toggle.disabled = true;
+status.textContent = "Pushmeldingen worden niet ondersteund in deze browser.";
+return;
+}
 
-  // A versioned CACHE name in sw.js (see APP_VERSION there) makes a new
-  // deploy install and activate correctly in the background, but that alone
-  // does NOT repaint a page/PWA that's already open — clients.claim() hands
-  // control of future requests to the new worker, it doesn't reload existing
-  // DOM. Without this listener, an already-open tab or installed PWA can keep
-  // showing the old HTML indefinitely, which is exactly what made v1.2/v1.3
-  // look "stuck" at v1.1. This reloads once, the first time a new worker
-  // actually takes control.
-  let swRefreshing = false;
-  navigator.serviceWorker.addEventListener("controllerchange", () => {
-    if (swRefreshing) return;
-    swRefreshing = true;
-    window.location.reload();
-  });
+// A versioned CACHE name in sw.js (see APP_VERSION there) makes a new
+// deploy install and activate correctly in the background, but that alone
+// does NOT repaint a page/PWA that's already open — clients.claim() hands
+// control of future requests to the new worker, it doesn't reload existing
+// DOM. Without this listener, an already-open tab or installed PWA can keep
+// showing the old HTML indefinitely, which is exactly what made v1.2/v1.3
+// look "stuck" at v1.1. This reloads once, the first time a new worker
+// actually takes control.
+let swRefreshing = false;
+navigator.serviceWorker.addEventListener("controllerchange", () => {
+if (swRefreshing) return;
+swRefreshing = true;
+window.location.reload();
+});
 
-  const reg = await navigator.serviceWorker.register("sw.js");
+const reg = await navigator.serviceWorker.register("sw.js");
 
-  // Toggle switch: aan = subscribed, uit = unsubscribed. Uitzetten ruimt de
-  // subscription zowel lokaal (unsubscribe) als server-side (subscriptions.json
-  // via de Cloudflare Worker) op, zodat een dood/verlopen abonnement niet blijft
-  // hangen en je gewoon opnieuw kunt aanmelden zonder eerst met OS-instellingen
-  // te hoeven vechten. De grijze tekst eronder blijft altijd dezelfde vaste zin
-  // — alleen tijdens het aan/uit zetten of bij een fout wijkt die tijdelijk af.
-  async function refreshUi() {
-    const existing = await reg.pushManager.getSubscription();
-    hint.style.display = "none";
-    toggle.disabled = false;
-    toggle.checked = !!existing;
-    if (!existing && typeof Notification !== "undefined" && Notification.permission === "denied") {
-      hint.style.display = "block";
-    }
-    status.textContent = SUB_STEADY_TEXT;
-  }
+// Toggle switch: aan = subscribed, uit = unsubscribed. Uitzetten ruimt de
+// subscription zowel lokaal (unsubscribe) als server-side (subscriptions.json
+// via de Cloudflare Worker) op, zodat een dood/verlopen abonnement niet blijft
+// hangen en je gewoon opnieuw kunt aanmelden zonder eerst met OS-instellingen
+// te hoeven vechten. De grijze tekst eronder blijft altijd dezelfde vaste zin
+// — alleen tijdens het aan/uit zetten of bij een fout wijkt die tijdelijk af.
+async function refreshUi() {
+const existing = await reg.pushManager.getSubscription();
+hint.style.display = "none";
+toggle.disabled = false;
+toggle.checked = !!existing;
+if (!existing && typeof Notification !== "undefined" && Notification.permission === "denied") {
+hint.style.display = "block";
+}
+status.textContent = SUB_STEADY_TEXT;
+}
 
-  await refreshUi();
+await refreshUi();
 
-  toggle.addEventListener("change", async () => {
-    toggle.disabled = true;
+toggle.addEventListener("change", async () => {
+toggle.disabled = true;
 
-    if (!toggle.checked) {
-      // User switched notifications off.
-      status.textContent = "Bezig met uitzetten...";
-      try {
-        const existing = await reg.pushManager.getSubscription();
-        if (existing) {
-          const endpoint = existing.endpoint;
-          await existing.unsubscribe();
-          const res = await fetch(WORKER_URL + "/unsubscribe", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ endpoint })
-          });
-          if (!res.ok) throw new Error("Worker gaf status " + res.status);
-        }
-      } catch (err) {
-        // Deliberately do NOT call refreshUi() here — it would immediately
-        // overwrite this error with the steady-state text based only on local
-        // state, hiding a real server-sync failure from view (this masked the
-        // exact bug that caused missed pushes earlier).
-        toggle.checked = true;
-        status.textContent = "Uitzetten mislukt: " + err.message + " — probeer het opnieuw.";
-        toggle.disabled = false;
-        return;
-      }
-      await refreshUi();
-      return;
-    }
+if (!toggle.checked) {
+// User switched notifications off.
+status.textContent = "Bezig met uitzetten...";
+try {
+const existing = await reg.pushManager.getSubscription();
+if (existing) {
+const endpoint = existing.endpoint;
+await existing.unsubscribe();
+const res = await fetch(WORKER_URL + "/unsubscribe", {
+method: "POST",
+headers: { "Content-Type": "application/json" },
+body: JSON.stringify({ endpoint })
+});
+if (!res.ok) throw new Error("Worker gaf status " + res.status);
+}
+} catch (err) {
+// Deliberately do NOT call refreshUi() here — it would immediately
+// overwrite this error with the steady-state text based only on local
+// state, hiding a real server-sync failure from view (this masked the
+// exact bug that caused missed pushes earlier).
+toggle.checked = true;
+status.textContent = "Uitzetten mislukt: " + err.message + " — probeer het opnieuw.";
+toggle.disabled = false;
+return;
+}
+await refreshUi();
+return;
+}
 
-    // User switched notifications on.
-    status.textContent = "Bezig met aanmelden...";
-    try {
-      const permission = await Notification.requestPermission();
-      if (permission !== "granted") {
-        toggle.checked = false;
-        status.textContent = "Toestemming voor meldingen geweigerd.";
-        toggle.disabled = false;
-        return;
-      }
-      const sub = await reg.pushManager.subscribe({
-        userVisibleOnly: true,
-        applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY)
-      });
-      const res = await fetch(WORKER_URL + "/subscribe", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(sub)
-      });
-      if (!res.ok) throw new Error("Worker gaf status " + res.status);
-    } catch (err) {
-      // Same reasoning as above: keep the real error visible instead of
-      // letting refreshUi() silently replace it.
-      toggle.checked = false;
-      status.textContent = "Aanmelden mislukt: " + err.message + " — probeer het opnieuw.";
-      toggle.disabled = false;
-      return;
-    }
-    await refreshUi();
-  });
+// User switched notifications on.
+status.textContent = "Bezig met aanmelden...";
+try {
+const permission = await Notification.requestPermission();
+if (permission !== "granted") {
+toggle.checked = false;
+status.textContent = "Toestemming voor meldingen geweigerd.";
+toggle.disabled = false;
+return;
+}
+const sub = await reg.pushManager.subscribe({
+userVisibleOnly: true,
+applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY)
+});
+const res = await fetch(WORKER_URL + "/subscribe", {
+method: "POST",
+headers: { "Content-Type": "application/json" },
+body: JSON.stringify(sub)
+});
+if (!res.ok) throw new Error("Worker gaf status " + res.status);
+} catch (err) {
+// Same reasoning as above: keep the real error visible instead of
+// letting refreshUi() silently replace it.
+toggle.checked = false;
+status.textContent = "Aanmelden mislukt: " + err.message + " — probeer het opnieuw.";
+toggle.disabled = false;
+return;
+}
+await refreshUi();
+});
 }
 
 // Custom "Install app" button — without a real manifest+icons the browser
@@ -358,16 +445,16 @@ async function setupSubscribe() {
 // of Chrome's silent "quiet UI" for low-trust/uninstalled sites.
 let deferredInstallPrompt = null;
 window.addEventListener("beforeinstallprompt", (event) => {
-  event.preventDefault();
-  deferredInstallPrompt = event;
-  document.getElementById("installBtn").style.display = "inline-block";
+event.preventDefault();
+deferredInstallPrompt = event;
+document.getElementById("installBtn").style.display = "inline-block";
 });
 document.getElementById("installBtn").addEventListener("click", async () => {
-  if (!deferredInstallPrompt) return;
-  deferredInstallPrompt.prompt();
-  await deferredInstallPrompt.userChoice;
-  deferredInstallPrompt = null;
-  document.getElementById("installBtn").style.display = "none";
+if (!deferredInstallPrompt) return;
+deferredInstallPrompt.prompt();
+await deferredInstallPrompt.userChoice;
+deferredInstallPrompt = null;
+document.getElementById("installBtn").style.display = "none";
 });
 
 loadData();
