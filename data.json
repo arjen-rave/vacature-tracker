@@ -1,7 +1,37 @@
 {
-  "lastUpdated": "2026-09-22T17:24:34+02:00",
-  "lastCheckNote": "Geen inhoudelijke check — technische update: \"datumToegevoegd\" toegevoegd aan de 7 actieve vacatures (herleid uit de git-geschiedenis van dit bestand) t.b.v. de nieuwe sorteerfunctie en sectie-indeling op de site.",
+  "lastUpdated": "2026-09-23T08:53:31+02:00",
+  "lastCheckNote": "19 bronnen gecheckt (TenneT deels: overzichtspagina toont slechts 4 vacatures inline, aangevuld met WebSearch), 2 nieuwe matches toegevoegd (TenneT Regulatory Affairs Specialist, Alliander Consultant Marktstrategie & Innovatie).",
   "active": [
+    {
+      "bedrijf": "TenneT",
+      "titel": "Regulatory Affairs Specialist",
+      "link": "https://www.werkenbijtennet.nl/nl/vacatures/113114",
+      "beschrijving": "Trusted advisor binnen TenneT die afstemt met andere netbeheerders, marktpartijen en toezichthouders: volgt de ontwikkeling van Europese network codes/guidelines (ENTSO-E, ACER, DG ENER) tot en met implementatie in het Nederlandse reguleringskader en vertaalt die naar beleidsvoorstellen. Arnhem (of Brussel), €4.816–€9.472, master (o.a. economie/recht), tijdelijk contract.",
+      "fit": "Sterke inhoudelijke match met marktontwerp/regulering bij een TSO en een adviserende rol richting management en externe stakeholders. Let op: tijdelijk contract, en de titel 'Specialist' — check of het niveau senior genoeg is.",
+      "status": "Niet gesolliciteerd",
+      "tags": [
+        "energy",
+        "regulation",
+        "market design",
+        "EU policy"
+      ],
+      "datumToegevoegd": "2026-09-23"
+    },
+    {
+      "bedrijf": "Alliander",
+      "titel": "Consultant Marktstrategie & Innovatie (JR19145)",
+      "link": "https://werkenbij.alliander.com/vacatures/consultant-marktstrategie-innovatie/jr19145",
+      "beschrijving": "Consultant in het team Marktstrategie & Innovatie: ontwikkelt marktstrategieën, marktconcepten en samenwerkingsvormen (met marktpartijen en overheden) om slimmer met netcapaciteit om te gaan, en vertaalt inzichten naar visies, adviezen en concrete concepten. Arnhem, HBO, €4.672–€6.675, sluit 5 oktober 2026.",
+      "fit": "Inhoudelijk sterk (marktontwerp/strategie bij een netbeheerder, sectorbrede vraagstukken). Let op: salarisschaal en HBO-eis wijzen op medior niveau, niet senior — mogelijk te licht voor Arjens profiel.",
+      "status": "Niet gesolliciteerd",
+      "tags": [
+        "energy",
+        "strategy",
+        "market design",
+        "grid operator"
+      ],
+      "datumToegevoegd": "2026-09-23"
+    },
     {
       "bedrijf": "TenneT",
       "titel": "Business Advisor",
@@ -109,6 +139,76 @@
     }
   ],
   "archive": [
+    {
+      "bedrijf": "TenneT",
+      "titel": "Manager Strategy & Innovation (ID 104855)",
+      "reden": "Nieuw gevonden via WebSearch (site:werkenbijtennet.nl), maar bij bezoek 404 ('Deze pagina bestaat helaas niet meer') — niet live.",
+      "datum": "2026-09-23",
+      "link": "https://www.werkenbijtennet.nl/nl/vacatures/104855"
+    },
+    {
+      "bedrijf": "Essent",
+      "titel": "Lead Sustainability & Society",
+      "reden": "Nieuw gevonden via WebSearch (site:werkenbijessent.nl; inhoudelijk een strategische adviesrol richting bestuur), maar bij bezoek 'Oeps, hier is niemand' — niet live, en niet in het actuele overzicht van 15 Essent-vacatures.",
+      "datum": "2026-09-23",
+      "link": "https://www.werkenbijessent.nl/nl/vacatures/general-management-corporate-management/lead-sustainability-society"
+    },
+    {
+      "bedrijf": "Staatstoezicht op de Mijnen (SodM)",
+      "titel": "Inspecteur-generaal der Mijnen (KGG-2026-3538)",
+      "reden": "Nieuw gevonden via WebSearch, maar bij bezoek 'Vacature niet beschikbaar / inmiddels verstreken' op werkenvoornederland.nl — niet live.",
+      "datum": "2026-09-23",
+      "link": "https://www.werkenvoornederland.nl/vacatures/inspecteur-generaal-der-mijnen-KGG-2026-3538"
+    },
+    {
+      "bedrijf": "Rijksdienst voor Ondernemend Nederland (RVO)",
+      "titel": "Senior adviseur Ruimtelijke Kwaliteit (RVO-2026-9557)",
+      "reden": "Nieuw gevonden via WebSearch, maar bij bezoek 'Vacature niet beschikbaar / inmiddels verstreken' — niet live.",
+      "datum": "2026-09-23",
+      "link": "https://www.werkenvoornederland.nl/vacatures/senior-adviseur-ruimtelijke-kwaliteit-RVO-2026-9557"
+    },
+    {
+      "bedrijf": "Rijksdienst voor Ondernemend Nederland (RVO)",
+      "titel": "(Senior) Adviseur Monitoring en Evaluatie (RVO-2026-2088)",
+      "reden": "Nieuw gevonden via WebSearch, maar bij bezoek 'Vacature niet beschikbaar / inmiddels verstreken' — niet live.",
+      "datum": "2026-09-23",
+      "link": "https://www.werkenvoornederland.nl/vacatures/senior-adviseur-monitoring-en-evaluatie-RVO-2026-2088"
+    },
+    {
+      "bedrijf": "Vattenfall",
+      "titel": "Resilience Area Lead (BA Wind, REF12428S)",
+      "reden": "Nieuw gevonden via WebSearch, maar pagina meldt 'This vacancy has now expired' — niet live; staat ook niet in het actuele NL-overzicht (23 vacatures).",
+      "datum": "2026-09-23",
+      "link": "https://careers.vattenfall.com/job/resilience-area-lead-in-amsterdam-jid-52205"
+    },
+    {
+      "bedrijf": "Enexis",
+      "titel": "Bestuursadviseur (14877)",
+      "reden": "Nieuw gevonden via WebSearch, maar bij bezoek 'Momenteel kunnen we geen vacature details tonen' en niet in het actuele overzicht (164 vacatures) — niet live.",
+      "datum": "2026-09-23",
+      "link": "https://werkenbij.enexis.nl/vacatures/bestuursadviseur-14877"
+    },
+    {
+      "bedrijf": "Ministerie van Economische Zaken en Klimaat",
+      "titel": "Strategisch beleidsadviseur (gedrags)economie (EZK-2026-1484)",
+      "reden": "Live (sluit 28-09-2026), maar generiek economisch beleid (verdienvermogen, geopolitiek, gedragseconomie) — geen specifiek energie-/klimaatbeleid, valt buiten de EZK-scope van het rolprofiel.",
+      "datum": "2026-09-23",
+      "link": "https://www.werkenvoornederland.nl/vacatures/strategisch-beleidsadviseur-gedrags-economie-EZK-2026-1484"
+    },
+    {
+      "bedrijf": "Alliander",
+      "titel": "Programmamanager Regelbaar Vermogen (JR18710)",
+      "reden": "Live (Arnhem, WO, €6.438–€9.197, sluit 01-10-2026), maar primair een realisatie-/uitvoeringsprogramma (contracten met klanten/marktpartijen, voortgangsbewaking, vergunningstrajecten) binnen Beter Benutten Net — geen strategie-/beleidsadviesrol. Grensgeval: senior en inhoudelijk netcongestie.",
+      "datum": "2026-09-23",
+      "link": "https://werkenbij.alliander.com/vacatures/programmamanager-regelbaar-vermogen/jr18710"
+    },
+    {
+      "bedrijf": "Alliander",
+      "titel": "General Manager ADS (JR19537)",
+      "reden": "Live (Arnhem, WO, sluit 28-09-2026), maar lijnmanagement van ~180 professionals bij Alliander Digital Solutions (capaciteitsmanagementplatform) met commerciële/internationale opschalingsopdracht, tijdelijk (min. 2 jaar) — geen strategie-/beleidsadvies- of chief-of-staffrol.",
+      "datum": "2026-09-23",
+      "link": "https://werkenbij.alliander.com/vacatures/general-manager-ads/jr19537"
+    },
     {
       "bedrijf": "Alliander",
       "titel": "Consultant Strategie & Innovatie (JR19365)",
