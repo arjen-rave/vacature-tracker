@@ -1,7 +1,37 @@
 {
-  "lastUpdated": "2026-09-23T08:53:31+02:00",
-  "lastCheckNote": "19 bronnen gecheckt (TenneT deels: overzichtspagina toont slechts 4 vacatures inline, aangevuld met WebSearch), 2 nieuwe matches toegevoegd (TenneT Regulatory Affairs Specialist, Alliander Consultant Marktstrategie & Innovatie).",
+  "lastUpdated": "2026-09-24T10:21:34+02:00",
+  "lastCheckNote": "19 bronnen gecheckt (Uniper deels: jobboard toonde 0 jobs, aangevuld met WebSearch; Essent: 13 van 16 kaarten zichtbaar, aangevuld met WebSearch), 2 nieuwe matches toegevoegd (RVO Senior Bestuursadviseur, TenneT Systems & Markets Policy Advisor).",
   "active": [
+    {
+      "bedrijf": "Rijksdienst voor Ondernemend Nederland (RVO)",
+      "titel": "Senior Bestuursadviseur (RVO-2026-2106)",
+      "link": "https://www.werkenvoornederland.nl/vacatures/senior-bestuursadviseur-RVO-2026-2106",
+      "beschrijving": "Adviseert de DG en hoofddirectie van RVO over strategische keuzes en positionering, door politiek-bestuurlijke ontwikkelingen en transities (klimaat, energie, voedsel, circulaire economie) te duiden en te vertalen naar de rol van de uitvoering. Den Haag, schaal 13 (€5.353–€7.956), 32-36 uur, WO; solliciteren vóór 6 oktober 2026.",
+      "fit": "Strategische advieslijn direct richting de top van een energie-/klimaatuitvoeringsorganisatie — dicht bij een chief-of-staff-profiel. Let op: RVO is breed, de rol is niet exclusief energie maar energie en klimaat zijn expliciet kernopgaven.",
+      "status": "Niet gesolliciteerd",
+      "tags": [
+        "strategy",
+        "governance",
+        "public sector",
+        "chief of staff"
+      ],
+      "datumToegevoegd": "2026-09-24"
+    },
+    {
+      "bedrijf": "TenneT",
+      "titel": "Systems & Markets Policy Advisor (Beleidsmedewerker CRM, ID 117444)",
+      "link": "https://www.werkenbijtennet.nl/nl/vacatures/117444",
+      "beschrijving": "Ontwikkelt en implementeert beleid voor de deelname van marktpartijen aan het capaciteitsmechanisme (CRM): onboarding, prekwalificatie, erkenning en registratie; vertaalt wet- en regelgeving en marktdesign naar uitvoerbare processen en stemt af met toezichthouders en marktpartijen. Arnhem, vast contract, €4.816–€9.472, WO-niveau.",
+      "fit": "Inhoudelijk sterk op marktontwerp bij een TSO (nieuw capaciteitsmechanisme). Kanttekening: de rol is deels implementatie/proces-gericht en het niveau lijkt medior-senior; eerdere gelijknamige vacature (ID 115751) verliep op 13-09.",
+      "status": "Niet gesolliciteerd",
+      "tags": [
+        "energy",
+        "market design",
+        "policy",
+        "TSO"
+      ],
+      "datumToegevoegd": "2026-09-24"
+    },
     {
       "bedrijf": "TenneT",
       "titel": "Regulatory Affairs Specialist",
@@ -139,6 +169,48 @@
     }
   ],
   "archive": [
+    {
+      "bedrijf": "TenneT",
+      "titel": "Systems & Markets Expert (ID 104791)",
+      "reden": "Nieuw gevonden via de vacancies-sitemap van werkenbijtennet.nl (geplaatst 23-09-2026), maar vereist een MSc/PhD Electrical/Power Systems Engineering en richt zich op systeemoperatie-concepten — technische rol, geen beleid/strategie-advies.",
+      "datum": "2026-09-24",
+      "link": "https://www.werkenbijtennet.nl/nl/vacatures/104791"
+    },
+    {
+      "bedrijf": "TenneT",
+      "titel": "Regional Capacity Program Manager (ID 117474)",
+      "reden": "Nieuw gevonden via de vacancies-sitemap; programmamanagement van congestiemaatregelen in een regio (sturen op voortgang/uitvoering met regionale netbeheerders en overheden) — uitvoerend programmamanagement, vergelijkbaar met de eerder door Arjen als 'Niet interessant' gemarkeerde congestie-rol.",
+      "datum": "2026-09-24",
+      "link": "https://www.werkenbijtennet.nl/nl/vacatures/117474"
+    },
+    {
+      "bedrijf": "Rijksdienst voor Ondernemend Nederland (RVO)",
+      "titel": "Adviseur Energie en Ondergrond (RVO-2026-5517)",
+      "reden": "Nieuw gevonden via scan van werkenvoornederland.nl; inhoudelijk energie, maar schaal 11 (€4.132–€6.275) — medior-niveau, onder Arjens seniority.",
+      "datum": "2026-09-24",
+      "link": "https://www.werkenvoornederland.nl/vacatures/adviseur-energie-en-ondergrond-RVO-2026-5517"
+    },
+    {
+      "bedrijf": "Rijksdienst voor Ondernemend Nederland (RVO)",
+      "titel": "Procescoördinator Energieprojecten (RVO-2026-4259)",
+      "reden": "Nieuw gevonden via scan van werkenvoornederland.nl; hbo, schaal 11, procescoördinatie — uitvoerend en te junior.",
+      "datum": "2026-09-24",
+      "link": "https://www.werkenvoornederland.nl/vacatures/procescoordinator-energieprojecten-RVO-2026-4259"
+    },
+    {
+      "bedrijf": "Enexis",
+      "titel": "Business Consultant (16207)",
+      "reden": "Gevonden bij volledige doorloop van werkenbij.enexis.nl (geplaatst 26-08-2026): business consultant voor de SAP-migratie (processen/digitale oplossingen) — IT-/procesrol, geen strategie of beleid.",
+      "datum": "2026-09-24",
+      "link": "https://werkenbij.enexis.nl/vacatures/business-consultant-16207"
+    },
+    {
+      "bedrijf": "Vattenfall",
+      "titel": "Manager Tender Management & New Business (REF12607N)",
+      "reden": "Nieuw gevonden op careers.vattenfall.com (NL): commerciële lijnmanagementrol binnen E-Mobility (tenders, business development, customer success) — sales/commercie, geen beleid of strategie-advies.",
+      "datum": "2026-09-24",
+      "link": "https://careers.vattenfall.com/nl/nl/job/manager-tender-management-and-new-business-in-amsterdam-jid-52726"
+    },
     {
       "bedrijf": "TenneT",
       "titel": "Manager Strategy & Innovation (ID 104855)",
@@ -1123,6 +1195,12 @@
     }
   ],
   "notControlled": [
+    {
+      "bedrijf": "Uniper",
+      "titel": "Jobboard careers.uniper.energy",
+      "reden": "Op 24-09-2026 toonde het jobboard '0 Jobs' (ook zonder landfilter) — site lijkt stuk; alleen via WebSearch aangevuld (geen NL-matches gevonden). Volgende run opnieuw proberen.",
+      "link": "https://careers.uniper.energy/en?filter=locations.country%3ANetherlands"
+    },
     {
       "bedrijf": "Alliander/Liander",
       "titel": "Vacatureoverzicht (algemene zoekpagina) - trefwoordfilter en paginering",
