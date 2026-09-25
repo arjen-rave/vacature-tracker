@@ -1,7 +1,22 @@
 {
-  "lastUpdated": "2026-09-24T10:21:34+02:00",
-  "lastCheckNote": "19 bronnen gecheckt (Uniper deels: jobboard toonde 0 jobs, aangevuld met WebSearch; Essent: 13 van 16 kaarten zichtbaar, aangevuld met WebSearch), 2 nieuwe matches toegevoegd (RVO Senior Bestuursadviseur, TenneT Systems & Markets Policy Advisor).",
+  "lastUpdated": "2026-09-25T12:30:00+02:00",
+  "lastCheckNote": "19 bronnen gecheckt (Uniper deels: jobboard toont nog steeds 0 jobs; Essent: 13 van 16 kaarten zichtbaar), 1 nieuwe match toegevoegd (Vattenfall Senior Project Manager Strategic Projects & AI Transformation); Stedin- en Enexis-vacature offline en gearchiveerd.",
   "active": [
+    {
+      "bedrijf": "Vattenfall",
+      "titel": "Senior Project Manager, Strategic Projects & AI Transformation (Offshore Wind, jid-52914)",
+      "link": "https://careers.vattenfall.com/nl/nl/job/senior-project-manager-strategic-projects-and-ai-transformation-offshore-wind-in-amsterdam-jid-52914",
+      "beschrijving": "Interne strategierol binnen BU Offshore (Business Area Wind): draagt bij aan de strategische richting van de BU, scopet en leidt strategische initiatieven en verbeterprojecten (o.a. AI-transformatie) en presenteert analyses aan sponsors en management. Amsterdam; vraagt een masteropleiding (business/economie/techniek) en minstens vijf jaar relevante ervaring.",
+      "fit": "Sterke match met interne strategie-advisering bij een grote duurzame producent. Let op: Arjen is eerder afgewezen op de verwante rol (Senior) Project Manager - Strategic Projects (REF12440H, juli 2026) in hetzelfde team; deze vacature heeft een ander ID en een AI-transformatie-accent.",
+      "status": "Niet gesolliciteerd",
+      "tags": [
+        "strategy",
+        "offshore wind",
+        "internal consultant",
+        "senior"
+      ],
+      "datumToegevoegd": "2026-09-25"
+    },
     {
       "bedrijf": "Rijksdienst voor Ondernemend Nederland (RVO)",
       "titel": "Senior Bestuursadviseur (RVO-2026-2106)",
@@ -108,21 +123,6 @@
       ]
     },
     {
-      "bedrijf": "Enexis",
-      "titel": "Strategisch Consultant End-2-End Grootverbruik & Netten",
-      "link": "https://werkenbij.enexis.nl/vacatures/strategisch-consultant-end-2-end-grootverbruik-en-netten-15568",
-      "datumToegevoegd": "2026-08-17",
-      "beschrijving": "Strategisch consultant die complexe strategische vraagstukken analyseert, stakeholders verbindt en directie/bestuur van Enexis helpt onderbouwde keuzes te maken over de energietransitie. Den Bosch, HBO, gepost 14-08-2026.",
-      "fit": "Sterke match: strategie-adviesrol met directe lijn naar directie/bestuur van Enexis, gericht op de energietransitie, geen technische uitvoeringsrol. Let op: een vergelijkbaar getitelde rol ('Enexis: Strategisch Consultant End-2-End') werd eerder door Arjen als 'Niet interessant' gemarkeerd en gearchiveerd - mogelijk een herplaatsing; graag zelf beoordelen of dit een nieuwe/andere positie betreft.",
-      "status": "Niet gesolliciteerd",
-      "tags": [
-        "energy",
-        "strategy",
-        "grid operator",
-        "senior"
-      ]
-    },
-    {
       "bedrijf": "ACM",
       "titel": "Toezichthouder Energiemarkt",
       "link": "https://www.acm.nl/nl/organisatie/werken-bij/vacatures/toezichthouder-energiemarkt",
@@ -151,24 +151,44 @@
         "resilience",
         "senior"
       ]
-    },
-    {
-      "bedrijf": "Stedin",
-      "titel": "Corporate Strateeg Duurzaamheid",
-      "link": "https://werkenbij.stedin.net/banen/rotterdam/corporate-strateeg-duurzaamheid/3297/45010567104",
-      "datumToegevoegd": "2026-09-21",
-      "beschrijving": "Corporate Strateeg Duurzaamheid binnen de afdeling Strategie en Regulering van Stedin: heeft de regie op ontwikkeling en implementatie van de strategie om duurzaamheid (CSRD/ESG, circulariteit, brede welvaart) te verankeren in de bedrijfsvoering, met contact tot directeuren en de RvB. Rotterdam, WO, min. 3 jaar relevante ervaring, €7.091-€10.413 bruto/maand.",
-      "fit": "Sterke match: senior strategie-rol met directe aansluiting op de RvB en directie van Stedin, gericht op het verankeren van duurzaamheidsstrategie in de bredere corporate strategie van Stedin (afdeling Strategie en Regulering) — geen technische uitvoeringsrol. Gevonden via de 'Relevante vacatures'-widget op de Stedin-homepage, niet via de kapotte vacatures-zoeken paginering/filter.",
-      "status": "Gesolliciteerd",
-      "tags": [
-        "energy",
-        "strategy",
-        "sustainability",
-        "senior"
-      ]
     }
   ],
   "archive": [
+    {
+      "bedrijf": "Stedin",
+      "titel": "Corporate Strateeg Duurzaamheid",
+      "reden": "Vacature niet meer live: werkenbij.stedin.net toont 'Algemene vacaturefout – de pagina die je zoekt bestaat niet (meer)' en de rol staat niet meer in de sitemap (87 vacatures). Arjen had hier gesolliciteerd (status 'Gesolliciteerd'); verplaatst naar archief zodat de sollicitatiegeschiedenis zichtbaar blijft — de sollicitatie zelf kan nog lopen.",
+      "datum": "2026-09-25",
+      "link": "https://werkenbij.stedin.net/banen/rotterdam/corporate-strateeg-duurzaamheid/3297/45010567104"
+    },
+    {
+      "bedrijf": "Enexis",
+      "titel": "Strategisch Consultant End-2-End Grootverbruik & Netten",
+      "reden": "Vacature niet meer live: detailpagina toont 'Momenteel kunnen we geen vacature details tonen' en de rol staat niet meer in de volledige lijst van werkenbij.enexis.nl (155 van 156 vacatures doorlopen). Status was 'Niet gesolliciteerd'.",
+      "datum": "2026-09-25",
+      "link": "https://werkenbij.enexis.nl/vacatures/strategisch-consultant-end-2-end-grootverbruik-en-netten-15568"
+    },
+    {
+      "bedrijf": "Ministerie van Economische Zaken en Klimaat",
+      "titel": "Beleidsadviseur energiebesparing (EZK-2026-6472)",
+      "reden": "Nieuw gevonden via scan van werkenvoornederland.nl: inhoudelijk passend (energiebesparingsbeleid), maar schaal 11 (€4.132–€6.275) — medior-niveau, onder Arjens seniority (zelfde afweging als RVO Adviseur Energie en Ondergrond op 24-09).",
+      "datum": "2026-09-25",
+      "link": "https://www.werkenvoornederland.nl/vacatures/beleidsadviseur-energiebesparing-EZK-2026-6472"
+    },
+    {
+      "bedrijf": "Alliander",
+      "titel": "Consultant Fysieke Weerbaarheid (JR19536)",
+      "reden": "Nieuw gevonden via de sitemap van werkenbij.alliander.com: operationele security-rol (onderzoek fysieke incidenten, maatregelen), hbo — geen strategie/beleid.",
+      "datum": "2026-09-25",
+      "link": "https://werkenbij.alliander.com/vacatures/consultant-fysieke-weerbaarheid/jr19536"
+    },
+    {
+      "bedrijf": "Vattenfall",
+      "titel": "Head of Consenting HUB 1 (jid-52907)",
+      "reden": "Nieuw gevonden op careers.vattenfall.com (NL): lijnmanagement van consent managers (vergunningen offshore wind) voor Denemarken, Zweden en het VK — vergunningenfunctie buiten NL, geen beleid/strategie-advies.",
+      "datum": "2026-09-25",
+      "link": "https://careers.vattenfall.com/nl/nl/job/head-of-consenting-hub-1-in-amsterdam-jid-52907"
+    },
     {
       "bedrijf": "TenneT",
       "titel": "Systems & Markets Expert (ID 104791)",
@@ -1198,7 +1218,7 @@
     {
       "bedrijf": "Uniper",
       "titel": "Jobboard careers.uniper.energy",
-      "reden": "Op 24-09-2026 toonde het jobboard '0 Jobs' (ook zonder landfilter) — site lijkt stuk; alleen via WebSearch aangevuld (geen NL-matches gevonden). Volgende run opnieuw proberen.",
+      "reden": "Op 24-09 en 25-09-2026 toonde het jobboard '0 Jobs' (ook zonder landfilter) — site lijkt stuk; alleen via WebSearch aangevuld (geen NL-matches). Volgende run opnieuw proberen.",
       "link": "https://careers.uniper.energy/en?filter=locations.country%3ANetherlands"
     },
     {
