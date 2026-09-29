@@ -1,7 +1,22 @@
 {
-  "lastUpdated": "2026-09-25T12:30:00+02:00",
-  "lastCheckNote": "19 bronnen gecheckt (Uniper deels: jobboard toont nog steeds 0 jobs; Essent: 13 van 16 kaarten zichtbaar), 1 nieuwe match toegevoegd (Vattenfall Senior Project Manager Strategic Projects & AI Transformation); Stedin- en Enexis-vacature offline en gearchiveerd.",
+  "lastUpdated": "2026-09-29T13:05:00+02:00",
+  "lastCheckNote": "19 bronnen bezocht (Uniper: jobboard geeft geen leesbare inhoud, alleen WebSearch zonder NL-resultaten; Enexis, TenneT, Eneco en Alliander deels via categorie-/filterpagina's), 1 nieuwe match toegevoegd (EBN Business Advisor Geothermie); 10 bestaande actieve vacatures live geverifieerd, 5 kandidaten gearchiveerd.",
   "active": [
+    {
+      "bedrijf": "EBN",
+      "titel": "Business Advisor Geothermie",
+      "link": "https://werkenbijebn.recruitee.com/o/business-advisor-geothermie",
+      "beschrijving": "Business advisor binnen de Business Unit Warmtetransitie van EBN: brengt partijen samen, signaleert ontwikkelkansen voor regionale geothermieprojecten en beheert een nationaal dossier over regelgeving (o.a. netcongestie, herziening van de mijnbouwwetgeving). Utrecht, hybride; reactietermijn tot 15 oktober.",
+      "fit": "Adviserende/strategische rol bij een 100% staatsdeelneming in de energietransitie, met sterke stakeholder- en beleidscomponent. Kanttekening: accent op business development en het warmte/geothermie-domein, en 5+ jaar ervaring gevraagd (mogelijk lager dan Arjens senioriteit).",
+      "status": "Niet gesolliciteerd",
+      "tags": [
+        "energy",
+        "business advisor",
+        "geothermal",
+        "public affairs"
+      ],
+      "datumToegevoegd": "2026-09-29"
+    },
     {
       "bedrijf": "Vattenfall",
       "titel": "Senior Project Manager, Strategic Projects & AI Transformation (Offshore Wind, jid-52914)",
@@ -154,6 +169,41 @@
     }
   ],
   "archive": [
+    {
+      "bedrijf": "Alliander",
+      "titel": "Senior Change Consultant (JR18474)",
+      "reden": "Live (Arnhem, WO, €4.672-€6.675, sluit 21-10-2026), maar changeconsultancy/implementatie in de operatie (\"schakel tussen strategie en uitvoering\"), geen strategie- of beleidsrol; beoordeeld op basis van overzichtstekst, niet de volledige vacaturepagina.",
+      "datum": "2026-09-29",
+      "link": "https://werkenbij.alliander.com/vacatures/senior-change-consultant/jr18474"
+    },
+    {
+      "bedrijf": "Netbeheer Nederland",
+      "titel": "Business Consultant Energietransitie",
+      "reden": "Op de vacatureoverzichtspagina gevonden, maar de vacaturepagina toont alleen een open-sollicitatieformulier (referral-instroom) met salarisindicatie €3.641-€5.408 (medior); geen senior strategie-/beleidsrol.",
+      "datum": "2026-09-29",
+      "link": "https://netbeheernederland.recruitee.com/o/business-consultant-energietransitie-2"
+    },
+    {
+      "bedrijf": "Nederlandse Emissieautoriteit (NEa)",
+      "titel": "Senior strategisch adviseur toezicht en marktontwikkelingen (NEA-2026-8530)",
+      "reden": "Via WebSearch gevonden, maar de pagina geeft een 404 (ook de variant \"Strategisch adviseur Hernieuwbare Energie\" met dezelfde code): niet meer live. Alleen via fetch geverifieerd, niet apart in de browser.",
+      "datum": "2026-09-29",
+      "link": "https://www.werkenvoornederland.nl/vacatures/senior-strategisch-adviseur-toezicht-en-marktontwikkelingen-NEA-2026-8530"
+    },
+    {
+      "bedrijf": "Nederlandse Emissieautoriteit (NEa)",
+      "titel": "Afdelingshoofd Emissiehandel (NEA-2026-9168)",
+      "reden": "Niet meer live: werkenvoornederland.nl toont \"Vacature niet beschikbaar\" (reactietermijn verstreken), rechtstreeks in de browser geverifieerd op 29-09-2026.",
+      "datum": "2026-09-29",
+      "link": "https://www.werkenvoornederland.nl/vacatures/afdelingshoofd-emissiehandel-NEA-2026-9168"
+    },
+    {
+      "bedrijf": "Ministerie van Economische Zaken en Klimaat",
+      "titel": "Senior beleidsmedewerker energietransitie (EZ-2026-8203)",
+      "reden": "Niet meer live: werkenvoornederland.nl toont \"Vacature niet beschikbaar\" (reactietermijn verstreken), rechtstreeks in de browser geverifieerd op 29-09-2026.",
+      "datum": "2026-09-29",
+      "link": "https://www.werkenvoornederland.nl/vacatures/senior-beleidsmedewerker-projectleider-duurzaam-gebruik-diepe-ondergrond-EZ-2026-8203"
+    },
     {
       "bedrijf": "Stedin",
       "titel": "Corporate Strateeg Duurzaamheid",
@@ -1218,7 +1268,7 @@
     {
       "bedrijf": "Uniper",
       "titel": "Jobboard careers.uniper.energy",
-      "reden": "Op 24-09 en 25-09-2026 toonde het jobboard '0 Jobs' (ook zonder landfilter) — site lijkt stuk; alleen via WebSearch aangevuld (geen NL-matches). Volgende run opnieuw proberen.",
+      "reden": "Op 24-, 25- en 29-09-2026: careers.uniper.energy geeft geen leesbare paginatekst; alleen aangevuld via WebSearch (geen NL-matches).",
       "link": "https://careers.uniper.energy/en?filter=locations.country%3ANetherlands"
     },
     {
@@ -1226,12 +1276,6 @@
       "titel": "Vacatureoverzicht (algemene zoekpagina) - trefwoordfilter en paginering",
       "reden": "Op 21-09-2026 opnieuw getest: overzichtspagina (189 vacatures, 32 pagina's) blijft te omvangrijk om volledig handmatig te doorbladeren binnen de tijd. Aangevuld met WebSearch (site:werkenbij.alliander.com strategie/strateeg/consultant/beleid): kandidaten Portfolio Strategie Consultant (JR13780) en Consultant innovatie & strategie (JR14828) nieuw gevonden maar beide 404 bij bezoek — niet live. Geen bevestigde nieuwe live strategie-/beleidsrol.",
       "link": "https://werkenbij.alliander.com/vacatures"
-    },
-    {
-      "bedrijf": "Stedin",
-      "titel": "Vacatureoverzicht (vacatures-zoeken) - paginering",
-      "reden": "Op 21-09-2026: pagina 1 van 7 rechtstreeks bekeken (94 vacatures totaal), geen fit. De 'Volgende'-paginering stuurt vandaag door naar de homepage in plaats van pagina 2 te tonen (ander gedrag dan eerdere 'blijft hangen'-fout, nog steeds structureel kapot); het Vakgebied-filter blijft eveneens onbetrouwbaar. Wel is via de 'Relevante vacatures'-widget op de homepage een nieuwe match gevonden en toegevoegd aan active (Corporate Strateeg Duurzaamheid, ID 45010567104). Overige WebSearch-kandidaat (adviseur portfolio en strategische sturing, 39696804992) opnieuw gecontroleerd: 'Algemene vacature fout', niet live.",
-      "link": "https://werkenbij.stedin.net/vacatures-zoeken"
     }
   ]
 }
