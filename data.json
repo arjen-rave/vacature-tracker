@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-01T09:44:00+02:00",
-  "lastCheckNote": "late run (09:44 i.p.v. vóór 09:00), 19 bronnen bezocht (deels via WebSearch/WebFetch, niet alle volledig doorgebladerd), 1 nieuwe match toegevoegd (Eneco Chief of Staff); TenneT Business Advisor (Gesolliciteerd) naar archief wegens 404.",
+  "lastUpdated": "2026-10-02T08:35:00+02:00",
+  "lastCheckNote": "Gedeeltelijke run (19 bronnen bezocht): 7 volledig gecheckt (ACM, Gasunie, Ørsted, Uniper, Essent, Invest-NL, EBN), 12 gedeeltelijk (Enexis p1/16, Eneco p1-3, RWE eerste 10 NL-titels, Vattenfall, Stedin p1, TenneT, Alliander, NEa, Netbeheer NL, EZK, RVO, SodM: vooral WebSearch, veel links 404); geen nieuwe matches; EZK Projectleider (Gesolliciteerd) naar archief wegens 404.",
   "active": [
     {
       "bedrijf": "EBN",
@@ -93,21 +93,6 @@
       "datumToegevoegd": "2026-09-23"
     },
     {
-      "bedrijf": "Ministerie van Economische Zaken en Klimaat",
-      "titel": "Projectleider ruimtelijke verkenning energiefuncties",
-      "link": "https://www.werkenvoornederland.nl/vacatures/projectleider-ruimtelijke-verkenning-energiefuncties-EZK-2026-8265",
-      "datumToegevoegd": "2026-09-17",
-      "beschrijving": "Projectleider binnen het Programma Energiehoofdstructuur (Directie Realisatie Energietransitie) die een ruimtelijke verkenning (plan-mer) leidt naar het proactief reserveren van ruimte voor energiefuncties (opwek, waterstof, hoogspanning, batterijen) in de periode 2030-2050. Den Haag, schaal 12 (€4.818-€7.094), 1-jarig contract, sluit 1 oktober 2026, geplaatst 16 september 2026.",
-      "fit": "Gemengd: raakt de strategische ruimtelijke inrichting van het energiesysteem, maar is qua vakgebied (Stedebouwkundig/ruimtelijke ordening) en niveau (schaal 12, projectleiderschap van één deelonderzoek) vergelijkbaar met eerder door Arjen afgekeurde ruimtelijke-ordening-/vergunningsrollen — geen klassieke senior markt-/beleidsstrategierol. Op uitdrukkelijk verzoek van Arjen toch toegevoegd. Gemist in de reguliere check doordat 'projectleider' niet in de gebruikte EZK-zoektermenlijst zat en de vacature pas op 16 september is geplaatst.",
-      "status": "Gesolliciteerd",
-      "tags": [
-        "energy",
-        "spatial planning",
-        "project lead",
-        "policy"
-      ]
-    },
-    {
       "bedrijf": "ACM",
       "titel": "Financieel Toezichthouder Energie- en Warmtemarkt",
       "link": "https://www.acm.nl/nl/organisatie/werken-bij/vacatures/financieel-toezichthouder-energie-en-warmtemarkt",
@@ -169,6 +154,13 @@
     }
   ],
   "archive": [
+    {
+      "bedrijf": "Ministerie van Economische Zaken en Klimaat",
+      "titel": "Projectleider ruimtelijke verkenning energiefuncties (EZK-2026-8265)",
+      "reden": "Niet meer live: pagina geeft 404 (gecontroleerd 02-10-2026 via fetch; sluitdatum was 1 oktober 2026). Status was 'Gesolliciteerd', daarom bewaard in archief voor de sollicitatiegeschiedenis.",
+      "datum": "2026-10-02",
+      "link": "https://www.werkenvoornederland.nl/vacatures/projectleider-ruimtelijke-verkenning-energiefuncties-EZK-2026-8265"
+    },
     {
       "bedrijf": "TenneT",
       "titel": "Business Advisor",
