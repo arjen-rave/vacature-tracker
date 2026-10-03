@@ -1,7 +1,67 @@
 {
-  "lastUpdated": "2026-10-02T08:35:00+02:00",
-  "lastCheckNote": "Gedeeltelijke run (19 bronnen bezocht): 7 volledig gecheckt (ACM, Gasunie, Ørsted, Uniper, Essent, Invest-NL, EBN), 12 gedeeltelijk (Enexis p1/16, Eneco p1-3, RWE eerste 10 NL-titels, Vattenfall, Stedin p1, TenneT, Alliander, NEa, Netbeheer NL, EZK, RVO, SodM: vooral WebSearch, veel links 404); geen nieuwe matches; EZK Projectleider (Gesolliciteerd) naar archief wegens 404.",
+  "lastUpdated": "2026-10-03T08:55:00+02:00",
+  "lastCheckNote": "19 bronnen bezocht (14 volledig, 5 gedeeltelijk: Stedin 64/75 titels, Enexis titel-parsing onzeker, TenneT alleen 4 van 78 inline + WebSearch, Uniper jobboard 0 jobs, RWE alleen eerste 10 NL-titels); 4 nieuwe matches toegevoegd (Alliander Strategy Lead Operations, Business Consultant Strategie & Datagedreven Verandering, Business Consultant Beter Benutten Net; Netbeheer Nederland Programma manager Bouwen); Eneco Chief of Staff en TenneT Energy System Policy Advisor (starterrol) naar archief.",
   "active": [
+    {
+      "bedrijf": "Alliander",
+      "titel": "Strategy Lead Operations (JR19689)",
+      "link": "https://werkenbij.alliander.com/vacatures/strategy-lead-operations/jr19689",
+      "beschrijving": "Leidt een van de vier transformatieteams binnen de nieuwe afdeling Operational Decision Support (ODS, direct onder de COO): vertaalt strategische visie naar use cases (o.a. data-gedreven planning voor monteurs), stuurt ~7 business/change consultants en scrumteams aan. Arnhem, WO, 8+ jaar ervaring, €6.438-€9.197 p/m; sluit 23-10-2026.",
+      "fit": "Senior strategie-/transformatierol met leiderschap en directe lijn naar COO bij een netbeheerder. Let op: de rol is een strategisch product-/use-case-eigenaarschap met data/IT-component ('basiskennis data science'), minder beleid/marktontwerp - toets of de data-productfocus past.",
+      "status": "Niet gesolliciteerd",
+      "tags": [
+        "strategy",
+        "grid operator",
+        "transformation",
+        "senior"
+      ],
+      "datumToegevoegd": "2026-10-03"
+    },
+    {
+      "bedrijf": "Alliander",
+      "titel": "Business Consultant Strategie & Datagedreven Verandering (JR19688)",
+      "link": "https://werkenbij.alliander.com/vacatures/business-consultant-strategie-datagedreven-verandering/jr19688",
+      "beschrijving": "Interne strategie-/businessconsultant binnen ODS: structureert complexe operationele vraagstukken, bouwt analyses, scenario's en businesscases en begeleidt implementatie, met regelmatige afstemming met de COO's. Arnhem, WO, €5.416-€7.738 p/m (schaal 9-10); sluit 23-10-2026.",
+      "fit": "Interne consultancy met strategie-accent bij een netbeheerder, past bij het adviesprofiel. Let op: lagere salarisschaal dan de Strategy Lead en het team bestaat uit (ex-)McKinsey/BCG-consultants; vermoedelijk medior-niveau en data/operatie-gericht.",
+      "status": "Niet gesolliciteerd",
+      "tags": [
+        "strategy",
+        "internal consultant",
+        "grid operator",
+        "data"
+      ],
+      "datumToegevoegd": "2026-10-03"
+    },
+    {
+      "bedrijf": "Alliander",
+      "titel": "Business Consultant Beter Benutten Net (JR19622)",
+      "link": "https://werkenbij.alliander.com/vacatures/business-consultant-beter-benutten-net/jr19622",
+      "beschrijving": "Interne business consultant voor de keten Beter Benutten Net (slimmer benutten van het bestaande elektriciteitsnet): ketenplannen/OGSM's/QBR's, voorbereiden van strategische besluitvorming en het adviseren en uitdagen van het managementteam. Arnhem (hybride), 40 uur, €5.416-€7.738 p/m; sollicitatietermijn t/m 08-10-2026.",
+      "fit": "Strategisch adviserende rol dicht op het congestievraagstuk bij een netbeheerder; vraagt 5+ jaar strategische consultancy/adviesrol. Let op: sluit al op 08-10-2026 en neemt veel plan-/rapportageproces (OGSM/QBR) mee, minder beleid.",
+      "status": "Niet gesolliciteerd",
+      "tags": [
+        "strategy",
+        "congestion",
+        "internal consultant",
+        "grid operator"
+      ],
+      "datumToegevoegd": "2026-10-03"
+    },
+    {
+      "bedrijf": "Netbeheer Nederland",
+      "titel": "Programma manager Bouwen (Taskforce Elektra)",
+      "link": "https://netbeheernederland.recruitee.com/o/programma-manager-bouwen",
+      "beschrijving": "Programmamanager voor de sectorbrede pijler Bouwen en de Taskforce Elektra: versnelt de aanleg van energie-infrastructuur samen met netbeheerders, aannemers (Bouwend Nederland, Techniek Nederland) en het ministerie van KGG; sparringpartner voor directies en COO's. Den Haag, hybride, 36-40 uur, €5.719-€9.173 p/m, tijdelijk met uitzicht op vast; geplaatst 30-09-2026.",
+      "fit": "Sectorbrede, bestuurlijk/stakeholder-intensieve programmarol bij de brancheorganisatie van netbeheerders, vergelijkbaar met de al actieve Programmamanager Weerbaarheid. Let op: meer uitvoering/versnelling van de bouwketen dan beleid of strategie; vraagt affiniteit met infrastructuur en uitvoeringsprocessen.",
+      "status": "Niet gesolliciteerd",
+      "tags": [
+        "program management",
+        "grid",
+        "stakeholder management",
+        "senior"
+      ],
+      "datumToegevoegd": "2026-10-03"
+    },
     {
       "bedrijf": "EBN",
       "titel": "Business Advisor Geothermie",
@@ -136,24 +196,23 @@
         "resilience",
         "senior"
       ]
+    }
+  ],
+  "archive": [
+    {
+      "bedrijf": "TenneT",
+      "titel": "Energy System Policy Advisor (ID 116866)",
+      "reden": "Live geverifieerd (Arnhem MCE, geplaatst 02-10-2026), maar expliciet een starterfunctie: 'No prior work experience needed; this is a starter role', salarisschaal 8 — te junior voor Arjens seniorprofiel (inhoud is wel strategie/beleid: corporate strategy + system strategy).",
+      "datum": "2026-10-03",
+      "link": "https://www.werkenbijtennet.nl/nl/vacatures/116866"
     },
     {
       "bedrijf": "Eneco",
       "titel": "Chief of Staff (CDO-organisatie, Rotterdam, ID 1207164)",
-      "link": "https://www.werkenbijeneco.nl/vacatures/chief-of-staff-rotterdam-1207164",
-      "beschrijving": "Chief of Staff als strategische rechterhand van de CDO van Eneco (digitale organisatie van ~200 medewerkers: Product, Data Science, Data Engineering); drijft strategische initiatieven, stakeholdermanagement en cross-functionele samenwerking. 40 uur, hybride; gevraagd 7+ jaar ervaring in consulting/investment banking of vergelijkbaar, Master.",
-      "fit": "Chief of Staff-rol bij een grote duurzame energieproducent/-leverancier telt expliciet mee als fit; sluit aan op strategie-/adviesprofiel. Let op: CDO-/digitale context en vermoedelijk jonger/consultancy-gericht profiel — toets of de digitale focus past.",
-      "status": "Niet gesolliciteerd",
-      "tags": [
-        "chief of staff",
-        "strategy",
-        "energy",
-        "senior"
-      ],
-      "datumToegevoegd": "2026-10-01"
-    }
-  ],
-  "archive": [
+      "reden": "Niet meer live: werkenbijeneco.nl toont 'Waarschijnlijk is de pagina die je zocht niet meer beschikbaar' (rechtstreeks geverifieerd 03-10-2026); ook niet zichtbaar in de volledige vacaturelijst (59 vacatures, 6 pagina's doorgenomen).",
+      "datum": "2026-10-03",
+      "link": "https://www.werkenbijeneco.nl/vacatures/chief-of-staff-rotterdam-1207164"
+    },
     {
       "bedrijf": "Ministerie van Economische Zaken en Klimaat",
       "titel": "Projectleider ruimtelijke verkenning energiefuncties (EZK-2026-8265)",
@@ -1267,14 +1326,20 @@
     {
       "bedrijf": "Uniper",
       "titel": "Jobboard careers.uniper.energy",
-      "reden": "Op 24-, 25- en 29-09-2026: careers.uniper.energy geeft geen leesbare paginatekst; alleen aangevuld via WebSearch (geen NL-matches).",
+      "reden": "Op 03-10-2026 (en eerder op 24-09 en 25-09) toont het jobboard nog steeds '0 Jobs' (screenshot bevestigd, ook met landfilter) en geeft get_page_text geen inhoud; WebSearch (site:careers.uniper.energy) geeft geen NL-strategie/beleidsrol (alleen o.a. Plant Manager Rotterdam). Volgende run opnieuw proberen.",
       "link": "https://careers.uniper.energy/en?filter=locations.country%3ANetherlands"
     },
     {
       "bedrijf": "Alliander/Liander",
       "titel": "Vacatureoverzicht (algemene zoekpagina) - trefwoordfilter en paginering",
-      "reden": "Op 21-09-2026 opnieuw getest: overzichtspagina (189 vacatures, 32 pagina's) blijft te omvangrijk om volledig handmatig te doorbladeren binnen de tijd. Aangevuld met WebSearch (site:werkenbij.alliander.com strategie/strateeg/consultant/beleid): kandidaten Portfolio Strategie Consultant (JR13780) en Consultant innovatie & strategie (JR14828) nieuw gevonden maar beide 404 bij bezoek — niet live. Geen bevestigde nieuwe live strategie-/beleidsrol.",
+      "reden": "Op 03-10-2026 alle 31 pagina's (185 vacatures) doorgebladerd via de 'Volgende'-knop (URL-parameter ?pagina=N) in korte batches en gescand op titels; daarbij nieuwe matches gevonden en toegevoegd. De paginering werkt dus, maar alleen via klikken met pauzes (langere scripts laten de tab vastlopen). Trefwoordfilter blijft onbruikbaar.",
       "link": "https://werkenbij.alliander.com/vacatures"
+    },
+    {
+      "bedrijf": "Stedin",
+      "titel": "Vacatureoverzicht (vacatures-zoeken) - paginering",
+      "reden": "Op 03-10-2026: lijst toont 75 vacatures; paginering via 'Volgende' werkte dit keer wel, maar na 9 klikken waren slechts 64 unieke titels gezien (de lijst lijkt te herhalen) - dus gedeeltelijke check. Geen fit gevonden (alleen 'Business transformatie consultant', WO, scale tot €7.267 - te licht/uitvoerend). De 'Staf & klantrelaties'- en 'Management'-widgets tonen slechts 3 vacatures elk.",
+      "link": "https://werkenbij.stedin.net/vacatures-zoeken"
     }
   ]
 }
